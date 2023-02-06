@@ -18,6 +18,39 @@ Informieren Sie sich über die Neuigkeiten in Cloud Sync.
 
 
 
+== Februar 5 2023
+
+
+
+=== Zusätzliche Unterstützung für Azure Data Lake Storage Gen2, ONTAP S3 Storage und NFS
+
+Cloud Sync unterstützt jetzt zusätzliche Synchronisierungsbeziehungen für ONTAP S3 Storage und NFS:
+
+* ONTAP S3 Storage zu NFS
+* NFS zu ONTAP S3 Storage
+
+
+Cloud Sync unterstützt zusätzlich Azure Data Lake Storage Gen2 als Quelle und Ziel für folgende Zwecke:
+
+* NFS-Server
+* SMB Server
+* ONTAP S3 Storage
+* StorageGRID
+* IBM Cloud Objekt-Storage
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"].
+
+
+
+=== Führen Sie ein Upgrade auf das Amazon Web Services Data Broker Betriebssystem durch
+
+Das Betriebssystem für AWS Data Broker wurde auf Amazon Linux 2022 aktualisiert.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["Erfahren Sie mehr über die Instanz für Datenmanager in AWS"].
+
+
+
 == 3. Januar 2023
 
 
