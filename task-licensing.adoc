@@ -13,6 +13,7 @@ summary: Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezah
 :imagesdir: ./media/
 
 
+[role="lead"]
 Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezahlen, nachdem die 14-tägige kostenlose Testversion abgelaufen ist. Die erste Option besteht darin, AWS oder Azure zu abonnieren, um nutzungsbasiert zu bezahlen oder jährlich zu zahlen. Die zweite Option besteht darin, Lizenzen direkt von NetApp zu erwerben.
 
 Sie können den AWS Marketplace oder den Azure Marketplace abonnieren. Sie können sich nicht von beiden anmelden.
@@ -21,11 +22,10 @@ Sie haben die Möglichkeit, Lizenzen von NetApp mit einem Marketplace-Abonnement
 
 link:concept-licensing.html["Erfahren Sie mehr über die Funktionsweise von Lizenzen"].
 
-.Was ist, wenn ich nicht und#8217;t sofort zahlen, nachdem meine kostenlose Testversion endet?
-****
-Sie werden keine weiteren Beziehungen erstellen können. Bestehende Beziehungen werden nicht gelöscht, Sie können jedoch erst dann Änderungen an ihnen vornehmen, wenn Sie eine Lizenz abonnieren oder eingeben.
+Wenn Sie nicht sofort zahlen, nachdem Ihre kostenlose Testversion endet, werden Sie nicht in der Lage sein, zusätzliche Beziehungen zu erstellen. Bestehende Beziehungen werden nicht gelöscht, Sie können jedoch erst dann Änderungen an ihnen vornehmen, wenn Sie eine Lizenz abonnieren oder eingeben.
 
-****
+Lizenzen sollten über Cloud Sync oder die jeweilige Website und *nicht* über eine digitale Geldbörse verwaltet werden.
+
 
 
 == [[aws]]abonnieren von AWS
@@ -106,7 +106,7 @@ Sie benötigen die Seriennummer Ihrer Lizenz und den Benutzernamen und das Kennw
 
 == Aktualisieren einer Lizenz
 
-Wenn Sie eine Cloud Sync Lizenz von NetApp erworben haben, wird das neue Ablaufdatum in Cloud Sync nicht automatisch aktualisiert. Sie müssen die Lizenz erneut hinzufügen, um das Ablaufdatum zu aktualisieren.
+Wenn Sie eine Cloud Sync Lizenz von NetApp erworben haben, wird das neue Ablaufdatum in Cloud Sync nicht automatisch aktualisiert. Sie müssen die Lizenz erneut hinzufügen, um das Ablaufdatum zu aktualisieren. Lizenzen sollten über Cloud Sync oder die jeweilige Website und *nicht* über eine digitale Geldbörse verwaltet werden.
 
 .Schritte
 . Klicken Sie in BlueXP auf *Sync > Licensing*.

@@ -16,6 +16,8 @@ summary: Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezah
 [role="lead"]
 Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezahlen, nachdem die 14-tägige kostenlose Testversion abgelaufen ist. Die erste Option besteht darin, AWS oder Azure zu abonnieren, um nutzungsbasiert zu bezahlen oder jährlich zu zahlen. Die zweite Option besteht darin, Lizenzen direkt von NetApp zu erwerben.
 
+Lizenzen sollten über Cloud Sync oder die jeweilige Website und *nicht* über eine digitale Geldbörse verwaltet werden.
+
 
 
 == Marketplace-Abonnement

@@ -904,8 +904,6 @@
   <block id="55430fccd9c75a6ec1bc44bb1d637619" category="paragraph">Sie haben die Möglichkeit, Lizenzen von NetApp mit einem Marketplace-Abonnement zu verwenden. Wenn Sie beispielsweise 25 Synchronisierungsbeziehungen haben, können Sie die ersten 20 Synchronisierungsbeziehungen mit einer Lizenz bezahlen und dann mit den restlichen 5 Synchronisierungsbeziehungen von AWS oder Azure bezahlen.</block>
   <block id="eee2650e10b32734e3b3f1bc627337f5" category="inline-link-macro">Erfahren Sie mehr über die Funktionsweise von Lizenzen</block>
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>.</block>
-  <block id="d04dfaa744331ac37502cd7e1da7e4cb" category="sidebar-title">Was ist, wenn ich nicht und#8217;t sofort zahlen, nachdem meine kostenlose Testversion endet?</block>
-  <block id="06396044ae8f00acb30bd57de4d6bf59" category="paragraph">Sie werden keine weiteren Beziehungen erstellen können. Bestehende Beziehungen werden nicht gelöscht, Sie können jedoch erst dann Änderungen an ihnen vornehmen, wenn Sie eine Lizenz abonnieren oder eingeben.</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS ermöglicht Ihnen, nutzungsbasiert zu zahlen oder jährlich zu zahlen.</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">Schritte zum nutzungsbasierten Bezahlen</block>
   <block id="f4e86f9d0f6800384c773bd03834297d" category="list-text">Klicken Sie Auf *Sync &gt; Licensing*.</block>
@@ -935,7 +933,6 @@
   <block id="8d91fda63040409e75bebd4d14b9a825" category="list-text">Wenn Ihr Konto bereits zu BlueXP hinzugefügt wurde, wählen Sie es aus der Dropdown-Liste aus.</block>
   <block id="93bad0f0398a452d035b9d52ba2724f5" category="list-text">Wenn Ihr Konto noch nicht hinzugefügt wurde, klicken Sie auf *NSS-Anmeldeinformationen hinzufügen*, geben Sie den Benutzernamen und das Passwort ein, klicken Sie auf *Registrieren* und wählen Sie es aus der Dropdown-Liste aus.</block>
   <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">Aktualisieren einer Lizenz</block>
-  <block id="621d7bdf797506a6b1724c30c6f72e88" category="paragraph">Wenn Sie eine Cloud Sync Lizenz von NetApp erworben haben, wird das neue Ablaufdatum in Cloud Sync nicht automatisch aktualisiert. Sie müssen die Lizenz erneut hinzufügen, um das Ablaufdatum zu aktualisieren.</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">Wählen Sie das NetApp Support Site Konto aus, das mit der Lizenz verknüpft ist, die Sie hinzufügen.</block>
   <block id="172d12b0279cc8a60f5a9ab00242df4e" category="paragraph">Cloud Sync aktualisiert die vorhandene Lizenz mit dem neuen Ablaufdatum.</block>
   <block id="71904eaffc2ec470e49ce1a710f5e878" category="summary">Wenn Ihr Unternehmen über strenge Sicherheitsrichtlinien verfügt, synchronisieren Sie Daten zwischen NFS-Servern in verschiedenen Netzwerken mithilfe der Datenverschlüsselung während des Flugs.</block>
@@ -1736,4 +1733,7 @@
   <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">Das Betriebssystem für AWS Data Broker wurde auf Amazon Linux 2022 aktualisiert.</block>
   <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">Erfahren Sie mehr über die Instanz für Datenmanager in AWS</block>
   <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>.</block>
+  <block id="eec85122fe4236e8000e41a3f717acba" category="paragraph">Lizenzen sollten über Cloud Sync oder die jeweilige Website und *nicht* über eine digitale Geldbörse verwaltet werden.</block>
+  <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">Wenn Sie nicht sofort zahlen, nachdem Ihre kostenlose Testversion endet, werden Sie nicht in der Lage sein, zusätzliche Beziehungen zu erstellen. Bestehende Beziehungen werden nicht gelöscht, Sie können jedoch erst dann Änderungen an ihnen vornehmen, wenn Sie eine Lizenz abonnieren oder eingeben.</block>
+  <block id="99fbad4150cbcaf5ed561c48046b6f75" category="paragraph">Wenn Sie eine Cloud Sync Lizenz von NetApp erworben haben, wird das neue Ablaufdatum in Cloud Sync nicht automatisch aktualisiert. Sie müssen die Lizenz erneut hinzufügen, um das Ablaufdatum zu aktualisieren. Lizenzen sollten über Cloud Sync oder die jeweilige Website und *nicht* über eine digitale Geldbörse verwaltet werden.</block>
 </blocks>
