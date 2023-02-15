@@ -497,7 +497,6 @@
   <block id="45edaabb1caa8cd386fc00e4913729ca" category="inline-link">Eine Liste der S3-Endpunkte finden Sie in der AWS Dokumentation</block>
   <block id="9f63373541da1493d909ee0e1ec22846" category="cell">\https://s3._region_.amazonaws.com Beispiel: s3.us-east-2.amazonaws.com:443<block ref="d8eaf9479c9110a7b925275e0e7c77be" category="inline-link-rx"></block></block>
   <block id="1331ac21e3550225dbf1a2a59e8e5854" category="cell">Um Amazon S3 zu kontaktieren, wenn eine Synchronisierungsbeziehung einen S3-Bucket enthält.</block>
-  <block id="e539bdc84a7ad2c400eb37a683413da0" category="cell">\https://s3.us-east-1.amazonaws.com</block>
   <block id="aa3f7e10351bf8715f83a7b981f0d036" category="cell">Wenn Sie die Protokolle des Datenmakers von Cloud Sync herunterladen, wird sein Log-Verzeichnis zips und die Protokolle werden in einen vordefinierten S3-Bucket in der Region US-East-1 hochgeladen.</block>
   <block id="af9cee3d0b730812cc44778c77dac990" category="cell">\https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com</block>
   <block id="0085c0d222fb9e00710dfd4737377552" category="cell">Um den Cloud Sync Service zu kontaktieren.</block>
@@ -1736,4 +1735,13 @@
   <block id="eec85122fe4236e8000e41a3f717acba" category="paragraph">Lizenzen sollten über Cloud Sync oder die jeweilige Website und *nicht* über eine digitale Geldbörse verwaltet werden.</block>
   <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">Wenn Sie nicht sofort zahlen, nachdem Ihre kostenlose Testversion endet, werden Sie nicht in der Lage sein, zusätzliche Beziehungen zu erstellen. Bestehende Beziehungen werden nicht gelöscht, Sie können jedoch erst dann Änderungen an ihnen vornehmen, wenn Sie eine Lizenz abonnieren oder eingeben.</block>
   <block id="99fbad4150cbcaf5ed561c48046b6f75" category="paragraph">Wenn Sie eine Cloud Sync Lizenz von NetApp erworben haben, wird das neue Ablaufdatum in Cloud Sync nicht automatisch aktualisiert. Sie müssen die Lizenz erneut hinzufügen, um das Ablaufdatum zu aktualisieren. Lizenzen sollten über Cloud Sync oder die jeweilige Website und *nicht* über eine digitale Geldbörse verwaltet werden.</block>
+  <block id="e46ce6b98b1f39550f722c298fdb33a7" category="cell">\https://s3.amazonaws.com/</block>
+  <block id="410854d72f81ddbce62fd5e69e47d7ca" category="cell">\https://storage.googleapis.com/</block>
+  <block id="9a0fd273aee1cf8a769c1b999cacf89a" category="cell">So setzen Sie sich mit Google Cloud in Verbindung, wenn eine Synchronisierung einen GCP-Bucket verwendet.</block>
+  <block id="b551e27fff37843412867d9b83f93ece" category="cell"><block ref="7e48312ae0f59f2ef044bd982e8f7f9d" category="inline-link-rx"></block>Bei Verwendung von Azure Data Lake Gen2:<block ref="88fc93a3f957963f811734b1373f239a" category="inline-link-rx"></block>Wobei _Storage-Konto_ das Quell-Storage-Konto des Benutzers ist.</block>
+  <block id="ab1f4fe880debf39d6d2c82a8b44dd19" category="cell">So öffnen Sie den Proxy für die Azure-Speicherkontoadresse eines Benutzers:</block>
+  <block id="8f606ab2764de8092de1ca0d967cfb8d" category="cell">\https://pubsub.googleapis.com</block>
+  <block id="df94b5032f4c4edc418da1de5a985935" category="cell">Wenn Sie eine kontinuierliche Synchronisierungsbeziehung von einem Google-Speicherkonto aus erstellen.</block>
+  <block id="cfcdd9e78004b91f8c395165fdb5e282" category="cell"><block ref="e36a49efb19686edd0dc8263877ab168" category="inline-link-rx"></block>\https://management.azure.com/subscriptions/${_subscriptionId_} /resourceGroups/€{_resourceGroup_}/Providers/Microsoft.EventGrid/* wobei _Storage-Account_ das Quell-Storage-Konto des Benutzers ist, _subscriptionid_ ist die Quell-Abonnement-ID und _resourceGroup_ die Quellressourcengruppe.</block>
+  <block id="86725349e0c402312a901a9555773dbd" category="cell">Falls Sie eine kontinuierliche Synchronisierung von einem Azure Storage-Konto aus erstellen.</block>
 </blocks>

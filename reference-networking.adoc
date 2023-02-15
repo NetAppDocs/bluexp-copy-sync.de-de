@@ -85,7 +85,13 @@ Ein Datenvermittler kontaktiert die folgenden Endpunkte:
 | \https://s3._region_.amazonaws.com Beispiel: s3.us-east-2.amazonaws.com:443https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region["Eine Liste der S3-Endpunkte finden Sie in der AWS Dokumentation"^] | Um Amazon S3 zu kontaktieren, wenn eine Synchronisierungsbeziehung einen S3-Bucket enthält. 
 
 
-| \https://s3.us-east-1.amazonaws.com | Wenn Sie die Protokolle des Datenmakers von Cloud Sync herunterladen, wird sein Log-Verzeichnis zips und die Protokolle werden in einen vordefinierten S3-Bucket in der Region US-East-1 hochgeladen. 
+| \https://s3.amazonaws.com/ | Wenn Sie die Protokolle des Datenmakers von Cloud Sync herunterladen, wird sein Log-Verzeichnis zips und die Protokolle werden in einen vordefinierten S3-Bucket in der Region US-East-1 hochgeladen. 
+
+
+| \https://storage.googleapis.com/ | So setzen Sie sich mit Google Cloud in Verbindung, wenn eine Synchronisierung einen GCP-Bucket verwendet. 
+
+
+| https://_storage-account_.blob.core.windows.net[]Bei Verwendung von Azure Data Lake Gen2:https://_storage-account_.dfs.core.windows.net[]Wobei _Storage-Konto_ das Quell-Storage-Konto des Benutzers ist. | So öffnen Sie den Proxy für die Azure-Speicherkontoadresse eines Benutzers: 
 
 
 | \https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | Um den Cloud Sync Service zu kontaktieren. 
@@ -101,6 +107,12 @@ Ein Datenvermittler kontaktiert die folgenden Endpunkte:
 
 
 | \https://console.bluexp.netapp.com/ \https://netapp-cloud-account.auth0.com | Um Cloud Data Sense zu kontaktieren, wenn Sie Data Sense verwenden, um die Quelldateien für eine neue Synchronisierungsbeziehung auszuwählen. 
+
+
+| \https://pubsub.googleapis.com | Wenn Sie eine kontinuierliche Synchronisierungsbeziehung von einem Google-Speicherkonto aus erstellen. 
+
+
+| https://_storage-account_.queue.core.windows.net[]\https://management.azure.com/subscriptions/${_subscriptionId_} /resourceGroups/€{_resourceGroup_}/Providers/Microsoft.EventGrid/* wobei _Storage-Account_ das Quell-Storage-Konto des Benutzers ist, _subscriptionid_ ist die Quell-Abonnement-ID und _resourceGroup_ die Quellressourcengruppe. | Falls Sie eine kontinuierliche Synchronisierung von einem Azure Storage-Konto aus erstellen. 
 |===
 
 
