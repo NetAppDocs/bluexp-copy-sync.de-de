@@ -18,6 +18,18 @@ Informieren Sie sich über die Neuigkeiten in Cloud Sync.
 
 
 
+== 7 März 2023
+
+
+
+=== EBS-Verschlüsselung für AWS-Datenmanager
+
+Sie können jetzt AWS-Daten-Broker-Volumes mit einem KMS-Schlüssel in Ihrem Konto verschlüsseln.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["Erfahren Sie mehr über die Erstellung eines Datenbrokers in AWS"].
+
+
+
 == Februar 5 2023
 
 

@@ -93,12 +93,12 @@ Falls Sie keine Zugriffsschlüssel angeben möchten, klicken Sie auf den Link un
 
 +
 video::video_cloud_sync.mp4[width=848,height=480]
-. Wenn Sie einen AWS-Zugriffsschlüssel eingegeben haben, wählen Sie einen Speicherort für die Instanz aus, wählen Sie ein Schlüsselpaar aus, wählen Sie aus, ob eine öffentliche IP-Adresse aktiviert werden soll, und wählen Sie dann eine vorhandene IAM-Rolle aus. Lassen Sie das Feld leer, sodass Cloud Sync die Rolle für Sie erstellt.
+. Wenn Sie einen AWS-Zugriffsschlüssel eingegeben haben, wählen Sie einen Speicherort für die Instanz aus, wählen ein Schlüsselpaar aus, wählen Sie aus, ob eine öffentliche IP-Adresse aktiviert werden soll, und wählen Sie eine vorhandene IAM-Rolle aus, oder lassen Sie das Feld leer, damit Cloud Sync die Rolle für Sie erstellt. Sie haben auch die Möglichkeit, Ihren Daten-Broker mit einem KMS-Schlüssel zu verschlüsseln.
 +
 Wenn Sie Ihre eigene IAM-Rolle wählen, <<iam,Sie müssen die erforderlichen Berechtigungen angeben>>.
 
 +
-image:screenshot_aws_data_broker.gif["Einen Screenshot der Informationen, die Sie zur Bereitstellung eines Daten Brokers in AWS benötigen"]
+image:screenshot_aws_data_broker.png["Einen Screenshot der Informationen, die Sie zur Bereitstellung eines Daten Brokers in AWS benötigen"]
 
 . Geben Sie eine Proxy-Konfiguration an, wenn ein Proxy für den Internetzugriff in der VPC erforderlich ist.
 . Klicken Sie nach Verfügbarkeit des Datenmakers in Cloud Sync auf *Weiter*.
