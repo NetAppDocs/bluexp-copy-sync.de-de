@@ -22,11 +22,12 @@ Wenn Sie eine neue Gruppe für Daten-Broker erstellen, wählen Sie die Option On
 
 * *Betriebssystem*:
 +
-** CentOS 7.0, 7.7 und 8.0
+** CentOS 8.0 und 8.5
 +
 CentOS Stream wird nicht unterstützt.
 
-** Red hat Enterprise Linux 7.7 und 8.0
+** Red hat Enterprise Linux 8.0 und 8.5
+** Rocky Linux 9
 ** Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
 +
