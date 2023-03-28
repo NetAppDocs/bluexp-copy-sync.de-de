@@ -66,9 +66,9 @@ Die Ressourcenkosten beziehen sich auf die Computing- und Storage-Kosten für di
 
 
 
-=== Wie wird Cloud Sync abgerechnet?
+=== Wie wird Cloud Sync abgerechnet und wie verwalte ich mein Abonnement?
 
-Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezahlen, nachdem die 14-tägige kostenlose Testversion abgelaufen ist. Die erste Möglichkeit besteht darin, AWS oder Azure zu abonnieren, sodass Sie nutzungsbasiert oder jährlich zahlen können. Die zweite Option besteht darin, Lizenzen direkt von NetApp zu erwerben.
+Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezahlen, nachdem die 14-tägige kostenlose Testversion abgelaufen ist. Die erste Möglichkeit besteht darin, AWS oder Azure zu abonnieren, sodass Sie nutzungsbasiert oder jährlich zahlen können. Die zweite Option besteht darin, Lizenzen direkt von NetApp zu erwerben. In jedem Fall wird Ihr Abonnement über Ihren Provider Marketplace verwaltet und *nicht* über die Cloud Sync-Benutzeroberfläche.
 
 
 
