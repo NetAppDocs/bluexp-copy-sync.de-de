@@ -44,6 +44,7 @@ Mit Cloud Sync können Sie Daten von einer Quelle zu einem Ziel synchronisieren.
 * Amazon FSX für ONTAP
 * Amazon S3
 * Azure Blob
+* Azure Data Lake Storage Gen2
 * Azure NetApp Dateien
 * Cloud Volumes ONTAP
 * Cloud Volumes Service
@@ -97,8 +98,12 @@ Mit Cloud Sync können Sie Daten von einer Quelle zu einem Ziel synchronisieren.
 
 
 | Azure Data Lake Storage Gen2  a| 
+* Azure NetApp Dateien
+* Cloud Volumes ONTAP
+* FSX für ONTAP
 * IBM Cloud Objekt-Storage
 * NFS-Server
+* On-Premises-ONTAP
 * ONTAP S3 Storage
 * SMB Server
 * StorageGRID
@@ -111,6 +116,7 @@ Mit Cloud Sync können Sie Daten von einer Quelle zu einem Ziel synchronisieren.
 * Amazon FSX für ONTAP
 * Amazon S3
 * Azure Blob
+* Azure Data Lake Storage Gen2
 * Azure NetApp Dateien
 * Cloud Volumes ONTAP
 * Cloud Volumes Service
@@ -142,6 +148,7 @@ Mit Cloud Sync können Sie Daten von einer Quelle zu einem Ziel synchronisieren.
 * Amazon FSX für ONTAP
 * Amazon S3
 * Azure Blob
+* Azure Data Lake Storage Gen2
 * Azure NetApp Dateien
 * Cloud Volumes ONTAP
 * Cloud Volumes Service
@@ -245,6 +252,7 @@ Mit Cloud Sync können Sie Daten von einer Quelle zu einem Ziel synchronisieren.
 * Amazon FSX für ONTAP
 * Amazon S3
 * Azure Blob
+* Azure Data Lake Storage Gen2
 * Azure NetApp Dateien
 * Cloud Volumes ONTAP
 * Cloud Volumes Service

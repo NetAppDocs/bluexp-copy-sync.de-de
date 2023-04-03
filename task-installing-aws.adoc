@@ -123,6 +123,6 @@ Cloud Sync erstellt mithilfe der folgenden Konfiguration einen Daten-Broker in A
 Instanztyp:: M5n.xlarge, wenn verfügbar in der Region, sonst m5.xlarge
 VCPUs:: 4
 RAM:: 16 GB
-Betriebssystem:: Amazon Linux 2022
+Betriebssystem:: Amazon Linux 2023
 Festplattengröße und -Typ:: 10-GB-GP2-SSD
 
