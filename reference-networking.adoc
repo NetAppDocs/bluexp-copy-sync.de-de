@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: reference-networking.html 
 keywords: networking, 443, port, ports, port 443, connections, connectivity, path, paths, vpn 
-summary: Die Netzwerkumgebung für Cloud Sync umfasst die Konnektivität zwischen der Gruppe des Datenmakers und dem Quell- und Zielspeicherort sowie eine ausgehende Internetverbindung von Datenmaklern über Port 443. 
+summary: Das Netzwerk für BlueXP Kopier- und Synchronisierungsfunktion umfasst die Verbindung zwischen der Daten-Broker-Gruppe und dem Quell- und Zielspeicherort sowie eine ausgehende Internetverbindung von Daten-Brokern über Port 443. 
 ---
-= Netzwerkübersicht für Cloud Sync
+= Netzwerkübersicht für BlueXP Kopier- und Synchronisierungsfunktion
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Die Netzwerkumgebung für Cloud Sync umfasst die Konnektivität zwische
 
 
 [role="lead"]
-Die Netzwerkumgebung für Cloud Sync umfasst die Konnektivität zwischen der Gruppe des Datenmakers und dem Quell- und Zielspeicherort sowie eine ausgehende Internetverbindung von Datenmaklern über Port 443.
+Das Netzwerk für BlueXP Kopier- und Synchronisierungsfunktion umfasst die Verbindung zwischen der Daten-Broker-Gruppe und dem Quell- und Zielspeicherort sowie eine ausgehende Internetverbindung von Daten-Brokern über Port 443.
 
 
 
@@ -29,9 +29,9 @@ Eine Data-Broker-Gruppe besteht aus einem oder mehreren in der Cloud oder vor Or
 Das folgende Bild zeigt einen Daten-Broker, der in der Cloud, in AWS, Google Cloud oder Azure ausgeführt wird. Quelle und Ziel können sich an jedem beliebigen Standort befinden, solange eine Verbindung zum Daten-Broker besteht. Sie haben beispielsweise eine VPN-Verbindung zwischen Ihrem Datacenter und Ihrem Cloud-Provider.
 
 
-NOTE: Wenn Cloud Sync den Daten-Broker in AWS, Azure oder Google Cloud implementiert, erstellt es eine Sicherheitsgruppe, die die erforderliche ausgehende Kommunikation ermöglicht.
+NOTE: Wenn der Daten-Broker durch BlueXP Copy and Sync in AWS, Azure oder Google Cloud implementiert wird, entsteht eine Sicherheitsgruppe, die die erforderliche Outbound-Kommunikation ermöglicht.
 
-image:diagram_networking_cloud.png["Diagramm mit dem Cloud Sync-Service, dem in der Cloud ausgeführten Daten-Broker und der Verbindung zu Quelle und Ziel"]
+image:diagram_networking_cloud.png["Diagramm mit den Kopier- und Synchronisierungsservice von BlueXP, dem in der Cloud ausgeführten Daten-Broker und Verbindungen zu Quelle und Ziel"]
 
 
 
@@ -39,7 +39,7 @@ image:diagram_networking_cloud.png["Diagramm mit dem Cloud Sync-Service, dem in 
 
 Die folgende Abbildung zeigt den Data Broker, der in einem Datacenter auf dem Prem ausgeführt wird. Quelle und Ziel können sich an jedem beliebigen Standort befinden, solange die Verbindung zum Daten-Broker besteht.
 
-image:diagram_networking_onprem.png["Ein Diagramm mit dem Cloud Sync-Service, dem On-Premises-Daten-Broker und den Verbindungen zu Quelle und Ziel"]
+image:diagram_networking_onprem.png["Diagramm mit dem BlueXP Kopier- und Synchronisierungsservice, dem On-Premises ausgeführten Daten-Broker und Verbindungen zu Quelle und Ziel"]
 
 
 
@@ -49,7 +49,7 @@ image:diagram_networking_onprem.png["Ein Diagramm mit dem Cloud Sync-Service, de
 +
 Wenn sich beispielsweise ein NFS-Server in Ihrem Datacenter befindet und sich ein Daten-Broker in AWS befindet, benötigen Sie eine Netzwerkverbindung (VPN oder Direct Connect) aus Ihrem Netzwerk zur VPC.
 
-* Ein Datenvermittler benötigt eine ausgehende Internetverbindung, damit er den Cloud Sync-Dienst für Aufgaben über Port 443 abfragen kann.
+* Ein Daten-Broker benötigt eine ausgehende Internetverbindung, damit er den BlueXP Kopier- und Synchronisierungsservice für Aufgaben über Port 443 abfragen kann.
 * NetApp empfiehlt die Konfiguration von Quell-, Ziel- und Datenmakler für die Verwendung eines Network Time Protocol (NTP)-Service. Die Zeitdifferenz zwischen den drei Komponenten darf 5 Minuten nicht überschreiten.
 
 
@@ -57,7 +57,7 @@ Wenn sich beispielsweise ein NFS-Server in Ihrem Datacenter befindet und sich ei
 
 == Netzwerkendpunkte
 
-Der NetApp Data Broker benötigt ausgehenden Internetzugang über Port 443, um mit dem Cloud Sync Service zu kommunizieren und einige andere Services und Repositorys zu kontaktieren. Darüber hinaus erfordert Ihr lokaler Webbrowser für bestimmte Aktionen Zugriff auf Endpunkte. Wenn Sie die ausgehende Konnektivität beschränken müssen, lesen Sie die folgende Liste der Endpunkte, wenn Sie Ihre Firewall für ausgehenden Datenverkehr konfigurieren.
+Der NetApp Daten-Broker erfordert Outbound-Internetzugang über Port 443, um mit dem BlueXP Kopier- und Synchronisierungsservice zu kommunizieren und andere Services und Repositorys zu kontaktieren. Darüber hinaus erfordert Ihr lokaler Webbrowser für bestimmte Aktionen Zugriff auf Endpunkte. Wenn Sie die ausgehende Konnektivität beschränken müssen, lesen Sie die folgende Liste der Endpunkte, wenn Sie Ihre Firewall für ausgehenden Datenverkehr konfigurieren.
 
 
 
@@ -76,16 +76,16 @@ Ein Datenvermittler kontaktiert die folgenden Endpunkte:
 | \https://rpm.nodesource.com \https://registry.npmjs.org \https://nodejs.org: | Um Repositorys für die Aktualisierung von Node.js, NPM und anderen Drittanbieter-Paketen zu kontaktieren, die in der Entwicklung verwendet werden. 
 
 
-| \https://tgz.pm2.io | Zugriff auf ein Repository zur Aktualisierung von PM2, einem Drittanbieter-Paket zur Überwachung von Cloud Sync. 
+| \https://tgz.pm2.io | Zugriff auf ein Repository zum Aktualisieren von PM2, einem Drittanbieterpaket, mit dem die BlueXP Kopie und Synchronisierung überwacht werden 
 
 
-| \https://sqs.us-east-1.amazonaws.com \https://kinesis.us-east-1.amazonaws.com | Um die AWS-Services zu kontaktieren, die Cloud Sync für den Betrieb verwendet (Dateien in Warteschlange stellen, Aktionen registrieren und Aktualisierungen an den Daten-Broker senden). 
+| \https://sqs.us-east-1.amazonaws.com \https://kinesis.us-east-1.amazonaws.com | Kontaktaufnahme mit den AWS-Services, die BlueXP für Kopier- und Synchronisierungsvorgänge verwendet, für Vorgänge (Warteschlange von Dateien, Registrierungsaktionen und Aktualisierungen an den Daten-Broker) 
 
 
 | \https://s3._region_.amazonaws.com Beispiel: s3.us-east-2.amazonaws.com:443https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region["Eine Liste der S3-Endpunkte finden Sie in der AWS Dokumentation"^] | Um Amazon S3 zu kontaktieren, wenn eine Synchronisierungsbeziehung einen S3-Bucket enthält. 
 
 
-| \https://s3.amazonaws.com/ | Wenn Sie die Protokolle des Datenmakers von Cloud Sync herunterladen, wird sein Log-Verzeichnis zips und die Protokolle werden in einen vordefinierten S3-Bucket in der Region US-East-1 hochgeladen. 
+| \https://s3.amazonaws.com/ | Wenn Sie Daten-Broker-Protokolle aus BlueXP Kopier- und Synchronisierungsprotokollen herunterladen, komprimiert der Daten-Broker sein Protokollverzeichnis und lädt die Protokolle in einen vordefinierten S3-Bucket in der Region US-East-1 hoch. 
 
 
 | \https://storage.googleapis.com/ | So setzen Sie sich mit Google Cloud in Verbindung, wenn eine Synchronisierung einen GCP-Bucket verwendet. 
@@ -94,7 +94,7 @@ Ein Datenvermittler kontaktiert die folgenden Endpunkte:
 | https://_storage-account_.blob.core.windows.net[]Bei Verwendung von Azure Data Lake Gen2:https://_storage-account_.dfs.core.windows.net[]Wobei _Storage-Konto_ das Quell-Storage-Konto des Benutzers ist. | So öffnen Sie den Proxy für die Azure-Speicherkontoadresse eines Benutzers: 
 
 
-| \https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | Um den Cloud Sync Service zu kontaktieren. 
+| \https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | Den BlueXP Kopier- und Synchronisierungsservice kontaktieren. 
 
 
 | \https://support.netapp.com | Um den NetApp Support zu kontaktieren, wenn eine Byol Lizenz für Synchronisierungsbeziehungen verwendet wird. 

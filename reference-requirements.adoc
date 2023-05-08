@@ -31,13 +31,13 @@ Wenn sich beispielsweise ein NFS-Server in Ihrem Datacenter befindet und sich ei
 
 == Zielverzeichnis
 
-Wenn Sie eine Synchronisierungsbeziehung erstellen, können Sie mit Cloud Sync ein vorhandenes Zielverzeichnis auswählen und dann optional einen neuen Ordner in diesem Verzeichnis erstellen. Stellen Sie also sicher, dass Ihr bevorzugtes Zielverzeichnis bereits vorhanden ist.
+Wenn Sie eine Synchronisierungsbeziehung erstellen, können Sie mit der BlueXP Kopier- und Synchronisierungsfunktion ein vorhandenes Zielverzeichnis auswählen und anschließend optional einen neuen Ordner in diesem Verzeichnis erstellen. Stellen Sie also sicher, dass Ihr bevorzugtes Zielverzeichnis bereits vorhanden ist.
 
 
 
 == Berechtigungen zum Lesen von Verzeichnissen
 
-Um jedes Verzeichnis oder jeden Ordner in einer Quelle oder einem Ziel anzuzeigen, benötigt Cloud Sync Leseberechtigungen im Verzeichnis oder Ordner.
+Um alle Verzeichnisse und Ordner an einem Quell- oder Ziel anzuzeigen, benötigt BlueXP Kopier- und Synchronisierungsberechtigungen für das Verzeichnis oder den Ordner.
 
 NFS:: Berechtigungen müssen auf der Quelle/dem Ziel mit uid/gid für Dateien und Verzeichnisse definiert werden.
 Objekt-Storage::
@@ -64,7 +64,7 @@ Stellen Sie sicher, dass Ihr Amazon S3-Bucket die folgenden Anforderungen erfül
 
 === Unterstützte Speicherorte für Daten-Broker für Amazon S3
 
-Für die Synchronisierung von Beziehungen, die S3-Storage beinhalten, ist ein Daten-Broker erforderlich, der in AWS oder in Ihrem Unternehmen implementiert ist. In beiden Fällen werden Sie von Cloud Sync aufgefordert, den Daten-Broker während der Installation mit einem AWS-Konto zu verknüpfen.
+Für die Synchronisierung von Beziehungen, die S3-Storage beinhalten, ist ein Daten-Broker erforderlich, der in AWS oder in Ihrem Unternehmen implementiert ist. In beiden Fällen werden Sie durch die BlueXP Kopier- und Synchronisierungsfunktion aufgefordert, den Daten-Broker während der Installation mit einem AWS-Konto zu verknüpfen.
 
 * link:task-installing-aws.html["Erfahren Sie, wie Sie den AWS Data Broker implementieren"]
 * link:task-installing-linux.html["Erfahren Sie, wie Sie den Data Broker auf einem Linux-Host installieren"]
@@ -123,7 +123,7 @@ Alle Regionen werden unterstützt, mit Ausnahme der Regionen China, US Gov und U
 
 === Verbindungszeichenfolge für Beziehungen, die Azure Blob und NFS/SMB umfassen
 
-Wenn eine Synchronisierungsbeziehung zwischen einem Azure Blob Container und einem NFS- oder SMB-Server erstellt wird, muss Cloud Sync den Storage-Konto-Verbindungsstring bereitstellen:
+Wenn Sie eine Synchronisierungsbeziehung zwischen einem Azure Blob Container und einem NFS- oder SMB-Server erstellen, müssen Sie die BlueXP Kopie und Synchronisierung mit der Storage-Konto-Verbindungszeichenfolge bereitstellen:
 
 image:screenshot_connection_string.gif["Zeigt eine Verbindungszeichenfolge an, die im Azure Portal verfügbar ist. Hierzu wird ein Storage-Konto ausgewählt und anschließend auf Zugriffsschlüssel geklickt."]
 
@@ -144,7 +144,7 @@ NOTE: Wenn Sie eine kontinuierliche Sync Beziehung implementieren möchten, die 
 
 == Azure Data Lake Storage Gen2
 
-Wenn Sie eine Synchronisierungsbeziehung erstellen, die Azure Data Lake enthält, müssen Sie Cloud Sync den Verbindungsstring für das Storage-Konto angeben. Hierbei muss es sich um eine reguläre Verbindungszeichenfolge und nicht um eine SAS-Signatur (Shared Access Signature) handelt.
+Wenn Sie eine Synchronisierungsbeziehung erstellen, die Azure Data Lake einschließt, müssen Sie BlueXP bereitstellen und mit der Storage-Kontonverbindungszeichenfolge synchronisieren. Hierbei muss es sich um eine reguläre Verbindungszeichenfolge und nicht um eine SAS-Signatur (Shared Access Signature) handelt.
 
 
 
@@ -194,7 +194,7 @@ Stellen Sie sicher, dass Ihr Google Cloud Storage Bucket die folgenden Anforderu
 
 === Unterstützte Data Broker-Standorte für Google Cloud Storage
 
-Synchronisierungsbeziehungen, die Google Cloud Storage einschließen, erfordern einen Daten-Broker in Google Cloud oder vor Ort. Cloud Sync führt Sie beim Erstellen einer Synchronisierungsbeziehung durch den Installationsvorgang für Data Broker.
+Synchronisierungsbeziehungen, die Google Cloud Storage einschließen, erfordern einen Daten-Broker in Google Cloud oder vor Ort. BlueXP Kopier- und Synchronisierungsfunktion führt Sie bei der Erstellung einer Synchronisierungsbeziehung durch den Installationsprozess des Daten-Brokers.
 
 * link:task-installing-gcp.html["So stellen Sie den Google Cloud Daten-Broker bereit"]
 * link:task-installing-linux.html["Erfahren Sie, wie Sie den Data Broker auf einem Linux-Host installieren"]
@@ -285,7 +285,7 @@ Wenn Sie eine Synchronisierungsbeziehung einrichten, die umfasst https://docs.ne
 == Anforderungen an SMB-Server
 
 * Beim SMB Server kann es sich um ein NetApp System oder ein System eines anderen Herstellern beziehen.
-* Sie müssen Cloud Sync mit Berechtigungen auf dem SMB-Server bereitstellen.
+* Sie müssen die BlueXP Kopie und Synchronisierung mit Zugangsdaten bereitstellen, die Berechtigungen auf dem SMB Server haben.
 +
 ** Für einen SMB-Quellserver sind die folgenden Berechtigungen erforderlich: List and read.
 +
@@ -320,8 +320,8 @@ Eine SMB-Einschränkung betrifft versteckte Verzeichnisse und Dateien bei der Sy
 
 Die Groß-/Kleinschreibung des SMB-Protokolls wird nicht berücksichtigt, sodass Groß- und Kleinbuchstaben als identisch behandelt werden. Dieses Verhalten kann zu Fehlern beim Überschreiben von Dateien und Verzeichniskopie führen, wenn eine Synchronisierungsbeziehung einen SMB-Server umfasst und bereits Daten auf dem Ziel vorhanden sind.
 
-Nehmen wir zum Beispiel an, dass eine Datei namens „A“ auf der Quelle und eine Datei mit dem Namen „A“ auf dem Ziel vorhanden sind. Wenn Cloud Sync die Datei namens „A“ in das Ziel kopiert, wird Datei „A“ von der Quelle mit Datei „A“ überschrieben.
+Nehmen wir zum Beispiel an, dass eine Datei namens „A“ auf der Quelle und eine Datei mit dem Namen „A“ auf dem Ziel vorhanden sind. Wenn BlueXP die Datei „A“ kopiert und synchronisiert auf das Ziel kopiert, wird Datei „A“ durch Datei „A“ aus der Quelle überschrieben.
 
-Im Falle von Verzeichnissen, sagen wir, dass es ein Verzeichnis namens "b" auf der Quelle und ein Verzeichnis namens "B" auf dem Ziel. Wenn Cloud Sync versucht, das Verzeichnis namens „b“ auf das Ziel zu kopieren, erhält Cloud Sync eine Fehlermeldung, dass das Verzeichnis bereits vorhanden ist. Infolgedessen kann Cloud Sync das Verzeichnis „b“ immer nicht kopieren.
+Im Falle von Verzeichnissen, sagen wir, dass es ein Verzeichnis namens "b" auf der Quelle und ein Verzeichnis namens "B" auf dem Ziel. Wenn durch die BlueXP Kopier- und Synchronisierungsfunktion das Verzeichnis „b“ auf das Ziel kopiert werden soll, erhält die BlueXP Kopier- und Synchronisierungsfunktion eine Fehlermeldung, die angibt, dass das Verzeichnis bereits vorhanden ist. Infolgedessen kopieren BlueXP und Sync immer nicht das Verzeichnis „B.“.
 
 Der beste Weg, um diese Einschränkung zu vermeiden, ist sicherzustellen, dass Sie Daten in einem leeren Verzeichnis synchronisieren.

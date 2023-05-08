@@ -47,4 +47,4 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 In den Benachrichtigungsdateien finden Sie Informationen zu Urheberrechten und Lizenzen von Drittanbietern, die in der NetApp Software verwendet werden.
 
-link:media/notice_cloud_sync.pdf["Hinweis für Cloud Sync"^]
+link:media/notice_cloud_sync.pdf["Hinweis zum Kopieren und Synchronisieren von BlueXP"^]

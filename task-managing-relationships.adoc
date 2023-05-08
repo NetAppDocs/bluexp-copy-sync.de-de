@@ -31,7 +31,7 @@ Anstatt auf die nächste geplante Synchronisierung zu warten, können Sie eine T
 
 
 .Ergebnis
-Cloud Sync startet den Datensynchronisierungsprozess für die Beziehung.
+Durch die Kopier- und Synchronisierungsfunktion von BlueXP wird die Datensynchronisierung für die Beziehung gestartet.
 
 
 
@@ -59,7 +59,7 @@ Sie möchten die Performance von Beziehung 1 steigern, damit Sie der Datenmakler
 
 
 .Ergebnis
-Cloud Sync fügt der Gruppe den neuen Datenmakler hinzu. Die Performance der nächsten Datensynchronisierung sollte beschleunigt werden.
+Durch die BlueXP Kopier- und Synchronisierungsfunktion wird der neue Daten-Broker zur Gruppe hinzugefügt. Die Performance der nächsten Datensynchronisierung sollte beschleunigt werden.
 
 
 
@@ -67,7 +67,7 @@ Cloud Sync fügt der Gruppe den neuen Datenmakler hinzu. Die Performance der nä
 
 Sie können den Daten-Broker mit den neuesten Anmeldeinformationen des Quell- oder Zielsystems in einer vorhandenen Synchronisierungsbeziehung aktualisieren. Die Aktualisierung der Anmeldeinformationen kann hilfreich sein, wenn Sie in Ihren Sicherheitsrichtlinien die Anmeldeinformationen regelmäßig aktualisieren müssen.
 
-Das Aktualisieren der Anmeldedaten wird mit jeder Quelle oder jedem Ziel unterstützt, für die Cloud Sync Zugangsdaten benötigt: Azure Blob, Box, IBM Cloud Object Storage, StorageGRID, ONTAP S3 Storage, SFTP und SMB-Server.
+Das Aktualisieren der Zugangsdaten wird von allen Quellen oder Zielen unterstützt, für die die BlueXP Kopie und Synchronisierung Anmeldedaten erfordern: Azure Blob, Box-, IBM Cloud-Objektspeicher, StorageGRID-, ONTAP S3-Storage, SFTP- und SMB-Server.
 
 .Schritte
 . Gehen Sie im *Sync Dashboard* zu einer Synchronisierungsbeziehung, die Anmeldeinformationen erfordert, und klicken Sie dann auf *Anmeldedaten aktualisieren*.
@@ -79,18 +79,18 @@ image:screenshot_sync_update_credentials.png["Ein Screenshot, in dem die Option 
 Hinweis zu SMB-Servern: Wenn die Domäne neu ist, müssen Sie sie beim Aktualisieren der Anmeldedaten angeben. Wenn sich die Domäne nicht geändert hat, müssen Sie sie nicht erneut eingeben.
 
 +
-Wenn Sie beim Erstellen der Synchronisierungsbeziehung eine Domäne eingegeben haben, aber beim Aktualisieren der Anmeldedaten keine neue Domäne eingeben, wird Cloud Sync weiterhin die ursprüngliche Domäne verwenden, die Sie angegeben haben.
+Wenn Sie beim Erstellen der Synchronisierungsbeziehung eine Domäne eingegeben haben, beim Aktualisieren der Zugangsdaten aber keine neue Domäne eingeben, wird beim Kopieren und Synchronisieren von BlueXP die ursprüngliche Domäne weiterhin verwendet, die Sie angegeben haben.
 
 
 
 .Ergebnis
-Cloud Sync aktualisiert die Zugangsdaten auf dem Daten-Broker. Es kann bis zu 10 Minuten dauern, bis der Daten-Broker mit den aktualisierten Zugangsdaten zur Synchronisierung der Daten beginnt.
+Mit der BlueXP Kopier- und Synchronisierungsfunktion werden die Zugangsdaten auf dem Daten-Broker aktualisiert. Es kann bis zu 10 Minuten dauern, bis der Daten-Broker mit den aktualisierten Zugangsdaten zur Synchronisierung der Daten beginnt.
 
 
 
 == Einrichten von Benachrichtigungen
 
-Mit einer *Benachrichtigungen*-Einstellung für jede Synchronisierungsbeziehung können Sie auswählen, ob Sie Cloud Sync Benachrichtigungen im Benachrichtigungscenter von BlueXP erhalten möchten. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.
+Über eine Einstellung *Benachrichtigungen* für jede Synchronisierungsbeziehung können Sie auswählen, ob Sie BlueXP Kopier- und Synchronisierungsbenachrichtigungen im Benachrichtigungscenter von BlueXP erhalten möchten. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
 
@@ -115,7 +115,7 @@ Außerdem können Sie auch per E-Mail benachrichtigt werden.
 
 
 .Ergebnis
-Sie erhalten jetzt Cloud Sync-Benachrichtigungen im Benachrichtigungscenter von BlueXP. Wenn Sie diese Option konfiguriert haben, erhalten Sie einige Benachrichtigungen per E-Mail.
+Sie erhalten jetzt BlueXP Kopier- und Synchronisierungsbenachrichtigungen im Benachrichtigungscenter von BlueXP, wobei einige Benachrichtigungen per E-Mail eintreffen, sofern Sie diese Option konfiguriert haben.
 
 
 
@@ -134,20 +134,20 @@ image:screenshot_sync_settings.png["Ein Screenshot, der die Einstellungen für e
 
 +
 Zeitplan:: Wählen Sie einen wiederkehrenden Zeitplan für zukünftige Synchronisierungen aus oder deaktivieren Sie den Synchronisationsplan. Sie können eine Beziehung planen, um Daten bis zu alle 1 Minute zu synchronisieren.
-Sync Timeout:: Legen Sie fest, ob Cloud Sync eine Datensynchronisation abbrechen soll, wenn die Synchronisierung in der angegebenen Anzahl an Stunden oder Tagen nicht abgeschlossen ist.
-Benachrichtigungen:: Ermöglicht Ihnen die Auswahl, ob Sie Cloud Sync Benachrichtigungen im Benachrichtigungscenter von BlueXP erhalten möchten. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.
+Sync Timeout:: Definieren Sie, ob die BlueXP Kopier- und Synchronisierungsfunktion die Datensynchronisierung abbrechen soll, wenn die Synchronisierung nicht in der angegebenen Anzahl von Stunden oder Tagen abgeschlossen wurde.
+Benachrichtigungen:: Ermöglicht Ihnen die Wahl, ob Sie BlueXP Benachrichtigungen zum Kopieren und Synchronisieren im Benachrichtigungscenter von BlueXP erhalten möchten. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.
 +
 --
 Wenn Sie Benachrichtigungen erhalten möchten für
 
 --
-Wiederholungen:: Legen Sie fest, wie oft Cloud Sync versuchen soll, eine Datei zu synchronisieren, bevor Sie sie überspringen.
-Vergleich Von:: Wählen Sie aus, ob Cloud Sync bestimmte Attribute vergleichen soll, wenn Sie feststellen, ob sich eine Datei oder ein Verzeichnis geändert hat und erneut synchronisiert werden soll.
+Wiederholungen:: Definieren Sie, wie oft BlueXP Kopier- und Synchronisierungsvorgänge versuchen soll, eine Datei zu synchronisieren, bevor sie übersprungen wird.
+Vergleich Von:: Wählen Sie, ob die BlueXP Kopie und Synchronisierung bestimmte Attribute vergleichen soll, wenn Sie feststellen, ob sich eine Datei oder ein Verzeichnis geändert hat und erneut synchronisiert werden soll.
 +
 --
-Selbst wenn Sie diese Attribute deaktivieren, vergleicht Cloud Sync die Quelle immer noch mit dem Ziel, indem es die Pfade, Dateigrößen und Dateinamen überprüft. Falls Änderungen vorliegen, werden diese Dateien und Verzeichnisse synchronisiert.
+Selbst wenn Sie diese Attribute deaktivieren, vergleicht BlueXP Kopier- und Synchronisierungsfunktion die Quelle immer noch mit dem Ziel, indem Pfade, Dateigrößen und Dateinamen geprüft werden. Falls Änderungen vorliegen, werden diese Dateien und Verzeichnisse synchronisiert.
 
-Sie können festlegen, dass Cloud Sync aktiviert oder deaktiviert wird, indem Sie die folgenden Attribute vergleichen:
+Sie können die BlueXP Kopier- und Synchronisierungsfunktion für den Vergleich der folgenden Attribute aktivieren bzw. deaktivieren:
 
 ** *Mtime*: Die letzte geänderte Zeit für eine Datei. Dieses Attribut ist für Verzeichnisse nicht gültig.
 ** *Uid*, *gid* und *Mode*: Berechtigungsflaggen für Linux.
@@ -156,7 +156,7 @@ Sie können festlegen, dass Cloud Sync aktiviert oder deaktiviert wird, indem Si
 --
 Für Objekte kopieren:: Sie können diese Option nicht bearbeiten, nachdem Sie die Beziehung erstellt haben.
 Kürzlich geänderte Dateien:: Wählen Sie diese Option aus, um Dateien auszuschließen, die vor der geplanten Synchronisierung zuletzt geändert wurden.
-Dateien auf Quelle löschen:: Wählen Sie diese Option aus, um Dateien vom Quellspeicherort zu löschen, nachdem Cloud Sync die Dateien auf den Zielspeicherort kopiert hat. Diese Option schließt das Risiko eines Datenverlusts ein, da die Quelldateien nach dem Kopieren gelöscht werden.
+Dateien auf Quelle löschen:: Wählen Sie diese Option, um Dateien vom Quellspeicherort zu löschen, nachdem BlueXP die Dateien kopiert und synchronisiert hat. Diese Option schließt das Risiko eines Datenverlusts ein, da die Quelldateien nach dem Kopieren gelöscht werden.
 +
 --
 Wenn Sie diese Option aktivieren, müssen Sie auch einen Parameter in der Datei local.json im Datenvermittler ändern. Öffnen Sie die Datei und aktualisieren Sie sie wie folgt:
@@ -173,7 +173,13 @@ Wenn Sie diese Option aktivieren, müssen Sie auch einen Parameter in der Datei 
 ----
 --
 Dateien auf Ziel löschen:: Wählen Sie diese Option aus, um Dateien vom Zielspeicherort zu löschen, wenn sie aus der Quelle gelöscht wurden. Standardmäßig werden Dateien nie vom Zielspeicherort gelöscht.
-Dateitypen:: Definieren Sie die Dateitypen, die in jede Synchronisierung einbezogen werden sollen: Dateien, Verzeichnisse und symbolische Links.
+Dateitypen:: Definieren Sie die Dateitypen, die in die einzelnen Synchronisierungen einbezogen werden sollen: Dateien, Verzeichnisse, symbolische Links und harte Links.
++
+--
+
+NOTE: Harte Links sind nur für ungesicherte NFS zu NFS Beziehungen verfügbar. Benutzer sind auf einen Scannerprozess und eine Scannerparallelität beschränkt, und Scans müssen von einem Stammverzeichnis aus ausgeführt werden.
+
+--
 Dateierweiterungen ausschließen:: Geben Sie Dateierweiterungen an, die vom Sync ausgeschlossen werden sollen, indem Sie die Dateierweiterung eingeben und *Enter* drücken. Geben Sie beispielsweise _log_ oder _.log_ ein, um *.log-Dateien auszuschließen. Für mehrere Erweiterungen ist kein Trennzeichen erforderlich. Das folgende Video enthält eine kurze Demo:
 +
 --
@@ -190,7 +196,7 @@ ACL – Access Control List:: Kopieren Sie ACLs von einem SMB-Server, indem Sie 
 
 
 .Ergebnis
-Cloud Sync ändert die Synchronisierungsbeziehung mit den neuen Einstellungen.
+Durch die Kopier- und Synchronisierungsfunktion von BlueXP wird die Synchronisierungsbeziehung mit den neuen Einstellungen geändert.
 
 
 
@@ -204,4 +210,4 @@ Sie können eine Synchronisierungsbeziehung löschen, wenn Sie keine Daten mehr 
 
 
 .Ergebnis
-Cloud Sync löscht die Synchronisierungsbeziehung.
+Durch die BlueXP Kopier- und Synchronisierungsfunktion wird die Synchronisierungsbeziehung gelöscht.

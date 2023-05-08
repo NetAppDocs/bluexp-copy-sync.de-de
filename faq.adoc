@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: faq.html 
 keywords: community, forums, help, support, videos, faq, getting help, permissions, access control lists, acls, preserve, preserving, troubleshooting, support, encryption, smb 
-summary: Hier erhalten Sie Hilfe zu Cloud Sync. Weitere Informationen finden Sie unter verschiedenen Ressourcen, darunter Foren, Chat-Services und Videos. 
+summary: Unterstützung durch die BlueXP Synchronisierung und Kopie erhalten Sie und weitere Informationen über verschiedene Ressourcen wie Foren, Chat-Services und Videos. 
 ---
-= Cloud Sync – technische FAQ
+= Technische FAQ zum Kopieren und Synchronisieren von BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -20,15 +20,15 @@ Diese FAQ kann Ihnen helfen, wenn Sie nur eine schnelle Antwort auf eine Frage s
 
 == Erste Schritte
 
-Die folgenden Fragen betreffen die ersten Schritte mit Cloud Sync.
+Die folgenden Fragen beziehen sich auf die ersten Schritte mit der BlueXP Kopier- und Synchronisierungsfunktion.
 
 
 
-=== Wie funktioniert Cloud Sync?
+=== Wie funktioniert BlueXP Kopier- und Synchronisierungsfunktion?
 
-Cloud Sync synchronisiert mithilfe der Datenmanager-Software von NetApp Daten von einer Quelle zu einem Ziel (dies wird als „_Sync Relationship_“ bezeichnet).
+Die Kopier- und Synchronisierungsfunktion von BlueXP verwendet die NetApp Daten-Broker-Software, um Daten von einer Quelle auf ein Ziel zu synchronisieren (dies wird als _Sync Relationship_ bezeichnet).
 
-Eine Gruppe von Datenmaklern steuert die Synchronisierungsbeziehungen zwischen Ihren Quellen und Zielen. Nachdem Sie eine Synchronisierungsbeziehung eingerichtet haben, analysiert Cloud Sync Ihr Quellsystem und unterteilt es in mehrere Replizierungsstreams, um die ausgewählten Zieldaten per Push zu übertragen.
+Eine Gruppe von Datenmaklern steuert die Synchronisierungsbeziehungen zwischen Ihren Quellen und Zielen. Nach Einrichtung einer Synchronisierungsbeziehung analysiert BlueXP Ihr Quellsystem und unterteilt es in mehrere Replizierungs-Streams, um es auf Ihre ausgewählten Zieldaten zu übertragen.
 
 Nach der ersten Kopie synchronisiert der Service alle geänderten Daten auf der Grundlage des von Ihnen festgelegten Zeitplans.
 
@@ -36,29 +36,29 @@ Nach der ersten Kopie synchronisiert der Service alle geänderten Daten auf der 
 
 === Wie funktioniert die 14-tägige kostenlose Testversion?
 
-Die 14-tägige kostenlose Testversion beginnt, wenn Sie sich für den Cloud Sync Service anmelden. Sie unterliegen keinen NetApp Kosten für Cloud Sync-Beziehungen, die Sie 14 Tage lang erstellen. Alle Gebühren für die Ressourcen aller von Ihnen implementierten Daten-Broker sind jedoch nach wie vor gültig.
+Die kostenlose 14-Tage-Testversion beginnt, wenn Sie sich für den BlueXP Kopier- und Synchronisierungsservice anmelden. Sie unterliegen keinen NetApp Gebühren für BlueXP Kopier- und Synchronisierungsbeziehungen, die Sie 14 Tage lang erstellen. Alle Gebühren für die Ressourcen aller von Ihnen implementierten Daten-Broker sind jedoch nach wie vor gültig.
 
 
 
-=== Wie viel kostet Cloud Sync?
+=== Was kostet BlueXP Kopier- und Synchronisierungskosten?
 
-Bei der Verwendung von Cloud Sync fallen zwei Kostenarten an: Servicegebühren und Ressourcengebühren.
+Für die Nutzung der BlueXP Kopier- und Synchronisierungsfunktion gibt es zwei Arten von Kosten: Servicegebühren und Ressourcengebühren.
 
 *Servicegebühren*
 
-Bei nutzungsbasierten Preisen fallen die Servicegebühren für Cloud Sync stündlich an, basierend auf der Anzahl der von Ihnen erstellten Synchronisierungsbeziehungen.
+Bei einem nutzungsbasierten Preismodell fallen die Gebühren für den Kopier- und Synchronisierungsservice von BlueXP basierend auf der Anzahl der erstellten Synchronisierungsbeziehungen stündlich an.
 
 * https://aws.amazon.com/marketplace/pp/B01LZV5DUJ["Pay-as-you-go-Preise in AWS anzeigen"^]
 * https://aws.amazon.com/marketplace/pp/B06XX5V3M2["Jährliche Preise in AWS anzeigen"^]
 * https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.cloud-sync-service?tab=PlansAndPrice["Preise in Azure anzeigen"^]
 
 
-Cloud Sync Lizenzen sind auch über Ihren NetApp Ansprechpartner erhältlich. Jede Lizenz ermöglicht 20 Synchronisierungsbeziehungen für 12 Monate.
+BlueXP Kopier- und Synchronisierungslizenzen sind auch über Ihren NetApp Ansprechpartner erhältlich. Jede Lizenz ermöglicht 20 Synchronisierungsbeziehungen für 12 Monate.
 
 link:concept-licensing.html["Weitere Informationen zu Lizenzen"].
 
 
-NOTE: Cloud Sync Beziehungen sind für Cloud Volumes Service und Azure NetApp Files kostenlos.
+NOTE: BlueXP Kopier- und Synchronisierungsbeziehungen sind für Cloud Volumes Service und Azure NetApp Files kostenlos.
 
 *Ressourcengebühren*
 
@@ -66,27 +66,27 @@ Die Ressourcenkosten beziehen sich auf die Computing- und Storage-Kosten für di
 
 
 
-=== Wie wird Cloud Sync abgerechnet und wie verwalte ich mein Abonnement?
+=== Wie werden die Kosten für den Kopiervorgang und die Synchronisierung von BlueXP berechnet und wie verwalte ich mein Abonnement?
 
-Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezahlen, nachdem die 14-tägige kostenlose Testversion abgelaufen ist. Die erste Möglichkeit besteht darin, AWS oder Azure zu abonnieren, sodass Sie nutzungsbasiert oder jährlich zahlen können. Die zweite Option besteht darin, Lizenzen direkt von NetApp zu erwerben. In jedem Fall wird Ihr Abonnement über Ihren Provider Marketplace verwaltet und *nicht* über die Cloud Sync-Benutzeroberfläche.
-
-
-
-=== Kann ich Cloud Sync auch außerhalb der Cloud verwenden?
-
-Ja, Sie können Cloud Sync in einer Architektur verwenden, die nicht in der Cloud liegt. Quelle und Ziel können On-Premises residieren – ebenso wie die Software für Datenmanager.
-
-Beachten Sie die folgenden wichtigen Punkte zur Verwendung von Cloud Sync außerhalb der Cloud:
-
-* Eine Datenvermittler-Gruppe benötigt eine Internetverbindung, um mit dem Cloud Sync-Dienst zu kommunizieren.
-* Wenn Sie keine Lizenz direkt von NetApp erwerben, benötigen Sie ein AWS oder Azure Konto für die Abrechnung des PAYGO Cloud Sync Service.
+Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezahlen, nachdem die 14-tägige kostenlose Testversion abgelaufen ist. Die erste Möglichkeit besteht darin, AWS oder Azure zu abonnieren, sodass Sie nutzungsbasiert oder jährlich zahlen können. Die zweite Option besteht darin, Lizenzen direkt von NetApp zu erwerben. In jedem Fall wird Ihr Abonnement über Ihren Provider Marketplace gemanagt und *nicht* über die BlueXP Kopier- und Synchronisierungsschnittstelle.
 
 
 
+=== Kann ich BlueXP außerhalb der Cloud kopieren und synchronisieren?
 
-=== Wie greife ich auf Cloud Sync zu?
+Ja, BlueXP Kopier- und Synchronisierungsfunktion ist in einer Architektur außerhalb der Cloud möglich. Quelle und Ziel können On-Premises residieren – ebenso wie die Software für Datenmanager.
 
-Cloud Sync ist über die BlueXP-Website auf der Registerkarte *Sync* verfügbar.
+Beachten Sie die folgenden zentralen Punkte zur Nutzung von BlueXP Kopier- und Synchronisierungsfunktion außerhalb der Cloud:
+
+* Eine Datenbrokergruppe benötigt eine Internetverbindung, um mit dem BlueXP Kopier- und Synchronisierungsservice zu kommunizieren.
+* Wenn Sie keine Lizenz direkt von NetApp erwerben, benötigen Sie ein AWS- oder Azure-Konto für die Abrechnung des PAYGO BlueXP Kopier- und Synchronisierungsservice.
+
+
+
+
+=== Wie erhalte ich Zugriff auf die BlueXP Kopier- und Synchronisierungsfunktion?
+
+BlueXP Kopier- und Synchronisierungsfunktion ist auf der BlueXP Website auf der Registerkarte *Sync* verfügbar.
 
 
 
@@ -102,15 +102,15 @@ Die folgenden Fragen beziehen sich auf die Quelle und die Ziele, die in einer Sy
 
 
 
-=== Welche Quellen und Ziele unterstützt Cloud Sync?
+=== Welche Quellen und Ziele unterstützt BlueXP beim Kopieren und Synchronisieren?
 
-Cloud Sync unterstützt viele verschiedene Arten von Synchronisierungsbeziehungen. link:reference-supported-relationships.html["Die gesamte Liste anzeigen"].
+BlueXP Kopier- und Synchronisierungsfunktion unterstützt viele unterschiedliche Arten von Synchronisierungsbeziehungen. link:reference-supported-relationships.html["Die gesamte Liste anzeigen"].
 
 
 
-=== Welche Versionen von NFS und SMB werden von Cloud Sync unterstützt?
+=== Welche Versionen von NFS und SMB unterstützt BlueXP beim Kopieren und Synchronisieren?
 
-Cloud Sync unterstützt NFS Version 3 und höher sowie SMB Version 1 und höher.
+Die Kopier- und Synchronisierungsfunktion von BlueXP unterstützt NFS-Version 3 und höher sowie SMB-Version 1 und höher.
 
 link:reference-requirements.html["Erfahren Sie mehr über Synchronisierungsanforderungen"].
 
@@ -155,15 +155,15 @@ Ja, Sie können eine bestimmte Storage-Klasse auswählen, wenn ein Google Cloud 
 
 == Netzwerkbetrieb
 
-Die folgenden Fragen beziehen sich auf die Netzwerkanforderungen für Cloud Sync.
+Die folgenden Fragen beziehen sich auf Netzwerkanforderungen für die BlueXP Kopier- und Synchronisierungsfunktion.
 
 
 
-=== Welche Netzwerkanforderungen gelten für Cloud Sync?
+=== Was sind die Netzwerkanforderungen an die BlueXP Kopier- und Synchronisierungsfunktion?
 
-Für die Cloud Sync Umgebung ist eine Daten-Broker-Gruppe über das ausgewählte Protokoll oder die Objekt-Storage-API (Amazon S3, Azure Blob, IBM Cloud Object Storage) mit der Quelle und dem Ziel verbunden.
+Für die BlueXP Kopier- und Synchronisierungsumgebung muss eine Daten-Broker-Gruppe über das ausgewählte Protokoll oder die Objekt-Storage-API (Amazon S3, Azure Blob, IBM Cloud Objekt-Storage) mit der Quelle und dem Ziel verbunden sein.
 
-Darüber hinaus benötigt eine Datenvermittler-Gruppe eine ausgehende Internetverbindung über Port 443, damit sie mit dem Cloud Sync-Dienst kommunizieren und weitere Dienste und Repositories kontaktieren kann.
+Darüber hinaus benötigt eine Datenbrokergruppe eine Outbound-Internetverbindung über Port 443, damit sie mit dem BlueXP Kopier- und Synchronisierungsservice kommunizieren und einige andere Services und Repositorys kontaktieren kann.
 
 Weitere Informationen link:reference-networking.html["Netzwerkanforderungen prüfen"].
 
@@ -173,7 +173,7 @@ Weitere Informationen link:reference-networking.html["Netzwerkanforderungen prü
 
 Ja.
 
-Cloud Sync unterstützt Proxy-Server mit oder ohne grundlegende Authentifizierung. Wenn Sie einen Proxyserver angeben, wenn Sie einen Datenmanager bereitstellen, wird der gesamte HTTP- und HTTPS-Datenverkehr vom Datenmanager über den Proxy weitergeleitet. Beachten Sie, dass nicht-HTTP-Datenverkehr wie NFS oder SMB nicht über einen Proxy-Server weitergeleitet werden können.
+Die Kopier- und Synchronisierungsfunktion von BlueXP unterstützt Proxyserver mit oder ohne grundlegende Authentifizierung. Wenn Sie einen Proxyserver angeben, wenn Sie einen Datenmanager bereitstellen, wird der gesamte HTTP- und HTTPS-Datenverkehr vom Datenmanager über den Proxy weitergeleitet. Beachten Sie, dass nicht-HTTP-Datenverkehr wie NFS oder SMB nicht über einen Proxy-Server weitergeleitet werden können.
 
 Die einzige Einschränkung für Proxy-Server besteht in der Nutzung der Verschlüsselung von Daten während der Übertragung mit einer NFS- oder Azure NetApp Files-Synchronisierungsbeziehung. Die verschlüsselten Daten werden über HTTPS gesendet und sind nicht über einen Proxy-Server routingfähig.
 
@@ -224,29 +224,29 @@ Die folgenden Fragen zur Sicherheit.
 
 
 
-=== Ist Cloud Sync sicher?
+=== Ist das Kopieren und Synchronisieren von BlueXP sicher?
 
-Ja. Alle Netzwerkkonnektivität zum Cloud Sync-Service wird mittels ausgeführt https://aws.amazon.com/sqs/["Amazon Simple Queue Service (SQS)"^].
+Ja. Die gesamte Networking-Konnektivität des BlueXP Kopier- und Synchronisierungsservice wird auf Basis von ausgeführt https://aws.amazon.com/sqs/["Amazon Simple Queue Service (SQS)"^].
 
 Die gesamte Kommunikation zwischen der Daten-Broker-Gruppe und Amazon S3, Azure Blob, Google Cloud Storage und IBM Cloud Object Storage erfolgt über das HTTPS-Protokoll.
 
-Wenn Sie Cloud Sync mit On-Premises-Systemen (Quelle oder Ziel) verwenden, sind hier einige empfohlene Konnektivitätsoptionen:
+Bei Verwendung von BlueXP Kopier- und Synchronisierungsfunktion mit On-Premises-Systemen (Quelle oder Ziel) sind hier einige empfohlene Konnektivitätsoptionen zu finden:
 
 * Eine AWS Direct Connect-, Azure ExpressRoute- oder Google Cloud Interconnect-Verbindung, die nicht über das Internet geroutet wird (und nur mit den von Ihnen angegebenen Cloud-Netzwerken kommunizieren kann)
 * Eine VPN-Verbindung zwischen Ihrem lokalen Gateway-Gerät und Ihren Cloud-Netzwerken
 * Für eine besonders sichere Datenübertragung mit S3-Buckets, Azure Blob Storage oder Google Cloud Storage kann ein Amazon Private S3 Endpoint, Azure Virtual Network Service-Endpunkte oder Private Google Access eingerichtet werden.
 
 
-Jede dieser Methoden stellt eine sichere Verbindung zwischen Ihren lokalen NAS-Servern und einer Cloud Sync-Datenvermittler-Gruppe her.
+Bei jeder dieser Methoden wird eine sichere Verbindung zwischen Ihren lokalen NAS-Servern und einer BlueXP Datenbrokergruppe für die Kopie und Synchronisierung aufgebaut.
 
 
 
-=== Werden Daten mit Cloud Sync verschlüsselt?
+=== Werden die Daten durch die BlueXP Kopier- und Synchronisierungsfunktion verschlüsselt?
 
-* Cloud Sync unterstützt die Verschlüsselung von Daten während des Flugs zwischen Quell- und Ziel-NFS-Servern. link:task-nfs-encryption.html["Weitere Informationen ."].
-* Für SMB unterstützt Cloud Sync SMB 3.0 und 3.11 Daten, die auf Serverseite verschlüsselt sind. Cloud Sync kopiert die verschlüsselten Daten von der Quelle auf das Ziel, an dem die Daten verschlüsselt bleiben.
+* Die BlueXP Kopier- und Synchronisierungsfunktion unterstützt die Verschlüsselung von aktiven Daten zwischen Quell- und Ziel-NFS-Servern. link:task-nfs-encryption.html["Weitere Informationen ."].
+* Bei SMB unterstützt das Kopieren und Synchronisieren von BlueXP die serverseitigen verschlüsselten SMB 3.0- und 3.11-Daten. Durch das Kopieren und Synchronisieren von BlueXP werden die verschlüsselten Daten von der Quelle zum Ziel kopiert, wo die Daten verschlüsselt bleiben.
 +
-Cloud Sync kann SMB-Daten nicht selbst verschlüsseln.
+Die Kopier- und Synchronisierungsfunktion von BlueXP kann SMB-Daten nicht selbst verschlüsseln.
 
 * Wenn ein Amazon S3-Bucket in einer Synchronisierungsbeziehung das Ziel ist, hat der Kunde die Wahl, ob die Datenverschlüsselung mittels AWS KMS-Verschlüsselung oder AES-256-Verschlüsselung aktiviert werden soll.
 
@@ -261,10 +261,10 @@ Die folgenden Fragen beziehen sich auf Datenberechtigungen.
 
 === Werden SMB-Datenberechtigungen mit dem Zielspeicherort synchronisiert?
 
-Sie können Cloud Sync einrichten, um Zugriffssteuerungslisten (ACLs) zwischen einer SMB-Quell-Freigabe und einer Ziel-SMB-Freigabe und vom Quell-SMB-Share zum Objekt-Storage (außer ONTAP S3) zu erhalten.
+Sie können die BlueXP Kopie und Synchronisierung einrichten, um Zugriffssteuerungslisten (Access Control Lists, ACLs) zwischen einer Quell-SMB-Freigabe und einer Ziel-SMB-Freigabe sowie von einer Quell-SMB-Freigabe bis hin zu Objekt-Storage (außer ONTAP S3) beizubehalten.
 
 
-NOTE: Cloud Sync unterstützt das Kopieren von ACLs vom Objekt-Storage in SMB-Freigaben nicht.
+NOTE: Die BlueXP Kopier- und Synchronisierungsfunktion unterstützt nicht das Kopieren von ACLs vom Objekt-Storage auf SMB-Freigaben.
 
 link:task-copying-acls.html["Lesen Sie, wie Sie ACLs zwischen SMB-Freigaben kopieren"].
 
@@ -272,17 +272,17 @@ link:task-copying-acls.html["Lesen Sie, wie Sie ACLs zwischen SMB-Freigaben kopi
 
 === Werden NFS-Datenberechtigungen mit dem Zielspeicherort synchronisiert?
 
-Cloud Sync kopiert NFS-Berechtigungen automatisch wie folgt zwischen NFS-Servern:
+BlueXP kopiert und synchronisiert automatisch NFS-Berechtigungen zwischen NFS-Servern wie folgt:
 
-* NFS Version 3: Cloud Sync kopiert die Berechtigungen und den Besitzer der Benutzergruppe.
-* NFS Version 4: Cloud Sync kopiert die ACLs.
+* NFS-Version 3: BlueXP kopiert und synchronisiert die Berechtigungen und den Eigentümer der Benutzergruppe.
+* NFS-Version 4: BlueXP kopiert und synchronisiert die ACLs.
 
 
 
 
 == Objekt-Storage-Metadaten
 
-Cloud Sync kopiert für die folgenden Synchronisationstypen Objekt-Storage-Metadaten vom Quell- zum Ziel:
+BlueXP Kopier- und Synchronisierungskopien von Objekt-Storage-Metadaten aus der Quelle für die folgenden Arten von Synchronisierungsbeziehungen zum Ziel:
 
 * Amazon S3 -> Amazon S3 ^1^
 * Amazon S3 -> StorageGRID
@@ -305,7 +305,7 @@ Cloud Sync kopiert für die folgenden Synchronisationstypen Objekt-Storage-Metad
 
 == Leistung
 
-Die folgenden Fragen beziehen sich auf die Cloud Sync-Performance.
+Die folgenden Fragen beziehen sich auf die Performance der BlueXP Kopier- und Synchronisierungsvorgänge.
 
 
 
@@ -359,7 +359,7 @@ Die folgenden Fragen beziehen sich auf das Löschen von Synchronisierungsbeziehu
 
 
 
-=== Was passiert, wenn ich meine Cloud Sync-Beziehung lösche?
+=== Was geschieht, wenn ich meine BlueXP Kopier- und Synchronisierungsbeziehung lösche?
 
 Durch das Löschen einer Beziehung werden alle zukünftigen Daten synchronisiert und die Zahlung wird beendet. Alle Daten, die mit dem Ziel synchronisiert wurden, bleiben unverändert.
 
@@ -367,7 +367,7 @@ Durch das Löschen einer Beziehung werden alle zukünftigen Daten synchronisiert
 
 === Was passiert, wenn ich etwas von meinem Quellserver lösche? Wird sie auch aus dem Ziel entfernt?
 
-Wenn Sie eine aktive Synchronisierungsbeziehung haben, wird das auf dem Quellserver gelöschte Element bei der nächsten Synchronisierung standardmäßig nicht vom Ziel gelöscht. In den Synchronisierungseinstellungen für jede Beziehung gibt es jedoch eine Option, mit der Sie festlegen können, dass Cloud Sync Dateien im Zielspeicherort löscht, wenn sie aus der Quelle gelöscht wurden.
+Wenn Sie eine aktive Synchronisierungsbeziehung haben, wird das auf dem Quellserver gelöschte Element bei der nächsten Synchronisierung standardmäßig nicht vom Ziel gelöscht. Es gibt jedoch eine Option in den Synchronisierungseinstellungen für jede Beziehung, bei der Sie definieren können, dass die BlueXP Kopie und Synchronisierung Dateien am Zielspeicherort löschen, wenn sie aus der Quelle gelöscht wurden.
 
 link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Hier erfahren Sie, wie Sie die Einstellungen für eine Synchronisierungsbeziehung ändern"].
 
@@ -375,13 +375,13 @@ link:task-managing-relationships.html#changing-the-settings-for-a-sync-relations
 
 === Was passiert, wenn ich etwas von meinem Ziel lösche? Wird es auch aus meiner Quelle entfernt?
 
-Wenn ein Element aus dem Ziel gelöscht wird, wird es nicht aus der Quelle entfernt. Die Beziehung verläuft von der Quelle zum Ziel. Beim nächsten Synchronisierungszyklus vergleicht Cloud Sync die Quelle mit dem Ziel, erkennt, dass das Element fehlt, und Cloud Sync kopiert es erneut von der Quelle zum Ziel.
+Wenn ein Element aus dem Ziel gelöscht wird, wird es nicht aus der Quelle entfernt. Die Beziehung verläuft von der Quelle zum Ziel. Beim nächsten Synchronisierungszyklus vergleicht BlueXP Kopier- und Synchronisierungsvorgang die Quelle mit dem Ziel, identifiziert fehlende Elemente und BlueXP kopiert und synchronisiert sie erneut vom Quell- zum Zielsystem.
 
 
 
 == Fehlerbehebung
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Sync/Cloud_Sync_FAQ:_Support_and_Troubleshooting["NetApp Knowledgebase: FAQ zu Cloud Sync: Support und Fehlerbehebung"^]
+https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Sync/Cloud_Sync_FAQ:_Support_and_Troubleshooting["NetApp Knowledgebase: BlueXP Kopier- und Synchronisierungs-FAQ: Support und Fehlerbehebung"^]
 
 
 
@@ -396,7 +396,7 @@ Die folgende Frage bezieht sich auf den Data Broker.
 Sicher. Hier die wichtigsten Punkte:
 
 * Der Data Broker ist eine Node.js-Anwendung, die auf einem Linux-Host ausgeführt wird.
-* Cloud Sync stellt den Daten-Broker wie folgt bereit:
+* Mit BlueXP Copy and Sync wird der Daten-Broker wie folgt implementiert:
 +
 ** AWS: Aus einer AWS CloudFormation Vorlage
 ** Azure: Von Azure Resource Manager

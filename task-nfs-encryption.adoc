@@ -102,7 +102,7 @@ Beachten Sie Folgendes:
 +
 *** Wenn Sie eine vorhandene Datenvermittler-Gruppe verwenden möchten, muss die Gruppe nur einen Daten-Broker haben. Mehrere Datenmakler in einer Gruppe werden nicht mit verschlüsselten Synchronisierungsbeziehungen unterstützt.
 *** Wenn der Quelldaten-Broker als Listener fungiert, muss er ein neuer Daten-Broker sein.
-*** Wenn Sie einen neuen Daten-Broker benötigen, werden Sie von Cloud Sync aufgefordert, die Installationsanweisungen einzugeben. Sie können den Data Broker in der Cloud bereitstellen oder ein Installationsskript für Ihren eigenen Linux-Host herunterladen.
+*** Wenn Sie einen neuen Daten-Broker benötigen, fordert Sie BlueXP Kopier- und Synchronisierungsfunktion zur Eingabe der Installationsanweisungen auf. Sie können den Data Broker in der Cloud bereitstellen oder ein Installationsskript für Ihren eigenen Linux-Host herunterladen.
 
 
 .. *Directories*: Wählen Sie die Verzeichnisse aus, die Sie synchronisieren möchten, indem Sie alle Verzeichnisse auswählen oder indem Sie nach unten bohren und ein Unterverzeichnis auswählen.
@@ -134,4 +134,4 @@ image:screenshot_nfs_encryption_review.gif["Ein Screenshot, der den Bildschirm \
 
 
 .Ergebnis
-Cloud Sync beginnt mit der Erstellung der neuen Synchronisierungsbeziehung. Klicken Sie anschließend auf *Anzeigen in Dashboard*, um Details zur neuen Beziehung anzuzeigen.
+Durch die BlueXP Kopier- und Synchronisierungsfunktion wird die neue Synchronisierungsbeziehung erstellt. Klicken Sie anschließend auf *Anzeigen in Dashboard*, um Details zur neuen Beziehung anzuzeigen.

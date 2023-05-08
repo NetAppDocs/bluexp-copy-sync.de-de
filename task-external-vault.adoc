@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-external-vault.html 
 keywords: hashicorp, vault, credentials, secrets, API 
-summary: Wenn Sie eine Synchronisierungsbeziehung erstellen, die Amazon S3, Azure oder Google Cloud Zugangsdaten erfordert, müssen Sie diese Anmeldedaten über die Cloud Sync Benutzeroberfläche oder die API angeben. Alternativ kann der Daten-Broker eingerichtet werden, um direkt von einem externen HashiCorp Vault auf die Zugangsdaten zuzugreifen. 
+summary: Wenn Sie eine Synchronisierungsbeziehung erstellen, für die Amazon S3, Azure oder Google Cloud Anmeldedaten erforderlich sind, müssen Sie diese Anmeldedaten über die BlueXP Kopier- und Synchronisierungsschnittstelle oder -API angeben. Alternativ kann der Daten-Broker eingerichtet werden, um direkt von einem externen HashiCorp Vault auf die Zugangsdaten zuzugreifen. 
 ---
 = Einrichtung einer Datenvermittler-Gruppe zur Verwendung eines externen HashiCorp Vault
 :hardbreaks:
@@ -13,9 +13,9 @@ summary: Wenn Sie eine Synchronisierungsbeziehung erstellen, die Amazon S3, Azur
 :imagesdir: ./media/
 
 
-Wenn Sie eine Synchronisierungsbeziehung erstellen, die Amazon S3, Azure oder Google Cloud Zugangsdaten erfordert, müssen Sie diese Anmeldedaten über die Cloud Sync Benutzeroberfläche oder die API angeben. Alternativ kann die Gruppe für den Datenvermittler eingerichtet werden, um direkt von einem externen HashiCorp Vault auf die Anmeldeinformationen (oder _Secrets_) zuzugreifen.
+Wenn Sie eine Synchronisierungsbeziehung erstellen, für die Amazon S3, Azure oder Google Cloud Anmeldedaten erforderlich sind, müssen Sie diese Anmeldedaten über die BlueXP Kopier- und Synchronisierungsschnittstelle oder -API angeben. Alternativ kann die Gruppe für den Datenvermittler eingerichtet werden, um direkt von einem externen HashiCorp Vault auf die Anmeldeinformationen (oder _Secrets_) zuzugreifen.
 
-Diese Funktion wird durch die Cloud Sync-API für Synchronisierungsbeziehungen unterstützt, für die Amazon S3, Azure oder Google Cloud Anmeldedaten erforderlich sind.
+Diese Funktion wird über die BlueXP Kopier- und Synchronisierungs-API unterstützt, die Amazon S3, Azure oder Google Cloud Anmeldedaten erfordert.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Eins"] Bereiten Sie den Tresor vor
 [role="quick-margin-para"]
@@ -33,7 +33,7 @@ Jetzt, da alles eingerichtet ist, können Sie einen API-Aufruf senden, um eine S
 
 == Vorbereiten des Tresors
 
-Sie müssen Cloud Sync mit der URL zu den Geheimnissen in Ihrem Tresor zur Verfügung stellen. Bereiten Sie den Tresor vor, indem Sie diese URLs einrichten. In den Synchronisierungsbeziehungen, die Sie erstellen möchten, müssen Sie URLs für die Anmeldeinformationen für jede Quelle und jedes Ziel einrichten.
+Sie müssen die BlueXP Kopie und Synchronisierung mit der URL zu den Geheimnissen in Ihrem Vault bereitstellen. Bereiten Sie den Tresor vor, indem Sie diese URLs einrichten. In den Synchronisierungsbeziehungen, die Sie erstellen möchten, müssen Sie URLs für die Anmeldeinformationen für jede Quelle und jedes Ziel einrichten.
 
 Die URL muss wie folgt eingerichtet werden:
 
@@ -217,7 +217,7 @@ link:task-installing-gcp.html#permissions-required-for-the-service-account["Erfa
 
 Jetzt, da alles eingerichtet ist, können Sie einen API-Aufruf senden, um eine Synchronisierungsbeziehung zu erstellen, die Ihren Tresor verwendet, um die Geheimnisse zu erhalten.
 
-Posten Sie die Beziehung mit der Cloud Sync REST API.
+Stellen Sie die Beziehung mithilfe der BlueXP Kopier- und Synchronisierungs-REST-API zusammen.
 
 ....
 Headers:

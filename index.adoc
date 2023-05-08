@@ -2,10 +2,10 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: Cloud Sync is a cloud replication and synchronization service for transferring NAS data between on-premises and cloud object stores. 
-summary: Cloud Sync ist ein Cloud-Replizierungs- und Synchronisierungsservice zur Übertragung von NAS-Daten zwischen lokalen und Cloud-Objektspeichern. 
+lead: BlueXP copy and sync is a cloud replication and synchronization service for transferring NAS data between on-premises and cloud object stores. 
+summary: BlueXP Kopier- und Synchronisierungsservice für Cloud-Replizierung und -Synchronisierung für die Übertragung von NAS-Daten zwischen lokalen und Cloud-Objektspeichern. 
 ---
-= Cloud Sync-Dokumentation
+= Dokumentation der BlueXP Kopier- und Synchronisierungsfunktion
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-gcp.html 
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
-summary: Wenn Sie einen neuen Daten-Broker erstellen, wählen Sie die Option Google Cloud Data Broker, um die Software für Daten in einer neuen Virtual Machine Instanz in einer VPC zu implementieren. Cloud Sync führt Sie durch den Installationsprozess, aber die Anforderungen und Schritte werden auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen. 
+summary: Wenn Sie einen neuen Daten-Broker erstellen, wählen Sie die Option Google Cloud Data Broker, um die Software für Daten in einer neuen Virtual Machine Instanz in einer VPC zu implementieren. Der Kopier- und Synchronisierungsprozess von BlueXP führt Sie durch den Installationsprozess, jedoch werden die Anforderungen und Schritte auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen. 
 ---
 = Entwicklung eines neuen Daten-Brokers in Google Cloud
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Wenn Sie einen neuen Daten-Broker erstellen, wählen Sie die Option Goo
 
 
 [role="lead"]
-Wenn Sie eine neue Gruppe für Daten-Broker erstellen, wählen Sie Google Cloud Platform, um die Software für Daten-Broker auf einer neuen VM-Instanz in Google Cloud VPC zu implementieren. Cloud Sync führt Sie durch den Installationsprozess, aber die Anforderungen und Schritte werden auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen.
+Wenn Sie eine neue Gruppe für Daten-Broker erstellen, wählen Sie Google Cloud Platform, um die Software für Daten-Broker auf einer neuen VM-Instanz in Google Cloud VPC zu implementieren. Der Kopier- und Synchronisierungsprozess von BlueXP führt Sie durch den Installationsprozess, jedoch werden die Anforderungen und Schritte auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen.
 
 Sie haben auch die Möglichkeit, den Data Broker auf einem vorhandenen Linux-Host in der Cloud oder vor Ort zu installieren. link:task-installing-linux.html["Weitere Informationen ."].
 
@@ -34,9 +34,9 @@ Die Software für den Datenvermittler wird automatisch als Root auf dem Linux-Ho
 
 == Netzwerkanforderungen
 
-* Der Daten-Broker benötigt eine ausgehende Internetverbindung, damit er den Cloud Sync Service für Aufgaben über Port 443 abfragen kann.
+* Der Daten-Broker benötigt eine ausgehende Internetverbindung, damit er den BlueXP Kopier- und Synchronisierungsservice für Aufgaben über Port 443 abfragen kann.
 +
-Wenn Cloud Sync den Datenmanager in Google Cloud implementiert, wird eine Sicherheitsgruppe erstellt, die die erforderliche ausgehende Kommunikation ermöglicht.
+Wenn der Daten-Broker durch BlueXP Kopier- und Synchronisierungsfunktion in Google Cloud bereitgestellt wird, wird eine Sicherheitsgruppe erstellt, die die erforderliche Outbound-Kommunikation ermöglicht.
 
 +
 Wenn Sie die ausgehende Verbindung begrenzen müssen, lesen Sie link:reference-networking.html["Die Liste der Endpunkte, die der Datenmanager kontaktiert"].
@@ -128,9 +128,9 @@ image:screenshot_data_broker_gcp.png["Ein Screenshot mit den Informationen, die 
 +
 Wenn ein Proxy für den Internetzugriff benötigt wird, muss sich der Proxy in Google Cloud befinden und dasselbe Dienstkonto wie der Datenvermittler verwenden.
 
-. Sobald der Datenvermittler verfügbar ist, klicken Sie in Cloud Sync auf *Weiter*.
+. Sobald der Daten-Broker verfügbar ist, klicken Sie in der BlueXP Kopier- und Synchronisierungsfunktion auf *Weiter*.
 +
-Die Bereitstellung der Instanz dauert etwa 5 bis 10 Minuten. Sie können den Fortschritt des Cloud Sync-Dienstes überwachen, der automatisch aktualisiert wird, wenn die Instanz verfügbar ist.
+Die Bereitstellung der Instanz dauert etwa 5 bis 10 Minuten. Sie können den Fortschritt des BlueXP Kopier- und Synchronisierungsservice überwachen, der automatisch aktualisiert, sobald die Instanz verfügbar ist.
 
 . Füllen Sie die Seiten im Assistenten aus, um die neue Synchronisierungsbeziehung zu erstellen.
 
@@ -142,7 +142,7 @@ Sie haben einen Datenmanager in Google Cloud implementiert und eine neue Synchro
 
 == Bereitstellung von Berechtigungen zur Verwendung von Buckets in anderen Google Cloud-Projekten
 
-Wenn Sie eine Synchronisierungsbeziehung erstellen und Google Cloud Storage als Quelle oder Ziel auswählen, können Sie mit Cloud Sync aus den Buckets auswählen, die für das Service-Konto des Datenmakers berechtigt sind. Dazu gehören standardmäßig die Buckets, die sich im _same_ Projekt befinden wie das Service-Konto des Datenmakers. Sie können jedoch Buckets aus _other_ Projekten auswählen, wenn Sie die erforderlichen Berechtigungen angeben.
+Wenn Sie eine Synchronisierungsbeziehung erstellen und Google Cloud Storage als Quelle oder Ziel wählen, können Sie mit der BlueXP Kopier- und Synchronisierungsfunktion aus den Buckets wählen, für die das Servicekonto des Datenbrokers Berechtigungen besitzt. Dazu gehören standardmäßig die Buckets, die sich im _same_ Projekt befinden wie das Service-Konto des Datenmakers. Sie können jedoch Buckets aus _other_ Projekten auswählen, wenn Sie die erforderlichen Berechtigungen angeben.
 
 .Schritte
 . Öffnen Sie die Konsole der Google Cloud Platform, und laden Sie den Cloud Storage Service.
@@ -161,7 +161,7 @@ Wenn Sie eine Synchronisierungsbeziehung einrichten, können Sie nun diesen Buck
 
 == Details zur VM-Instanz des Datenmaklers
 
-Cloud Sync erstellt mithilfe der folgenden Konfiguration einen Daten-Broker in Google Cloud.
+Durch die BlueXP Kopier- und Synchronisierungsfunktion wird ein Daten-Broker in Google Cloud mit der folgenden Konfiguration erstellt.
 
 Maschinentyp:: n2-Standard-4
 VCPUs:: 4

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-managing-reports.html 
-keywords: reports, sync reports, cloud sync reports, report errors, path reports 
+keywords: reports, sync reports, BlueXP copy and sync reports, report errors, path reports 
 summary: Berichte erstellen und anzeigen, um Informationen zu erhalten, die Sie mit Unterstützung von NetApp Mitarbeitern verwenden können, um die Konfiguration eines Datenmakers anzupassen und die Performance zu verbessern. 
 ---
 = Erstellen und Anzeigen von Berichten zur Anpassung Ihrer Konfiguration
@@ -25,7 +25,7 @@ Jeder Bericht enthält detaillierte Details zu einem Pfad in einer Synchronisier
 
 == Erstellen von Berichten
 
-Jedes Mal, wenn Sie einen Bericht erstellen, scannt Cloud Sync den Pfad und fasst die Details anschließend in einen Bericht zusammen.
+Jedes Mal, wenn Sie einen Bericht erstellen, scannt die BlueXP Kopie und Synchronisierung den Pfad und kompiliert dann die Details in einem Bericht.
 
 .Schritte
 . Klicken Sie Auf *Synchronisieren > Berichte*.
@@ -67,9 +67,9 @@ image:screenshot-sync-download-report.png["Ein Screenshot der PDF-Download-Optio
 
 == Anzeigen von Berichtsfehlern
 
-Die Tabelle Pfade zeigt an, ob Fehler im letzten Bericht vorliegen. Ein Fehler identifiziert ein Problem, das Cloud Sync beim Scannen des Pfads gegenüberstand.
+Die Tabelle Pfade zeigt an, ob Fehler im letzten Bericht vorliegen. Ein Fehler identifiziert ein Problem, bei dem BlueXP beim Scannen des Pfads Kopier- und Synchronisierungsproblem aufgetreten ist.
 
-Ein Bericht kann z. B. Fehler enthalten, bei denen die Berechtigung verweigert wurde. Diese Art von Fehlern kann sich auf die Fähigkeit von Cloud Sync auswirken, den gesamten Satz von Dateien und Verzeichnissen zu scannen.
+Ein Bericht kann z. B. Fehler enthalten, bei denen die Berechtigung verweigert wurde. Dieser Fehlertyp kann sich möglicherweise auf die Fähigkeit der BlueXP Kopier- und Synchronisierungsfunktion auswirken, um den gesamten Satz von Dateien und Verzeichnissen zu scannen.
 
 Nachdem Sie die Fehlerliste angezeigt haben, können Sie die Probleme beheben und den Bericht erneut ausführen.
 

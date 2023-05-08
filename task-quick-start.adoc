@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: quick start, overview, deploying, getting started, get started, signing up, free trial 
-summary: Die ersten Schritte mit dem Cloud Sync Service umfassen einige Schritte. 
+summary: Die ersten Schritte mit dem BlueXP Kopier- und Synchronisierungsservice gehören nur ein paar Schritte. 
 ---
-= Schnellstart für Cloud Sync
+= Schnellstart für BlueXP Kopier- und Synchronisierungsfunktion
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,7 +13,7 @@ summary: Die ersten Schritte mit dem Cloud Sync Service umfassen einige Schritte
 :imagesdir: ./media/
 
 
-Die ersten Schritte mit dem Cloud Sync Service umfassen einige Schritte.
+Die ersten Schritte mit dem BlueXP Kopier- und Synchronisierungsservice gehören nur ein paar Schritte.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Eins"] Melden Sie sich an und richten Sie BlueXP ein
 [role="quick-margin-para"]
@@ -48,10 +48,10 @@ Stellen Sie sicher, dass Ihre Quelle und Ihr Ziel unterstützt und eingerichtet 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Drittens"] Bereiten Sie einen Standort für den NetApp Data Broker vor
 [role="quick-margin-para"]
-Die NetApp Daten-Broker Software synchronisiert Daten von einer Quelle zu einem Ziel (dies wird als „_Sync Relationship_“ bezeichnet). Sie können den Data Broker in AWS, Azure, Google Cloud Platform oder vor Ort ausführen. Eine Datenmakler-Gruppe, die aus einem oder mehreren Datenmaklern besteht, benötigt eine ausgehende Internetverbindung über Port 443, damit sie mit dem Cloud Sync-Dienst kommunizieren und einige andere Dienste und Repositories kontaktieren kann. link:reference-networking.html#networking-endpoints["Zeigen Sie die Liste der Endpunkte an"].
+Die NetApp Daten-Broker Software synchronisiert Daten von einer Quelle zu einem Ziel (dies wird als „_Sync Relationship_“ bezeichnet). Sie können den Data Broker in AWS, Azure, Google Cloud Platform oder vor Ort ausführen. Eine Data Broker-Gruppe, die aus einem oder mehreren Datenbrokern besteht, benötigt eine Outbound-Internetverbindung über Port 443, damit sie mit dem BlueXP Kopier- und Synchronisierungsservice kommunizieren und sich mit einigen anderen Services und Repositorys in Verbindung setzen kann. link:reference-networking.html#networking-endpoints["Zeigen Sie die Liste der Endpunkte an"].
 
 [role="quick-margin-para"]
-Cloud Sync führt Sie durch den Installationsprozess, wenn Sie eine Synchronisierungsbeziehung erstellen. Dann können Sie einen Daten-Broker in der Cloud bereitstellen oder ein Installationsskript für Ihren eigenen Linux-Host herunterladen.
+Die BlueXP Kopier- und Synchronisierungsskript führt Sie bei der Erstellung einer Synchronisierungsbeziehung durch den Installationsprozess. Jetzt können Sie einen Daten-Broker in der Cloud implementieren oder für Ihren eigenen Linux-Host ein Installationsskript herunterladen.
 
 [role="quick-margin-list"]
 * link:task-installing-aws.html["Überprüfen Sie die AWS-Installation"]
@@ -66,4 +66,4 @@ Melden Sie sich bei an https://console.bluexp.netapp.com/["BlueXP"^]Klicken Sie 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["Fünf"] Bezahlen Sie Ihre Synchronisierungsbeziehungen, nachdem die kostenlose Testversion abgelaufen ist
 [role="quick-margin-para"]
-Abonnieren Sie AWS oder Azure, um nutzungsbasiert zu bezahlen oder jährlich zu zahlen. Oder erwerben Sie Lizenzen direkt von NetApp. Rufen Sie einfach die Seite Lizenzeinstellungen in Cloud Sync auf, um sie einzurichten. link:task-licensing.html["Weitere Informationen ."].
+Abonnieren Sie AWS oder Azure, um nutzungsbasiert zu bezahlen oder jährlich zu zahlen. Oder erwerben Sie Lizenzen direkt von NetApp. Gehen Sie einfach zur Seite mit den Lizenzeinstellungen in BlueXP kopieren und synchronisieren Sie sie, um sie einzurichten. link:task-licensing.html["Weitere Informationen ."].

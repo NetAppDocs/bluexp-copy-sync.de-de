@@ -133,7 +133,7 @@ image:screenshot_sync_group_edit.gif["Ein Screenshot des Aktionsmenüs, das für
 
 
 .Ergebnis
-Cloud Sync aktualisiert den Namen der Gruppe des Daten-Brokers.
+Mit der BlueXP Kopier- und Synchronisierungsfunktion wird der Name der Daten-Broker-Gruppe aktualisiert.
 
 
 
@@ -156,8 +156,8 @@ Beachten Sie Folgendes:
 +
 ** Sie können festlegen, welche Einstellungen geändert werden sollen. Sie müssen nicht alle vier gleichzeitig ändern.
 ** Nachdem eine neue Konfiguration an einen Daten-Broker gesendet wurde, wird der Daten-Broker automatisch neu gestartet und verwendet die neue Konfiguration.
-** Es kann bis zu einer Minute dauern und ist in der Cloud Sync-Oberfläche sichtbar.
-** Wenn kein Daten-Broker ausgeführt wird, ändert sich die Konfiguration nicht, da Cloud Sync nicht mit ihm kommunizieren kann. Die Konfiguration ändert sich, nachdem der Daten-Broker neu gestartet wurde.
+** Es kann bis zu einer Minute dauern, bis diese Änderung vorgenommen wird, und sie ist in der BlueXP Kopier- und Synchronisierungsschnittstelle sichtbar.
+** Wenn ein Datenmanager nicht ausgeführt wird, ändert sich seine Konfiguration nicht, da BlueXP Kopier- und Synchronisierungsfunktion nicht mit ihm kommunizieren kann. Die Konfiguration ändert sich, nachdem der Daten-Broker neu gestartet wurde.
 ** Nachdem Sie eine einheitliche Konfiguration festgelegt haben, werden alle neuen Datenvermittler automatisch die neue Konfiguration verwenden.
 
 
@@ -189,7 +189,7 @@ image:screenshot_sync_group_remove.png["Ein Screenshot des Aktionsmenüs, das f�
 
 
 .Ergebnis
-Cloud Sync verschiebt den Daten-Broker in eine neue oder vorhandene Daten-Broker-Gruppe. Wenn in der vorherigen Gruppe keine anderen Datenmakler vorhanden sind, wird sie von Cloud Sync gelöscht.
+Mit der BlueXP Kopier- und Synchronisierungsfunktion wird der Daten-Broker in eine neue oder bestehende Datenbrokergruppe verschoben. Wenn in der vorherigen Gruppe keine anderen Daten-Broker vorhanden sind, wird sie durch BlueXP nach dem Kopieren und Synchronisieren gelöscht.
 
 
 
@@ -206,7 +206,7 @@ Aktualisieren Sie die Proxykonfiguration für einen Datenmanager, indem Sie Deta
 
 
 .Ergebnis
-Cloud Sync aktualisiert den Datenvermittler, um die Proxy-Konfiguration für den Internetzugang zu verwenden.
+Mit der BlueXP Kopier- und Synchronisierungsfunktion wird der Daten-Broker auf die Proxy-Konfiguration für den Internetzugang aktualisiert.
 
 
 
@@ -214,7 +214,7 @@ Cloud Sync aktualisiert den Datenvermittler, um die Proxy-Konfiguration für den
 
 Unter Umständen möchten Sie Details zu einem Datenvermittler anzeigen, um beispielsweise den Hostnamen, die IP-Adresse, die verfügbare CPU und den verfügbaren RAM zu identifizieren.
 
-Cloud Sync stellt folgende Details zu einem Daten-Broker bereit:
+Die BlueXP Kopier- und Synchronisierungsfunktion bietet folgende Details zu einem Daten-Broker:
 
 * Grundinformationen: Instanz-ID, Hostname etc
 * Netzwerk: Region, Netzwerk, Subnetz, private IP, etc
@@ -240,12 +240,12 @@ image:screenshot_sync_data_broker_details.gif["Ein Screenshot mit Informationen 
 
 == Behebung von Problemen mit einem Daten-Broker
 
-Cloud Sync zeigt für jeden Daten-Broker einen Status an, der Sie bei der Behebung von Problemen unterstützt.
+Mit der BlueXP Kopier- und Synchronisierungsfunktion wird Ihnen für jeden Daten-Broker ein Status angezeigt, der Sie bei der Fehlerbehebung unterstützt.
 
 .Schritte
 . Identifizieren Sie alle Datenvermittler mit dem Status „Unbekannt“ oder „Fehlgeschlagen“.
 +
-image:screenshot_sync_broker_status.gif["Ein Screenshot des Cloud Sync-Status wird angezeigt, in dem der Daten-Broker den Status „unbekannt“ hat."]
+image:screenshot_sync_broker_status.gif["Ein Screenshot aus dem BlueXP Kopier- und Synchronisierungsstatus wird angezeigt, wenn ein Daten-Broker den Status „unbekannt“ hat."]
 
 . Fahren Sie mit dem Mauszeiger auf image:screenshot_sync_status_icon.gif["Ein Info-Symbol."] Symbol, um den Fehlergrund anzuzeigen.
 . Korrigieren Sie das Problem.
@@ -258,10 +258,10 @@ Möglicherweise müssen Sie den Daten-Broker einfach neu starten, falls er offli
 
 == Entfernen Sie einen Datenmanager aus einer Gruppe
 
-Möglicherweise entfernen Sie einen Daten-Broker aus einer Gruppe, wenn dieser nicht mehr benötigt wird oder wenn die ursprüngliche Bereitstellung fehlgeschlagen ist. Durch diese Aktion wird nur der Daten-Broker aus den Datensätzen von Cloud Sync gelöscht. Der Daten-Broker und alle zusätzlichen Cloud-Ressourcen müssen manuell gelöscht werden.
+Möglicherweise entfernen Sie einen Daten-Broker aus einer Gruppe, wenn dieser nicht mehr benötigt wird oder wenn die ursprüngliche Bereitstellung fehlgeschlagen ist. Durch diese Aktion wird der Daten-Broker nur aus den Datensätzen der BlueXP Kopie und Synchronisierung gelöscht. Der Daten-Broker und alle zusätzlichen Cloud-Ressourcen müssen manuell gelöscht werden.
 
 .Dinge, die Sie wissen sollten
-* Cloud Sync löscht eine Gruppe, wenn Sie den letzten Daten-Broker aus der Gruppe entfernen.
+* Durch die BlueXP Kopier- und Synchronisierungsfunktion wird eine Gruppe gelöscht, wenn Sie den letzten Daten-Broker aus der Gruppe entfernen.
 * Sie können den letzten Datenmanager nicht aus einer Gruppe entfernen, wenn eine Beziehung mit dieser Gruppe besteht.
 
 
@@ -276,15 +276,15 @@ image:screenshot_sync_group_remove.gif["Ein Screenshot des Aktionsmenüs, das f�
 
 
 .Ergebnis
-Cloud Sync entfernt den Daten-Broker aus der Gruppe.
+Durch die BlueXP Kopier- und Synchronisierungsfunktion wird der Daten-Broker aus der Gruppe entfernt.
 
 
 
 == Löschen einer Datenmaklergruppe
 
-Wenn eine Datenvermittlungsgruppe keine Synchronisierungsbeziehungen mehr verwaltet, können Sie die Gruppe löschen, die alle Datenmanager aus Cloud Sync entfernt.
+Wenn eine Daten-Broker-Gruppe keine Synchronisierungsbeziehungen mehr managt, können Sie diese Gruppe löschen. Dadurch werden alle Daten-Broker aus der BlueXP Kopie und Synchronisierung entfernt.
 
-Datenvermittler, die von Cloud Sync entfernt werden, werden nur aus den Aufzeichnungen von Cloud Sync gelöscht. Sie müssen die Instanz des Daten-Brokers manuell bei Ihrem Cloud-Provider sowie allen zusätzlichen Cloud-Ressourcen löschen.
+Datenmanager, die durch BlueXP entfernt werden, werden nur aus den Datensätzen der BlueXP Kopie und Sync gelöscht. Sie müssen die Instanz des Daten-Brokers manuell bei Ihrem Cloud-Provider sowie allen zusätzlichen Cloud-Ressourcen löschen.
 
 .Schritte
 . Klicken Sie Auf *Sync > Manage Data Brokers*.
@@ -296,4 +296,4 @@ image:screenshot_sync_group_add.png["Ein Screenshot des Aktionsmenüs, das für 
 
 
 .Ergebnis
-Cloud Sync entfernt die Datenmakler und löscht die Gruppe.
+Durch die Kopier- und Synchronisierungsfunktion von BlueXP werden die Daten-Broker entfernt und die Gruppe gelöscht.

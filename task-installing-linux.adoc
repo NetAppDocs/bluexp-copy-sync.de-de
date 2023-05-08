@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-linux.html 
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
-summary: Wenn Sie einen neuen Datenvermittler erstellen, wählen Sie die Option „On-Premises Data Broker“ aus, um die Software für Daten-Broker auf einem lokalen Linux-Host oder auf einem bestehenden Linux-Host in der Cloud zu installieren. Cloud Sync führt Sie durch den Installationsprozess, aber die Anforderungen und Schritte werden auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen. 
+summary: Wenn Sie einen neuen Datenvermittler erstellen, wählen Sie die Option „On-Premises Data Broker“ aus, um die Software für Daten-Broker auf einem lokalen Linux-Host oder auf einem bestehenden Linux-Host in der Cloud zu installieren. Der Kopier- und Synchronisierungsprozess von BlueXP führt Sie durch den Installationsprozess, jedoch werden die Anforderungen und Schritte auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen. 
 ---
 = Installation des Data Brokers auf einem Linux-Host
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Wenn Sie einen neuen Datenvermittler erstellen, wählen Sie die Option 
 
 
 [role="lead"]
-Wenn Sie eine neue Gruppe für Daten-Broker erstellen, wählen Sie die Option On-Premises Data Broker aus, um die Software für Daten-Broker auf einem lokalen Linux-Host oder auf einem bestehenden Linux-Host in der Cloud zu installieren. Cloud Sync führt Sie durch den Installationsprozess, aber die Anforderungen und Schritte werden auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen.
+Wenn Sie eine neue Gruppe für Daten-Broker erstellen, wählen Sie die Option On-Premises Data Broker aus, um die Software für Daten-Broker auf einem lokalen Linux-Host oder auf einem bestehenden Linux-Host in der Cloud zu installieren. Der Kopier- und Synchronisierungsprozess von BlueXP führt Sie durch den Installationsprozess, jedoch werden die Anforderungen und Schritte auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen.
 
 
 
@@ -158,7 +158,7 @@ Die folgenden Schritte enthalten Details zu den einzelnen möglichen Installatio
 `curl <URI> -o data_broker_installer.sh -x <proxy_username>:<proxy_password>@<proxy_host>:<proxy_port>`
 
 +
-URI:: Cloud Sync zeigt die URI der Installationsdatei auf der Seite mit den Anweisungen an, die beim Befolgen der Anweisungen zur Bereitstellung des On-Prem-Datenmakers geladen wird. Dieser URI wird hier nicht wiederholt, weil der Link dynamisch erzeugt wird und nur einmal verwendet werden kann. <<Installation des Data Brokers,Führen Sie diese Schritte aus, um den URI aus Cloud Sync zu erhalten>>.
+URI:: Beim Kopieren und Synchronisieren von BlueXP wird die URI der Installationsdatei auf der Seite mit den Anweisungen angezeigt. Diese wird geladen, wenn Sie den Aufforderungen zur Implementierung des On-Premises Data Broker folgen. Dieser URI wird hier nicht wiederholt, weil der Link dynamisch erzeugt wird und nur einmal verwendet werden kann. <<Installation des Data Brokers,Befolgen Sie diese Schritte, um die URI aus der BlueXP Kopier- und Synchronisierungsfunktion zu beziehen>>.
 
 
 
@@ -196,6 +196,6 @@ JSON-Datei:: Dies ist die JSON-Datei, die einen Service-Account-Schlüssel enth�
 
 
 
-. Sobald der Datenvermittler verfügbar ist, klicken Sie in Cloud Sync auf *Weiter*.
+. Sobald der Daten-Broker verfügbar ist, klicken Sie in der BlueXP Kopier- und Synchronisierungsfunktion auf *Weiter*.
 . Füllen Sie die Seiten im Assistenten aus, um die neue Synchronisierungsbeziehung zu erstellen.
 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-copying-acls.html 
 keywords: permissions, access control list, acls, ntfs, cifs, smb, shares, robocopy, copy, transfer, activate, operating system, os, ram, cpu, networking, copy acls to the target 
-summary: 'Cloud Sync kann Zugriffssteuerungslisten (ACLs) zwischen SMB-Freigaben und zwischen SMB-Freigaben und Objekt-Storage kopieren (außer ONTAP S3). Bei Bedarf haben Sie auch die Möglichkeit, ACLs mithilfe von robocopy manuell zwischen SMB-Freigaben beizubehalten.' 
+summary: 'Die BlueXP Kopie und Synchronisierung können Zugriffssteuerungslisten (Access Control Lists, ACLs) zwischen SMB-Freigaben und zwischen SMB-Freigaben und Objekt-Storage kopieren (außer ONTAP S3). Bei Bedarf haben Sie auch die Möglichkeit, ACLs mithilfe von robocopy manuell zwischen SMB-Freigaben beizubehalten.' 
 ---
 = Kopieren von ACLs aus SMB-Freigaben
 :hardbreaks:
@@ -14,16 +14,16 @@ summary: 'Cloud Sync kann Zugriffssteuerungslisten (ACLs) zwischen SMB-Freigaben
 
 
 [role="lead"]
-Cloud Sync kann Zugriffssteuerungslisten (ACLs) zwischen SMB-Freigaben und zwischen SMB-Freigaben und Objekt-Storage kopieren (außer ONTAP S3). Bei Bedarf haben Sie auch die Möglichkeit, ACLs mithilfe von robocopy manuell zwischen SMB-Freigaben beizubehalten.
+Die BlueXP Kopie und Synchronisierung können Zugriffssteuerungslisten (Access Control Lists, ACLs) zwischen SMB-Freigaben und zwischen SMB-Freigaben und Objekt-Storage kopieren (außer ONTAP S3). Bei Bedarf haben Sie auch die Möglichkeit, ACLs mithilfe von robocopy manuell zwischen SMB-Freigaben beizubehalten.
 
 .Wahlmöglichkeiten
-* <<Setting up Cloud Sync to copy ACLs from an SMB server,Richten Sie Cloud Sync so ein, dass ACLs automatisch kopiert werden>>
+* <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,Richten Sie BlueXP Kopier- und Synchronisierungsfunktion für das automatische Kopieren von ACLs ein>>
 * <<Manuelles Kopieren von ACLs zwischen SMB-Freigaben,Kopieren Sie die ACLs manuell zwischen SMB-Freigaben>>
 
 
 
 
-== Einrichten von Cloud Sync zum Kopieren von ACLs
+== Einrichten von BlueXP Kopier- und Synchronisierungsfunktion für das Kopieren von ACLs
 
 Kopieren Sie ACLs zwischen SMB-Freigaben und zwischen SMB-Freigaben und Objekt-Storage. Aktivieren Sie dazu eine Einstellung beim Erstellen einer Beziehung oder nach dem Erstellen einer Beziehung.
 
@@ -31,7 +31,7 @@ Kopieren Sie ACLs zwischen SMB-Freigaben und zwischen SMB-Freigaben und Objekt-S
 Diese Funktion arbeitet mit jedem Datentyp Broker zusammen – AWS, Azure, Google Cloud Platform oder On-Premises-Daten-Broker. Der On-Premises-Daten-Broker kann ausgeführt werden link:task-installing-linux.html["Alle unterstützten Betriebssysteme"].
 
 .Schritte für eine neue Beziehung
-. Klicken Sie in Cloud Sync auf *Neuen Sync erstellen*.
+. Klicken Sie in BlueXP Kopier- und Synchronisierungsfunktion auf *Neuen Sync erstellen*.
 . Ziehen Sie einen SMB-Server oder Objekt-Storage als Quelle und einen SMB-Server oder Objekt-Storage als Ziel und klicken Sie auf *Weiter*.
 . Auf der Seite *SMB Server*:
 +
@@ -63,7 +63,7 @@ image:screenshot-sync-tags-metadata.png["Ein Screenshot des sechsten Schritts im
 
 
 .Ergebnis
-Beim Synchronisieren von Daten behält Cloud Sync die ACLs zwischen Quelle und Ziel bei.
+Bei der Datensynchronisierung bleiben die ACLs zwischen Quelle und Ziel durch BlueXP Kopier- und Synchronisierungsfunktion erhalten.
 
 
 
@@ -77,7 +77,7 @@ Sie können ACLs manuell zwischen SMB-Freigaben beibehalten, indem Sie den Befeh
 +
 Sie müssen diesen Schritt ausführen, bevor Sie Robocopy verwenden.
 
-. Von Cloud Sync aus: Erstellen Sie eine neue Beziehung zwischen Quell- und Ziel-SMB-Freigaben, oder synchronisieren Sie eine vorhandene Beziehung.
+. Erstellen Sie aus der BlueXP Kopier- und Synchronisierungsfunktion eine neue Beziehung zwischen den Quell- und Ziel-SMB-Freigaben, oder synchronisieren Sie eine vorhandene Beziehung.
 . Führen Sie nach Abschluss der Datensynchronisierung den folgenden Befehl vom Windows-Host aus aus, um die ACLs und Besitzrechte zu synchronisieren:
 +
  robocopy /E /COPY:SOU /secfix [source] [target] /w:0 /r:0 /XD ~snapshots /UNILOG:”[logfilepath]

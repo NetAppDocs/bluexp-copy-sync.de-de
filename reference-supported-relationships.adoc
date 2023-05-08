@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-supported-relationships.html 
 keywords: supported sync relationships, support, supported target, supported source 
-summary: Mit Cloud Sync können Sie Daten von einer Quelle zu einem Ziel synchronisieren. Dies wird als Synchronisierungsbeziehung bezeichnet. Sie sollten die unterstützten Beziehungen verstehen, bevor Sie beginnen. 
+summary: Mit der Kopier- und Synchronisierungsfunktion von BlueXP können Sie Daten von einer Quelle auf ein Ziel synchronisieren. Dies wird als Synchronisierungsbeziehung bezeichnet. Sie sollten die unterstützten Beziehungen verstehen, bevor Sie beginnen. 
 ---
 = Unterstützte Synchronisierungsbeziehungen
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Mit Cloud Sync können Sie Daten von einer Quelle zu einem Ziel synchro
 
 
 [role="lead"]
-Mit Cloud Sync können Sie Daten von einer Quelle zu einem Ziel synchronisieren. Dies wird als Synchronisierungsbeziehung bezeichnet. Sie sollten die unterstützten Beziehungen verstehen, bevor Sie beginnen.
+Mit der Kopier- und Synchronisierungsfunktion von BlueXP können Sie Daten von einer Quelle auf ein Ziel synchronisieren. Dies wird als Synchronisierungsbeziehung bezeichnet. Sie sollten die unterstützten Beziehungen verstehen, bevor Sie beginnen.
 
 [cols="20,25"]
 |===
@@ -325,7 +325,7 @@ Mit Cloud Sync können Sie Daten von einer Quelle zu einem Ziel synchronisieren.
 Hinweise:
 
 . Box-Unterstützung ist als Vorschau verfügbar.
-. Synchronisierungsbeziehungen zu dieser Quelle/diesem Ziel werden nur über die Cloud Sync API unterstützt.
+. Synchronisierungsbeziehungen zu dieser Quelle/diesem Ziel werden nur durch die BlueXP Kopier- und Synchronisierungs-API unterstützt.
 . Sie können eine bestimmte Azure Blob Storage Tier auswählen, wenn ein Blob Container das Ziel ist:
 +
 ** Hot-Storage
