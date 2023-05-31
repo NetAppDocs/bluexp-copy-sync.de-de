@@ -26,7 +26,7 @@ Erfahren Sie mehr über die Neuerungen bei der BlueXP Kopier- und Synchronisieru
 
 Benutzer können nun feste Links für Synchronisierungen in ungesicherten NFS- zu NFS-Beziehungen einfügen.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Dateitypen"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Dateitypen"].
 
 
 
@@ -40,7 +40,7 @@ Benutzer können nun bei der Erstellung einer sicheren NFS-Beziehung ein eigenes
 
 Benutzer können jetzt Dateien ausschließen, die bis zu 365 Tage vor der geplanten Synchronisierung geändert wurden.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung „Kürzlich geänderte Dateien“"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung „Kürzlich geänderte Dateien“"].
 
 
 
@@ -48,9 +48,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 Benutzer, die die RESTful API verwenden, können nun Beziehungen mithilfe von Beziehungs-IDs filtern.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["Weitere Informationen zur Verwendung der RESTful API mit BlueXP Kopier- und Synchronisierungsfunktion"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html["Weitere Informationen zur Verwendung der RESTful API mit BlueXP Kopier- und Synchronisierungsfunktion"].
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung „Verzeichnisse ausschließen“"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung „Verzeichnisse ausschließen“"].
 
 
 
@@ -68,7 +68,7 @@ Sie können jetzt Synchronisierungsbeziehungen mit Azure Data Lake Storage Gen2 
 * On-Premises-ONTAP
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"].
 
 
 
@@ -76,7 +76,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 Zusätzlich zum Filtern von Verzeichnissen nach Namen können Sie nun Verzeichnisse nach ihrem vollständigen Pfad filtern.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung „Verzeichnisse ausschließen“"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung „Verzeichnisse ausschließen“"].
 
 
 
@@ -88,7 +88,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 Sie können jetzt AWS-Daten-Broker-Volumes mit einem KMS-Schlüssel in Ihrem Konto verschlüsseln.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["Erfahren Sie mehr über die Erstellung eines Datenbrokers in AWS"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["Erfahren Sie mehr über die Erstellung eines Datenbrokers in AWS"].
 
 
 
@@ -113,7 +113,7 @@ Cloud Sync unterstützt zusätzlich Azure Data Lake Storage Gen2 als Quelle und 
 * IBM Cloud Objekt-Storage
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"].
 
 
 
@@ -121,7 +121,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 Das Betriebssystem für AWS Data Broker wurde auf Amazon Linux 2022 aktualisiert.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["Erfahren Sie mehr über die Instanz für Datenmanager in AWS"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#details-about-the-data-broker-instance["Erfahren Sie mehr über die Instanz für Datenmanager in AWS"].
 
 
 
@@ -133,7 +133,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#detail
 
 Es gibt jetzt eine Option *Konfiguration anzeigen*, mit der Benutzer die lokale Konfiguration jedes Datenmakers auf der Benutzeroberfläche anzeigen können.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["Erfahren Sie mehr über das Managen von Maklergruppen"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["Erfahren Sie mehr über das Managen von Maklergruppen"].
 
 
 
@@ -141,9 +141,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html
 
 Das Betriebssystem für Datenmakler in Azure und Google Cloud wurde auf die Rocky Linux 9.0 aktualisiert.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["Erfahren Sie mehr über die Instanz für Datenmanager in Azure"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#details-about-the-data-broker-vm["Erfahren Sie mehr über die Instanz für Datenmanager in Azure"].
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["Erfahren Sie mehr über die Instanz für Datenmakler in Google Cloud"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["Erfahren Sie mehr über die Instanz für Datenmakler in Google Cloud"].
 
 
 
@@ -155,7 +155,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#detail
 
 Für Synchronisierungsbeziehungen steht jetzt eine neue *Ausschließverzeichnisnamen*-Einstellung zur Verfügung. Benutzer können maximal 15 Verzeichnisnamen aus ihrer Synchronisierung herausfiltern. Die Verzeichnisse .Copy-Offload, .Snapshot, ~Snapshot sind standardmäßig ausgeschlossen.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung „Verzeichnisnamen ausschließen“"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung „Verzeichnisnamen ausschließen“"].
 
 
 
@@ -167,7 +167,7 @@ Cloud Sync unterstützt jetzt zusätzliche Synchronisierungsbeziehungen für AWS
 * ONTAP S3 Storage zu AWS S3
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"].
 
 
 
@@ -197,7 +197,7 @@ Der Azure Daten-Broker benötigt eine benutzerdefinierte Rolle und die folgenden
 'Microsoft.EventGrid/eventSubscriptions/write',
 'Microsoft.Storage/storageAccounts/write'
 ----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Continuous Sync"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Continuous Sync"].
 
 
 
@@ -215,7 +215,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 * Sie können auch Berichte für Synchronisierungsbeziehungen erstellen, die Google Drive enthalten.
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["Erfahren Sie mehr über Berichte"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["Erfahren Sie mehr über Berichte"].
 
 
 
@@ -229,7 +229,7 @@ Sie können jetzt die Einstellung kontinuierliche Synchronisierung für die folg
 * Google Cloud Storage auf einen NFS-Server übertragen
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Continuous Sync"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Continuous Sync"].
 
 
 
@@ -239,7 +239,7 @@ Sie können jetzt Cloud Sync Benachrichtigungen per E-Mail erhalten.
 
 Um die Benachrichtigungen per E-Mail zu erhalten, müssen Sie die Einstellung *Benachrichtigungen* auf der Synchronisierungsbeziehung aktivieren und dann die Einstellungen für Benachrichtigungen und Benachrichtigungen in BlueXP konfigurieren.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["Hier erfahren Sie, wie Sie Benachrichtigungen einrichten"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#setting-up-notifications["Hier erfahren Sie, wie Sie Benachrichtigungen einrichten"].
 
 
 
@@ -251,9 +251,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 Daten können jetzt von einem NFS-Server oder SMB-Server zu Google Drive synchronisiert werden. Sowohl „Mein Laufwerk“ als auch „freigegebene Laufwerke“ werden als Ziele unterstützt.
 
-Bevor Sie eine Synchronisierungsbeziehung mit Google Drive erstellen können, müssen Sie ein Servicekonto einrichten, das über die erforderlichen Berechtigungen und einen privaten Schlüssel verfügt. https://docs.netapp.com/us-en/cloud-manager-sync/reference-requirements.html#google-drive["Erfahren Sie mehr über die Anforderungen von Google Drive"].
+Bevor Sie eine Synchronisierungsbeziehung mit Google Drive erstellen können, müssen Sie ein Servicekonto einrichten, das über die erforderlichen Berechtigungen und einen privaten Schlüssel verfügt. https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-drive["Erfahren Sie mehr über die Anforderungen von Google Drive"].
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"].
 
 
 
@@ -266,7 +266,7 @@ Cloud Sync unterstützt jetzt zusätzliche Synchronisierungsbeziehungen für Azu
 * StorageGRID zu Azure Data Lake Storage Gen2
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"].
 
 
 
@@ -280,7 +280,7 @@ Wir haben zusätzliche Möglichkeiten hinzugefügt, Synchronisierungsbeziehungen
 
 Sie können jetzt eine Synchronisierungsbeziehung aus dem Canvas einrichten, indem Sie eine Arbeitsumgebung auf einer anderen ziehen und ablegen.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-drag-and-drop.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
 
 
 
@@ -288,7 +288,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 Sie können jetzt eine Synchronisierungsbeziehung für Azure Blob Storage oder für Google Cloud Storage einrichten, indem Sie die Arbeitsumgebung auf dem Canvas auswählen und dann im rechten Fenster die Option zur Synchronisierung auswählen.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-panel.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
 
 
 
@@ -302,7 +302,7 @@ Daten können jetzt von einem NFS-Server oder SMB-Server zu Azure Data Lake Stor
 
 Wenn Sie eine Synchronisierungsbeziehung erstellen, die Azure Data Lake enthält, müssen Sie Cloud Sync den Verbindungsstring für das Storage-Konto angeben. Hierbei muss es sich um eine reguläre Verbindungszeichenfolge und nicht um eine SAS-Signatur (Shared Access Signature) handelt.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"].
 
 
 
@@ -327,7 +327,7 @@ Das mit Ihrem Datenvermittler verknüpfte Servicekonto benötigt zur Verwendung 
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
 ----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Continuous Sync"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Continuous Sync"].
 
 
 
@@ -369,7 +369,7 @@ Beachten Sie, dass die mit Ihrem Daten-Broker verknüpfte IAM-Rolle folgende Ber
 ----
 Diese Berechtigungen werden automatisch allen von Ihnen erstellten neuen Datenmaklern hinzugefügt.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Continuous Sync"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Continuous Sync"].
 
 
 
@@ -401,7 +401,7 @@ Diese Optionen werden unterstützt, wenn Azure Blob Ziel ist und als Quelle entw
 
 Für Synchronisierungsbeziehungen steht jetzt eine neue *Sync Timeout*-Einstellung zur Verfügung. Mit dieser Einstellung können Sie festlegen, ob Cloud Sync eine Datensynchronisation abbrechen soll, wenn die Synchronisierung in der angegebenen Anzahl an Stunden oder Tagen nicht abgeschlossen ist.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
 
 
 
@@ -409,9 +409,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 Für Synchronisierungsbeziehungen steht jetzt eine neue *Notifications*-Einstellung zur Verfügung. Mit dieser Einstellung können Sie festlegen, ob Cloud Sync Benachrichtigungen im Benachrichtigungscenter von BlueXP empfangen werden sollen. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
 
 
 
@@ -428,7 +428,7 @@ Wir haben verschiedene Verbesserungen an den Data Broker-Gruppen vorgenommen:
 * Und schließlich können Sie auch Datenmaklergruppen löschen.
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["Managen Sie Daten-Broker-Gruppen"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["Managen Sie Daten-Broker-Gruppen"].
 
 
 
@@ -436,7 +436,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html
 
 Sie können jetzt den Inhalt des Sync-Dashboards filtern, um Synchronisierungsbeziehungen, die einem bestimmten Status entsprechen, leichter zu finden. Sie können beispielsweise nach Synchronisierungsbeziehungen filtern, die einen fehlgeschlagenen Status haben
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-filter.png["Ein Screenshot, der die Option „Filter nach Sync“ oben im Dashboard anzeigt."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-filter.png["Ein Screenshot, der die Option „Filter nach Sync“ oben im Dashboard anzeigt."]
 
 
 
@@ -448,7 +448,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 Sie sortieren das Dashboard jetzt nach dem synchronen Beziehungsnamen.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-sort.png["Ein Screenshot mit der Option nach Name sortieren, die über das Dashboard verfügbar ist."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-sort.png["Ein Screenshot mit der Option nach Name sortieren, die über das Dashboard verfügbar ist."]
 
 
 
@@ -456,7 +456,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 In der vorherigen Version haben wir die Cloud Sync Integration in Cloud Data Sense eingeführt. In diesem Update haben wir die Integration verbessert, indem wir die Erstellung der Synchronisierungsbeziehung einfacher gestalten. Nachdem Sie eine Datensynchronisierung aus Cloud Data Sense initiiert haben, sind alle Quellinformationen in einem einzigen Schritt enthalten und müssen nur einige wichtige Details eingeben.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-data-sense.png["Ein Screenshot, der die Seite Data Sense Integration zeigt, die nach dem Starten einer neuen Synchronisierung direkt aus Cloud Data Sense angezeigt wird."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-data-sense.png["Ein Screenshot, der die Seite Data Sense Integration zeigt, die nach dem Starten einer neuen Synchronisierung direkt aus Cloud Data Sense angezeigt wird."]
 
 
 
@@ -470,11 +470,11 @@ Wir haben die Interaktion mit Datenmaklern verändert, indem wir den Schwerpunkt
 
 Wenn Sie beispielsweise eine neue Synchronisierungsbeziehung erstellen, wählen Sie den Datenmanager _Group_ aus, der mit der Beziehung verwendet werden soll, anstatt einen bestimmten Datenmanager.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-select-data-broker-group.png["Ein Screenshot des Assistenten für Synchronisierungsbeziehungen, der die Auswahl der Gruppe des Datenmakers anzeigt"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-select-data-broker-group.png["Ein Screenshot des Assistenten für Synchronisierungsbeziehungen, der die Auswahl der Gruppe des Datenmakers anzeigt"]
 
 Auf der Registerkarte *Manage Data Brokers* zeigen wir auch die Anzahl der Synchronisierungsbeziehungen an, die eine Datenmaklergruppe verwaltet.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-group-relationships.png["Ein Screenshot der Seite „Data Brokers managen“, auf der eine Gruppe für Daten-Broker angezeigt wird und Details zu dieser Gruppe angezeigt werden, einschließlich der Anzahl der Beziehungen, die sie verwalten."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-group-relationships.png["Ein Screenshot der Seite „Data Brokers managen“, auf der eine Gruppe für Daten-Broker angezeigt wird und Details zu dieser Gruppe angezeigt werden, einschließlich der Anzahl der Beziehungen, die sie verwalten."]
 
 
 
@@ -482,7 +482,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 Sie können nun eine PDF eines Berichts herunterladen.
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["Erfahren Sie mehr über Berichte"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["Erfahren Sie mehr über Berichte"].
 
 
 
@@ -641,7 +641,7 @@ Das ist jetzt möglich link:task-managing-reports.html["Erstellen Sie einen Beri
 
 Sie können jetzt Daten mit einem Amazon FSX für ONTAP Filesystem synchronisieren.
 
-* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["Weitere Informationen zu Amazon FSX für ONTAP"^]
+* https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html["Weitere Informationen zu Amazon FSX für ONTAP"^]
 * link:reference-requirements.html["Anzeigen von unterstützten Synchronisierungsbeziehungen"]
 * link:task-creating-relationships.html["Lesen Sie, wie Sie eine Synchronisierungsbeziehung für Amazon FSX für ONTAP erstellen"]
 

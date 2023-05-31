@@ -92,7 +92,7 @@ Mit der BlueXP Kopier- und Synchronisierungsfunktion werden die Zugangsdaten auf
 
 Über eine Einstellung *Benachrichtigungen* für jede Synchronisierungsbeziehung können Sie auswählen, ob Sie BlueXP Kopier- und Synchronisierungsbenachrichtigungen im Benachrichtigungscenter von BlueXP erhalten möchten. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
 
 Außerdem können Sie auch per E-Mail benachrichtigt werden.
 
