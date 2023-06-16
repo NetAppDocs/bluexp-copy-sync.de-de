@@ -134,7 +134,7 @@ image:screenshot_sync_settings.png["Ein Screenshot, der die Einstellungen für e
 
 +
 Zeitplan:: Wählen Sie einen wiederkehrenden Zeitplan für zukünftige Synchronisierungen aus oder deaktivieren Sie den Synchronisationsplan. Sie können eine Beziehung planen, um Daten bis zu alle 1 Minute zu synchronisieren.
-Sync Timeout:: Definieren Sie, ob die BlueXP Kopier- und Synchronisierungsfunktion die Datensynchronisierung abbrechen soll, wenn die Synchronisierung nicht in der angegebenen Anzahl von Stunden oder Tagen abgeschlossen wurde.
+Sync Timeout:: Definieren Sie, ob die BlueXP Kopier- und Synchronisierungsfunktion die Datensynchronisierung beenden soll, wenn die Synchronisierung nicht in der angegebenen Anzahl von Minuten, Stunden oder Tagen abgeschlossen wurde.
 Benachrichtigungen:: Ermöglicht Ihnen die Wahl, ob Sie BlueXP Benachrichtigungen zum Kopieren und Synchronisieren im Benachrichtigungscenter von BlueXP erhalten möchten. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.
 +
 --

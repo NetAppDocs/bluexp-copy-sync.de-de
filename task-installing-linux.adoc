@@ -139,6 +139,10 @@ Die Seite mit den Anweisungen wird in Kürze geladen. Sie müssen diese Anweisun
 +
 .. Wählen Sie aus, ob der Zugriff auf *AWS*, *Google Cloud* oder beides aktiviert werden soll.
 .. Wählen Sie eine Installationsoption aus: *Kein Proxy*, *Proxy-Server verwenden* oder *Proxy-Server mit Authentifizierung verwenden*.
++
+
+NOTE: Der Benutzer muss ein lokaler Benutzer sein. Domänenbenutzer werden nicht unterstützt.
+
 .. Verwenden Sie die Befehle, um den Daten-Broker herunterzuladen und zu installieren.
 +
 Die folgenden Schritte enthalten Details zu den einzelnen möglichen Installationsoption. Folgen Sie der Seite mit den Anweisungen, um den genauen Befehl basierend auf Ihrer Installationsoption anzuzeigen.

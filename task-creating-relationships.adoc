@@ -107,7 +107,7 @@ image:screenshot_bucket_setup.gif["In diesem Screenshot wird die Seite Bucket-Se
 . [[Settings]]legen Sie auf der Seite *Settings* fest, wie Quelldateien und Ordner synchronisiert und am Zielspeicherort verwaltet werden:
 +
 Zeitplan:: Wählen Sie einen wiederkehrenden Zeitplan für zukünftige Synchronisierungen aus oder deaktivieren Sie den Synchronisationsplan. Sie können eine Beziehung planen, um Daten bis zu alle 1 Minute zu synchronisieren.
-Sync Timeout:: Definieren Sie, ob die BlueXP Kopier- und Synchronisierungsfunktion die Datensynchronisierung abbrechen soll, wenn die Synchronisierung nicht in der angegebenen Anzahl von Stunden oder Tagen abgeschlossen wurde.
+Sync Timeout:: Definieren Sie, ob die BlueXP Kopier- und Synchronisierungsfunktion die Datensynchronisierung beenden soll, wenn die Synchronisierung nicht in der angegebenen Anzahl von Minuten, Stunden oder Tagen abgeschlossen wurde.
 Benachrichtigungen:: Ermöglicht Ihnen die Wahl, ob Sie BlueXP Benachrichtigungen zum Kopieren und Synchronisieren im Benachrichtigungscenter von BlueXP erhalten möchten. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.
 Wiederholungen:: Definieren Sie, wie oft BlueXP Kopier- und Synchronisierungsvorgänge versuchen soll, eine Datei zu synchronisieren, bevor sie übersprungen wird.
 Kontinuierliche Synchronisierung:: Nach der anfänglichen Datensynchronisierung überwacht BlueXP Kopier- und Synchronisierungsfunktion Änderungen am Quell-S3-Bucket oder Google Cloud Storage und synchronisiert kontinuierlich alle Änderungen am Ziel, sobald sie auftreten. Es ist nicht erforderlich, die Quelle in geplanten Intervallen erneut zu scannen.
