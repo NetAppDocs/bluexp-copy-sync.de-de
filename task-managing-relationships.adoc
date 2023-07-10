@@ -35,7 +35,7 @@ Durch die Kopier- und Synchronisierungsfunktion von BlueXP wird die Datensynchro
 
 
 
-== Beschleunigung der Sync-Performance
+== Schnellere Synchronisierungs-Performance
 
 Beschleunigung der Performance einer Synchronisierungsbeziehung durch Hinzufügen eines zusätzlichen Daten-Brokers zu der Gruppe, die die Beziehung managt Der zusätzliche Daten-Broker muss ein _neuer_ Daten-Broker sein.
 
@@ -63,7 +63,7 @@ Durch die BlueXP Kopier- und Synchronisierungsfunktion wird der neue Daten-Broke
 
 
 
-== Anmeldedaten werden aktualisiert
+== Updatefunktionen
 
 Sie können den Daten-Broker mit den neuesten Anmeldeinformationen des Quell- oder Zielsystems in einer vorhandenen Synchronisierungsbeziehung aktualisieren. Die Aktualisierung der Anmeldeinformationen kann hilfreich sein, wenn Sie in Ihren Sicherheitsrichtlinien die Anmeldeinformationen regelmäßig aktualisieren müssen.
 
@@ -88,7 +88,7 @@ Mit der BlueXP Kopier- und Synchronisierungsfunktion werden die Zugangsdaten auf
 
 
 
-== Einrichten von Benachrichtigungen
+== Benachrichtigungen einrichten
 
 Über eine Einstellung *Benachrichtigungen* für jede Synchronisierungsbeziehung können Sie auswählen, ob Sie BlueXP Kopier- und Synchronisierungsbenachrichtigungen im Benachrichtigungscenter von BlueXP erhalten möchten. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.
 
@@ -119,7 +119,7 @@ Sie erhalten jetzt BlueXP Kopier- und Synchronisierungsbenachrichtigungen im Ben
 
 
 
-== Ändern der Einstellungen für eine Synchronisierungsbeziehung
+== Ändern Sie die Einstellungen für eine Synchronisierungsbeziehung
 
 Ändern Sie Einstellungen, mit denen festgelegt wird, wie Quelldateien und Ordner synchronisiert und am Zielspeicherort verwaltet werden.
 
@@ -189,7 +189,7 @@ Verzeichnisse Ausschließen:: Geben Sie maximal 15 Verzeichnisse an, die von der
 Dateigröße:: Wählen Sie, ob alle Dateien unabhängig von ihrer Größe oder nur Dateien in einem bestimmten Größenbereich synchronisiert werden sollen.
 Änderungsdatum:: Wählen Sie alle Dateien unabhängig vom letzten Änderungsdatum aus, Dateien, die nach einem bestimmten Datum, vor einem bestimmten Datum oder zwischen einem bestimmten Zeitraum geändert wurden.
 Erstellungsdatum:: Wenn ein SMB-Server die Quelle ist, können Sie mit dieser Einstellung Dateien synchronisieren, die nach einem bestimmten Datum, vor einem bestimmten Datum oder zwischen einem bestimmten Zeitraum erstellt wurden.
-ACL – Access Control List:: Kopieren Sie ACLs von einem SMB-Server, indem Sie eine Einstellung aktivieren, wenn Sie eine Beziehung erstellen oder nachdem Sie eine Beziehung erstellt haben.
+ACL – Access Control List:: Kopieren Sie nur ACLs, nur Dateien oder ACLs und Dateien von einem SMB-Server, indem Sie eine Einstellung aktivieren, wenn Sie eine Beziehung erstellen oder nachdem Sie eine Beziehung erstellt haben.
 
 
 . Klicken Sie Auf *Einstellungen Speichern*.
@@ -200,14 +200,30 @@ Durch die Kopier- und Synchronisierungsfunktion von BlueXP wird die Synchronisie
 
 
 
-== Löschen von Beziehungen
+== Beziehungen löschen
 
 Sie können eine Synchronisierungsbeziehung löschen, wenn Sie keine Daten mehr zwischen Quelle und Ziel synchronisieren müssen. Diese Aktion löscht nicht die Gruppe des Daten-Brokers (oder die Instanzen einzelner Daten-Broker) und löscht keine Daten aus dem Ziel.
 
+
+
+=== Option 1: Löschen einer einzelnen Synchronisierungsbeziehung
+
 .Schritte
-. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und klicken Sie auf image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
+. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und wählen Sie aus image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
 . Klicken Sie auf *Löschen* und dann erneut auf *Löschen*, um zu bestätigen.
 
 
 .Ergebnis
 Durch die BlueXP Kopier- und Synchronisierungsfunktion wird die Synchronisierungsbeziehung gelöscht.
+
+
+
+=== Option 2: Mehrere Synchronisierungsbeziehungen löschen
+
+.Schritte
+. Navigieren Sie im *Dashboard* zum Button "Neue Synchronisierung erstellen" und wählen Sie aus image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
+. Wählen Sie die Synchronisierungsbeziehungen aus, die Sie löschen möchten, dcick *Delete* und klicken Sie dann zur Bestätigung erneut auf *Delete*.
+
+
+.Ergebnis
+Durch das Kopieren und Synchronisieren von BlueXP werden die Synchronisierungsbeziehungen gelöscht.

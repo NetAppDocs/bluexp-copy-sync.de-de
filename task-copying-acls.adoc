@@ -18,28 +18,28 @@ Die BlueXP Kopie und Synchronisierung können Zugriffssteuerungslisten (Access C
 
 .Wahlmöglichkeiten
 * <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,Richten Sie BlueXP Kopier- und Synchronisierungsfunktion für das automatische Kopieren von ACLs ein>>
-* <<Manuelles Kopieren von ACLs zwischen SMB-Freigaben,Kopieren Sie die ACLs manuell zwischen SMB-Freigaben>>
+* <<Manually copying ACLs between SMB shares,Kopieren Sie die ACLs manuell zwischen SMB-Freigaben>>
 
 
 
 
-== Einrichten von BlueXP Kopier- und Synchronisierungsfunktion für das Kopieren von ACLs
+== Richten Sie BlueXP Kopier- und Synchronisierungsfunktion für das Kopieren von ACLs ein
 
 Kopieren Sie ACLs zwischen SMB-Freigaben und zwischen SMB-Freigaben und Objekt-Storage. Aktivieren Sie dazu eine Einstellung beim Erstellen einer Beziehung oder nach dem Erstellen einer Beziehung.
 
-.Was Sie benötigen
+.Bevor Sie beginnen
 Diese Funktion arbeitet mit jedem Datentyp Broker zusammen – AWS, Azure, Google Cloud Platform oder On-Premises-Daten-Broker. Der On-Premises-Daten-Broker kann ausgeführt werden link:task-installing-linux.html["Alle unterstützten Betriebssysteme"].
 
 .Schritte für eine neue Beziehung
-. Klicken Sie in BlueXP Kopier- und Synchronisierungsfunktion auf *Neuen Sync erstellen*.
+. Wählen Sie aus BlueXP Kopier- und Synchronisierungsfunktion *Neuen Sync erstellen* aus.
 . Ziehen Sie einen SMB-Server oder Objekt-Storage als Quelle und einen SMB-Server oder Objekt-Storage als Ziel und klicken Sie auf *Weiter*.
 . Auf der Seite *SMB Server*:
 +
-.. Geben Sie einen neuen SMB-Server ein oder wählen Sie einen vorhandenen Server aus und klicken Sie auf *Weiter*.
+.. Geben Sie einen neuen SMB-Server ein oder wählen Sie einen vorhandenen Server aus und wählen Sie *Weiter*.
 .. Geben Sie die Anmeldedaten für den SMB-Server ein.
-.. Wählen Sie *Zugriffssteuerungslisten zum Ziel kopieren* und klicken Sie auf *Weiter*.
+.. Wählen Sie entweder *nur Dateien kopieren*, *nur ACL kopieren* oder *Dateien und ACL kopieren* und wählen Sie *Weiter*.
 +
-image:screenshot_acl_support.gif["Ein Screenshot, in dem die Option zum Aktivieren von Copy Access Control-Listen auf das Ziel angezeigt wird."]
+image:screenshot_acl_support.png["Ein Screenshot, in dem die Option zum Aktivieren von Copy Access Control-Listen auf das Ziel angezeigt wird."]
 
 
 
@@ -56,10 +56,10 @@ image:screenshot-sync-tags-metadata.png["Ein Screenshot des sechsten Schritts im
 
 
 .Schritte für eine bestehende Beziehung
-. Zeigen Sie mit der Maus auf die Synchronisierungsbeziehung, und klicken Sie auf das Aktionsmenü.
-. Klicken Sie Auf *Einstellungen*.
-. Wählen Sie *Zugriffssteuerungslisten zum Ziel kopieren* aus.
-. Klicken Sie Auf *Einstellungen Speichern*.
+. Bewegen Sie den Mauszeiger über die Synchronisierungsbeziehung, und wählen Sie das Aktivitätsmenü aus.
+. Wählen Sie *Einstellungen*.
+. Wählen Sie entweder *nur Dateien kopieren*, *nur ACL kopieren* oder *Dateien und ACL kopieren* und wählen Sie *Weiter*.
+. Wählen Sie *Einstellungen Speichern*.
 
 
 .Ergebnis

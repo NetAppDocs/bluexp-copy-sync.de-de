@@ -187,7 +187,7 @@ Verzeichnisse Ausschließen:: Geben Sie maximal 15 Verzeichnisse an, die von der
 Dateigröße:: Wählen Sie, ob alle Dateien unabhängig von ihrer Größe oder nur Dateien in einem bestimmten Größenbereich synchronisiert werden sollen.
 Änderungsdatum:: Wählen Sie alle Dateien unabhängig vom letzten Änderungsdatum aus, Dateien, die nach einem bestimmten Datum, vor einem bestimmten Datum oder zwischen einem bestimmten Zeitraum geändert wurden.
 Erstellungsdatum:: Wenn ein SMB-Server die Quelle ist, können Sie mit dieser Einstellung Dateien synchronisieren, die nach einem bestimmten Datum, vor einem bestimmten Datum oder zwischen einem bestimmten Zeitraum erstellt wurden.
-ACL – Access Control List:: Kopieren Sie ACLs von einem SMB-Server, indem Sie eine Einstellung aktivieren, wenn Sie eine Beziehung erstellen oder nachdem Sie eine Beziehung erstellt haben.
+ACL – Access Control List:: Kopieren Sie nur ACLs, nur Dateien oder ACLs und Dateien von einem SMB-Server, indem Sie eine Einstellung aktivieren, wenn Sie eine Beziehung erstellen oder nachdem Sie eine Beziehung erstellt haben.
 
 
 . Wählen Sie auf der Seite *Tags/Metadaten*, ob ein Key-Value-Paar als Tag auf allen Dateien gespeichert werden soll, die auf den S3-Bucket übertragen werden, oder um ein Metadaten-Key-Value-Paar auf allen Dateien zuzuweisen.
