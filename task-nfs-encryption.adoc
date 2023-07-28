@@ -89,7 +89,7 @@ Wenn Sie noch keinen Data Broker implementiert haben, überprüfen Sie die Anfor
 Erstellen Sie eine neue Synchronisierungsbeziehung zwischen zwei NFS-Servern oder zwischen Azure NetApp Files, aktivieren Sie die Option für die Verschlüsselung während des Fluges, und befolgen Sie die Anweisungen.
 
 .Schritte
-. Klicken Sie Auf *Neuen Sync Erstellen*.
+. Wählen Sie *Neue Synchronisierung Erstellen*.
 . Ziehen Sie *NFS-Server* an den Quell- und Zielspeicherort oder *Azure NetApp Files* an den Quell- und Zielstandorten und wählen Sie *Ja* aus, um die Verschlüsselung von Daten während der Übertragung zu aktivieren.
 . Folgen Sie den Anweisungen, um die Beziehung zu erstellen:
 +
@@ -107,7 +107,7 @@ Beachten Sie Folgendes:
 
 .. *Directories*: Wählen Sie die Verzeichnisse aus, die Sie synchronisieren möchten, indem Sie alle Verzeichnisse auswählen oder indem Sie nach unten bohren und ein Unterverzeichnis auswählen.
 +
-Klicken Sie auf *Quellobjekte filtern*, um Einstellungen zu ändern, die festlegen, wie Quelldateien und Ordner synchronisiert und am Zielspeicherort verwaltet werden.
+Wählen Sie *Quellobjekte filtern*, um Einstellungen zu ändern, die festlegen, wie Quelldateien und -Ordner am Zielspeicherort synchronisiert und gepflegt werden.
 
 +
 image:screenshot_directories.gif["Ein Screenshot, in dem die Option zum Auswählen eines Verzeichnisses der obersten Ebene angezeigt wird, und die Option „Objekte filtern“ ausgewählt wird."]
@@ -125,7 +125,7 @@ image:screenshot_nfs_encryption_listener.gif["Ein Screenshot mit der Option zur 
 
 .. *Zielverzeichnisse*: Wählen Sie ein Verzeichnis der obersten Ebene aus, oder gehen Sie nach unten, um ein vorhandenes Unterverzeichnis auszuwählen oder einen neuen Ordner in einem Export zu erstellen.
 .. *Einstellungen*: Legen Sie fest, wie Quelldateien und Ordner im Zielverzeichnis synchronisiert und verwaltet werden.
-.. *Review*: Überprüfen Sie die Details der Synchronisierungsbeziehung und klicken Sie dann auf *Beziehung erstellen*.
+.. *Review*: Überprüfen Sie die Details der Synchronisierungsbeziehung und wählen Sie dann *Beziehung erstellen*.
 +
 image:screenshot_nfs_encryption_review.gif["Ein Screenshot, der den Bildschirm \"Review\" zeigt. Es werden die NFS-Server, Datenmakler und Netzwerkinformationen zu den einzelnen Servern angezeigt."]
 
@@ -134,4 +134,4 @@ image:screenshot_nfs_encryption_review.gif["Ein Screenshot, der den Bildschirm \
 
 
 .Ergebnis
-Durch die BlueXP Kopier- und Synchronisierungsfunktion wird die neue Synchronisierungsbeziehung erstellt. Klicken Sie anschließend auf *Anzeigen in Dashboard*, um Details zur neuen Beziehung anzuzeigen.
+Durch die BlueXP Kopier- und Synchronisierungsfunktion wird die neue Synchronisierungsbeziehung erstellt. Wenn Sie fertig sind, wählen Sie *in Dashboard anzeigen*, um Details über die neue Beziehung anzuzeigen.

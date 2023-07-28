@@ -590,7 +590,7 @@ Das Erstellen einer Synchronisierungsbeziehung von SFTP zu Amazon S3 wird nun in
 
 === Verbesserung der Tabellenansicht
 
-Die Tabellenansicht auf dem Dashboard wurde für eine einfache Bedienung neu gestaltet. Wenn Sie auf *Weitere Informationen* klicken, filtert Cloud Sync das Dashboard, um Ihnen weitere Informationen zu dieser spezifischen Beziehung anzuzeigen.
+Die Tabellenansicht auf dem Dashboard wurde für eine einfache Bedienung neu gestaltet. Wenn Sie *Weitere Informationen* auswählen, filtert Cloud Sync das Dashboard, um Ihnen mehr Informationen über diese bestimmte Beziehung anzuzeigen.
 
 image:screenshot-sync-table.png["Ein Screenshot der Tabellenansicht im Dashboard"]
 

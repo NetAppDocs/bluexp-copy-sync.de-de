@@ -32,7 +32,7 @@ Diese Funktion arbeitet mit jedem Datentyp Broker zusammen – AWS, Azure, Googl
 
 .Schritte für eine neue Beziehung
 . Wählen Sie aus BlueXP Kopier- und Synchronisierungsfunktion *Neuen Sync erstellen* aus.
-. Ziehen Sie einen SMB-Server oder Objekt-Storage als Quelle und einen SMB-Server oder Objekt-Storage als Ziel und klicken Sie auf *Weiter*.
+. Ziehen Sie einen SMB-Server oder Objektspeicher als Quelle und einen SMB-Server oder Objektspeicher als Ziel und wählen Sie *Weiter*.
 . Auf der Seite *SMB Server*:
 +
 .. Geben Sie einen neuen SMB-Server ein oder wählen Sie einen vorhandenen Server aus und wählen Sie *Weiter*.

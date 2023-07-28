@@ -92,7 +92,7 @@ Beachten Sie Folgendes zu den in der JSON-Datei enthaltenen Berechtigungen:
 ** Wenn ein Datenvermittler manuell auf einem Linux-Host installiert wurde, sollte _RoleARN_ der ARN des AWS-Benutzers sein, für den Sie bei der Implementierung eines Datenmakers AWS Zugangsdaten angegeben haben.
 ** Wenn ein Datenvermittler mithilfe der CloudFormation-Vorlage in AWS implementiert wurde, sollte _RoleARN_ der ARN der von der Vorlage erstellten IAM-Rolle sein.
 +
-Sie finden die Role ARN, indem Sie die EC2-Konsole aufrufen, die Data Broker-Instanz auswählen und auf der Registerkarte Beschreibung auf die IAM-Rolle klicken. Anschließend sollte die Seite Zusammenfassung in der IAM-Konsole angezeigt werden, die die Role ARN enthält.
+Sie können die Rolle ARN finden, indem Sie zur EC2-Konsole gehen und die Instanz des Data Brokers auswählen und dann die IAM-Rolle auf der Registerkarte Beschreibung auswählen. Anschließend sollte die Seite Zusammenfassung in der IAM-Konsole angezeigt werden, die die Role ARN enthält.
 
 +
 image:screenshot_iam_role_arn.gif["Ein Screenshot der AWS IAM-Konsole mit einem Role ARN."]
@@ -125,7 +125,7 @@ Alle Regionen werden unterstützt, mit Ausnahme der Regionen China, US Gov und U
 
 Wenn Sie eine Synchronisierungsbeziehung zwischen einem Azure Blob Container und einem NFS- oder SMB-Server erstellen, müssen Sie die BlueXP Kopie und Synchronisierung mit der Storage-Konto-Verbindungszeichenfolge bereitstellen:
 
-image:screenshot_connection_string.gif["Zeigt eine Verbindungszeichenfolge an, die im Azure Portal verfügbar ist. Hierzu wird ein Storage-Konto ausgewählt und anschließend auf Zugriffsschlüssel geklickt."]
+image:screenshot_connection_string.gif["Zeigt eine Verbindungszeichenfolge an, die über das Azure-Portal verfügbar ist, indem Sie ein Storage-Konto auswählen und anschließend auf Zugriffsschlüssel klicken."]
 
 Wenn Sie Daten zwischen zwei Azure Blob Containern synchronisieren möchten, muss die Verbindungszeichenfolge eine enthalten https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1["Signatur für gemeinsamen Zugriff"^] (SAS). Außerdem haben Sie die Möglichkeit, eine SAS bei der Synchronisierung zwischen einem Blob Container und einem NFS- oder SMB-Server zu verwenden.
 
@@ -135,7 +135,7 @@ Der SAS muss den Zugriff auf den Blob Service und alle Ressourcentypen (Service,
 * Für den Blob Zielcontainer: Lesen, Schreiben, Liste, Hinzufügen und Erstellen
 
 
-image:screenshot_connection_string_sas.gif["Zeigt eine Signatur für gemeinsamen Zugriff, die im Azure Portal durch Auswahl eines Storage-Kontos verfügbar ist, und klicken Sie dann auf Signatur für gemeinsamen Zugriff."]
+image:screenshot_connection_string_sas.gif["Zeigt eine Signatur für gemeinsamen Zugriff an. Sie ist über das Azure-Portal verfügbar, indem Sie ein Storage-Konto auswählen und dann die Signatur für gemeinsamen Zugriff auswählen."]
 
 
 NOTE: Wenn Sie eine kontinuierliche Sync Beziehung implementieren möchten, die einen Azure Blob Container umfasst, können Sie eine regelmäßige Verbindungs-String oder eine SAS-Verbindungszeichenfolge verwenden. Wenn Sie eine SAS-Verbindungszeichenfolge verwenden, darf sie nicht so eingestellt werden, dass sie in naher Zukunft ablaufen wird.

@@ -42,7 +42,7 @@ Wenn Sie Synchronisierungsbeziehungen für eines der folgenden Elemente erstelle
 ** https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Erkennung von ONTAP Clustern"^]
 
 
-. Klicken Sie Auf *Leinwand*.
+. Wählen Sie *Leinwand*.
 . Wählen Sie eine Arbeitsumgebung aus, die einem der oben aufgeführten Typen entspricht.
 . Wählen Sie das Aktionsmenü neben Synchronisieren.
 +
@@ -57,7 +57,7 @@ image:screenshot_sync_we.gif["Ein Screenshot, der die im Menü Sync verfügbaren
 
 Verwenden Sie diese Schritte, um Daten zu einem anderen unterstützten Storage-Typ als Amazon FSX für ONTAP, Azure NetApp Files, Cloud Volumes ONTAP oder On-Premises-ONTAP-Cluster zu synchronisieren. Die folgenden Schritte zeigen ein Beispiel, wie eine Synchronisierungsbeziehung von einem NFS-Server zu einem S3-Bucket eingerichtet wird.
 
-. Klicken Sie in BlueXP auf *Sync*.
+. Wählen Sie in BlueXP *Sync* aus.
 . Wählen Sie auf der Seite * Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus.
 +
 Die folgenden Schritte zeigen ein Beispiel für das Erstellen einer Synchronisierungsbeziehung von einem NFS-Server zu einem S3-Bucket.
@@ -77,13 +77,13 @@ Weitere Informationen finden Sie auf den folgenden Seiten:
 ** link:task-installing-linux.html["Installation des Data Brokers auf einem Linux-Host"]
 
 
-. Klicken Sie nach der Installation des Datenmaklers auf *Weiter*.
+. Wählen Sie nach der Installation des Datenbrokers *Weiter* aus.
 +
 image:screenshot-data-broker-group.png["Dieser Screenshot zeigt eine erfolgreich implementierte Instanz. Die Benutzeroberfläche zeigt Details zur Instanz einschließlich AWS-Netzwerk an."]
 
 . [[Filter]]Wählen Sie auf der Seite *Directories* ein Verzeichnis oder Unterverzeichnis auf oberster Ebene aus.
 +
-Wenn die BlueXP Kopier- und Synchronisierungsfunktion die Exporte nicht abrufen kann, klicken Sie auf *Export manuell hinzufügen* und geben den Namen eines NFS-Exports ein.
+Wenn BlueXP copy and Sync die Exporte nicht abrufen kann, wählen Sie *Export manuell hinzufügen* und geben den Namen eines NFS-Exports ein.
 
 +
 
@@ -92,7 +92,7 @@ NOTE: Wenn Sie mehr als ein Verzeichnis auf dem NFS-Server synchronisieren möch
 . Wählen Sie auf der Seite *AWS S3 Bucket* einen Bucket aus:
 +
 ** Drill-down zum Auswählen eines vorhandenen Ordners innerhalb des Buckets oder zum Auswählen eines neuen Ordners, den Sie innerhalb des Buckets erstellen.
-** Klicken Sie auf *zur Liste hinzufügen*, um einen S3-Bucket auszuwählen, der nicht mit Ihrem AWS-Konto verknüpft ist. link:reference-requirements.html#s3["Spezifische Berechtigungen müssen auf den S3-Bucket angewendet werden"].
+** Wählen Sie *zur Liste hinzufügen*, um einen S3-Bucket auszuwählen, der nicht mit Ihrem AWS-Konto verknüpft ist. link:reference-requirements.html#s3["Spezifische Berechtigungen müssen auf den S3-Bucket angewendet werden"].
 
 
 . Richten Sie auf der Seite *Bucket Setup* den Bucket ein:
@@ -198,7 +198,7 @@ image:screenshot_relationship_tags.png["Ein Screenshot, der die Seite Tags/Metad
 
 TIP: Diese Funktion ist auch zur Synchronisierung von Daten mit StorageGRID und IBM Cloud Object Storage verfügbar. Für Azure und Google Cloud Storage ist nur die Metadatenoption verfügbar.
 
-. Überprüfen Sie die Details der Synchronisierungsbeziehung und klicken Sie dann auf *Beziehung erstellen*.
+. Überprüfen Sie die Details der Synchronisierungsbeziehung und wählen Sie dann *Beziehung erstellen*.
 
 
 *Ergebnis*
@@ -207,12 +207,12 @@ Die Kopier- und Synchronisierungsfunktion von BlueXP beginnt mit der Synchronisi
 
 
 
-== Synchronisierungsbeziehungen aus Cloud-Daten Sense erstellen
+== Erstellung von Synchronisierungsbeziehungen aus der BlueXP Klassifizierung
 
-Die Kopier- und Synchronisierungsfunktion von BlueXP ist in Cloud Data Sense integriert. Innerhalb von Data Sense können Sie die Quelldateien auswählen, die Sie mithilfe der BlueXP Kopier- und Synchronisierungsfunktion an einem Zielspeicherort synchronisieren möchten.
+Die BlueXP Kopier- und Synchronisierungsfunktion ist in die BlueXP Klassifizierung integriert. Innerhalb der BlueXP Klassifizierung können Sie die Quelldateien auswählen, die Sie mithilfe der BlueXP Kopie und Synchronisierung mit einem Zielspeicherort synchronisieren möchten.
 
-Nachdem Sie eine Datensynchronisierung aus Cloud Data Sense initiiert haben, sind alle Quellinformationen in einem einzigen Schritt enthalten und müssen nur einige wichtige Details eingeben. Anschließend wählen Sie den Zielspeicherort für die neue Synchronisierungsbeziehung aus.
+Nachdem Sie eine Datensynchronisierung aus der BlueXP Klassifizierung initiiert haben, sind alle Quellinformationen in einem Schritt enthalten und müssen nur noch einige wichtige Details eingeben. Anschließend wählen Sie den Zielspeicherort für die neue Synchronisierungsbeziehung aus.
 
-image:screenshot-sync-data-sense.png["Ein Screenshot, der die Seite Data Sense Integration zeigt, die nach dem Starten einer neuen Synchronisierung direkt aus Cloud Data Sense angezeigt wird."]
+image:screenshot-sync-data-sense.png["Ein Screenshot mit der Seite zur BlueXP Klassifizierungsintegration wird nach dem Starten einer neuen Synchronisierung direkt aus der BlueXP Klassifizierung angezeigt."]
 
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system["Starten Sie eine Synchronisierungsbeziehung mit Cloud Data Sense"^].
+https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system["Erfahren Sie, wie Sie eine Synchronisierungsbeziehung von der BlueXP Klassifizierung starten"^].

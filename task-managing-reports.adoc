@@ -28,12 +28,12 @@ Jeder Bericht enthält detaillierte Details zu einem Pfad in einer Synchronisier
 Jedes Mal, wenn Sie einen Bericht erstellen, scannt die BlueXP Kopie und Synchronisierung den Pfad und kompiliert dann die Details in einem Bericht.
 
 .Schritte
-. Klicken Sie Auf *Synchronisieren > Berichte*.
+. Wählen Sie *Sync > Berichte*.
 +
 Die Pfade (Quelle oder Ziel) in den Synchronisierungsbeziehungen werden in einer Tabelle angezeigt.
 
-. Gehen Sie in der Spalte *Berichte Aktionen* zu einem bestimmten Pfad und klicken Sie auf *Erstellen*, oder klicken Sie auf das Aktionsmenü und wählen Sie *Neu erstellen*.
-. Wenn der Bericht fertig ist, klicken Sie auf das Aktivitätsmenü und wählen Sie *Ansicht*.
+. Gehen Sie in der Spalte *Reports actions* zu einem bestimmten Pfad und wählen Sie *Create*, oder wählen Sie das Aktionsmenü und wählen Sie *Create New*.
+. Wenn der Bericht fertig ist, wählen Sie das Aktionsmenü und dann *Ansicht*.
 +
 Hier finden Sie einen Beispielbericht für einen Filesystem-Pfad.
 
@@ -55,11 +55,11 @@ image:screenshot_sync_report_object.gif["Ein Bericht, der die Anzahl der Pfadele
 Sie können einen Bericht als PDF herunterladen, sodass Sie ihn offline anzeigen oder freigeben können.
 
 .Schritte
-. Klicken Sie Auf *Synchronisieren > Berichte*.
-. Klicken Sie in der Spalte *Berichte Aktionen* auf das Aktivitätsmenü und wählen Sie *Ansicht*.
-. Klicken Sie oben rechts im Bericht auf das Aktionsmenü und wählen Sie *Download pdf*.
+. Wählen Sie *Sync > Berichte*.
+. Wählen Sie in der Spalte *Reports actions* das Aktionsmenü aus und wählen Sie *View*.
+. Wählen Sie oben rechts im Bericht das Aktionsmenü aus und wählen Sie *Download pdf*.
 +
-image:screenshot-sync-download-report.png["Ein Screenshot der PDF-Download-Option, die angezeigt wird, nachdem Sie in einem Bericht auf das Aktionsmenü geklickt haben."]
+image:screenshot-sync-download-report.png["Ein Screenshot der Option PDF herunterladen wird angezeigt, nachdem Sie das Aktionsmenü in einem Bericht ausgewählt haben."]
 
 
 
@@ -74,9 +74,9 @@ Ein Bericht kann z. B. Fehler enthalten, bei denen die Berechtigung verweigert w
 Nachdem Sie die Fehlerliste angezeigt haben, können Sie die Probleme beheben und den Bericht erneut ausführen.
 
 .Schritte
-. Klicken Sie Auf *Synchronisieren > Berichte*.
+. Wählen Sie *Sync > Berichte*.
 . Identifizieren Sie in der Spalte *errors*, ob Fehler in einem Bericht vorliegen.
-. Wenn Fehler vorliegen, klicken Sie auf den Pfeil neben der Anzahl der Fehler.
+. Wenn Fehler vorliegen, wählen Sie den Pfeil neben der Anzahl der Fehler aus.
 +
 image:screenshot_sync_report_errors.gif["Ein Screenshot der Pfadtabelle, in dem die Anzahl der Fehler und ein kleiner anklickbarer Pfeil in der Fehlerspalte angezeigt werden."]
 
@@ -93,7 +93,7 @@ Nachdem Sie das Problem behoben haben, sollte der Fehler beim nächsten Ausführ
 Sie können einen Bericht davon löschen, der einen Fehler enthielt, den Sie behoben haben, oder wenn der Bericht auf eine Synchronisierungsbeziehung zurückzuführen ist, die Sie entfernt haben.
 
 .Schritte
-. Klicken Sie Auf *Synchronisieren > Berichte*.
-. Klicken Sie in der Spalte *Berichte Aktionen* auf das Aktionsmenü für einen Pfad und wählen Sie *Letzter Bericht löschen* oder *Alle Berichte löschen*.
+. Wählen Sie *Sync > Berichte*.
+. Wählen Sie in der Spalte *Reports actions* das Aktionsmenü für einen Pfad aus und wählen Sie *Letzten Bericht löschen* oder *Alle Berichte löschen*.
 . Bestätigen Sie, dass Sie den Bericht oder die Berichte löschen möchten.
 

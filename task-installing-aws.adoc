@@ -71,22 +71,22 @@ Befolgen Sie die folgenden Schritte, um die IAM-Rolle beim Bereitstellen des Dat
 Es gibt verschiedene Möglichkeiten, einen neuen Daten-Broker zu erstellen. In diesen Schritten wird beschrieben, wie ein Daten-Broker in AWS installiert wird, wenn eine Synchronisierungsbeziehung erstellt wird.
 
 .Schritte
-. Klicken Sie Auf *Neuen Sync Erstellen*.
-. Wählen Sie auf der Seite *Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus und klicken Sie auf *Weiter*.
+. Wählen Sie *Neue Synchronisierung Erstellen*.
+. Wählen Sie auf der Seite *Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus und wählen Sie *Weiter*.
 +
 Führen Sie die Schritte aus, bis Sie die Seite *Data Broker Group* öffnen.
 
-. Klicken Sie auf der Seite *Data Broker Group* auf *Create Data Broker* und wählen Sie dann *Amazon Web Services* aus.
+. Wählen Sie auf der Seite *Data Broker Group* die Option *Create Data Broker* aus und wählen Sie dann *Amazon Web Services* aus.
 +
 image:screenshot-aws.png["Einen Screenshot der Seite „Data Broker“ mit der Wahl zwischen AWS, Azure, Google Cloud und einem Daten-Broker vor Ort."]
 
-. Geben Sie einen Namen für den Daten-Broker ein und klicken Sie auf *Weiter*.
+. Geben Sie einen Namen für den Daten-Broker ein und wählen Sie *Weiter*.
 . Geben Sie einen AWS-Zugriffsschlüssel ein, damit BlueXP Kopier- und Synchronisierungsfunktion den Daten-Broker in AWS in Ihrem Namen erstellen kann.
 +
 Die Tasten werden nicht gespeichert oder für andere Zwecke verwendet.
 
 +
-Falls Sie keine Zugriffsschlüssel angeben möchten, klicken Sie auf den Link unten auf der Seite, um stattdessen eine CloudFormation-Vorlage zu verwenden. Wenn Sie diese Option verwenden, müssen Sie keine Anmeldedaten angeben, da Sie sich direkt bei AWS anmelden.
+Wenn Sie keine Zugriffsschlüssel bereitstellen möchten, wählen Sie den Link unten auf der Seite aus, um stattdessen eine CloudFormation-Vorlage zu verwenden. Wenn Sie diese Option verwenden, müssen Sie keine Anmeldedaten angeben, da Sie sich direkt bei AWS anmelden.
 
 +
 [[cft]]das folgende Video zeigt, wie die Instanz des Datenmakers mithilfe einer CloudFormation-Vorlage gestartet wird:
@@ -101,7 +101,7 @@ Wenn Sie Ihre eigene IAM-Rolle wählen, <<iam,Sie müssen die erforderlichen Ber
 image:screenshot_aws_data_broker.png["Einen Screenshot der Informationen, die Sie zur Bereitstellung eines Daten Brokers in AWS benötigen"]
 
 . Geben Sie eine Proxy-Konfiguration an, wenn ein Proxy für den Internetzugriff in der VPC erforderlich ist.
-. Nachdem der Daten-Broker verfügbar ist, klicken Sie in der BlueXP Kopier- und Synchronisierungsfunktion auf *Weiter*.
+. Nachdem der Daten-Broker verfügbar ist, wählen Sie in der BlueXP Kopier- und Synchronisierungsfunktion *Weiter* aus.
 +
 Das folgende Bild zeigt eine erfolgreich implementierte Instanz in AWS:
 

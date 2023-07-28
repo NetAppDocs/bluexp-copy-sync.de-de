@@ -62,7 +62,7 @@ Die BlueXP Kopier- und Synchronisierungsskript führt Sie bei der Erstellung ein
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Vier"] Erstellen Sie Ihre erste Synchronisierungsbeziehung
 [role="quick-margin-para"]
-Melden Sie sich bei an https://console.bluexp.netapp.com/["BlueXP"^]Klicken Sie auf *Sync* und ziehen Sie dann die Auswahl für die Quelle und das Ziel und legen Sie sie ab. Befolgen Sie die Anweisungen, um die Einrichtung abzuschließen. link:task-creating-relationships.html["Weitere Informationen ."].
+Melden Sie sich bei an https://console.bluexp.netapp.com/["BlueXP"^], Wählen Sie *Sync*, und ziehen Sie dann Ihre Auswahl für die Quelle und das Ziel. Befolgen Sie die Anweisungen, um die Einrichtung abzuschließen. link:task-creating-relationships.html["Weitere Informationen ."].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["Fünf"] Bezahlen Sie Ihre Synchronisierungsbeziehungen, nachdem die kostenlose Testversion abgelaufen ist
 [role="quick-margin-para"]

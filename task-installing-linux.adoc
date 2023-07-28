@@ -119,12 +119,12 @@ Der Zugriff auf Azure wird pro Beziehung definiert. Dazu wird ein Storage-Konto 
 Sie können einen Data Broker auf einem Linux-Host installieren, wenn Sie eine Synchronisierungsbeziehung erstellen.
 
 .Schritte
-. Klicken Sie Auf *Neuen Sync Erstellen*.
-. Wählen Sie auf der Seite *Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus und klicken Sie auf *Weiter*.
+. Wählen Sie *Neue Synchronisierung Erstellen*.
+. Wählen Sie auf der Seite *Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus und wählen Sie *Weiter*.
 +
 Führen Sie die Schritte aus, bis Sie die Seite *Data Broker Group* öffnen.
 
-. Klicken Sie auf der Seite *Data Broker Group* auf *Daten Broker erstellen* und wählen Sie dann *On-Prem Data Broker* aus.
+. Wählen Sie auf der Seite *Data Broker Group* die Option *Create Data Broker* aus und wählen Sie dann *On-Prem Data Broker* aus.
 +
 image:screenshot-on-prem.png["Einen Screenshot der Seite „Data Broker“ mit der Wahl zwischen AWS, Azure, Google Cloud und einem Daten-Broker vor Ort."]
 
@@ -132,7 +132,7 @@ image:screenshot-on-prem.png["Einen Screenshot der Seite „Data Broker“ mit d
 
 NOTE: Obwohl die Option mit *_On-Prem_ Data Broker* gekennzeichnet ist, gilt sie für einen Linux-Host vor Ort oder in der Cloud.
 
-. Geben Sie einen Namen für den Daten-Broker ein und klicken Sie auf *Weiter*.
+. Geben Sie einen Namen für den Daten-Broker ein und wählen Sie *Weiter*.
 +
 Die Seite mit den Anweisungen wird in Kürze geladen. Sie müssen diese Anweisungen befolgen - sie enthalten einen eindeutigen Link, um das Installationsprogramm herunterzuladen.
 
@@ -201,6 +201,6 @@ JSON-Datei:: Dies ist die JSON-Datei, die einen Service-Account-Schlüssel enth�
 
 
 
-. Sobald der Daten-Broker verfügbar ist, klicken Sie in der BlueXP Kopier- und Synchronisierungsfunktion auf *Weiter*.
+. Sobald der Daten-Broker verfügbar ist, wählen Sie in der BlueXP Kopier- und Synchronisierungsfunktion *Weiter* aus.
 . Füllen Sie die Seiten im Assistenten aus, um die neue Synchronisierungsbeziehung zu erstellen.
 

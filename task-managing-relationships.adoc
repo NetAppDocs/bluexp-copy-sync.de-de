@@ -26,8 +26,8 @@ Sie können Synchronisierungsbeziehungen jederzeit verwalten, indem Sie Daten so
 Anstatt auf die nächste geplante Synchronisierung zu warten, können Sie eine Taste drücken, um Daten sofort zwischen Quelle und Ziel zu synchronisieren.
 
 .Schritte
-. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und klicken Sie auf image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
-. Klicken Sie auf *Jetzt synchronisieren* und dann auf *Sync*, um zu bestätigen.
+. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und wählen Sie aus image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
+. Wählen Sie *Jetzt synchronisieren* und wählen Sie dann *Sync*, um zu bestätigen.
 
 
 .Ergebnis
@@ -53,8 +53,8 @@ Sie möchten die Performance von Beziehung 1 steigern, damit Sie der Datenmakler
 
 .Schritte
 . Stellen Sie sicher, dass mindestens einer der vorhandenen Datenvermittler in der Beziehung online ist.
-. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und klicken Sie auf image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
-. Klicken Sie Auf *Beschleunigen*.
+. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und wählen Sie aus image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
+. Wählen Sie *Beschleunigen*.
 . Folgen Sie den Anweisungen, um einen neuen Daten-Broker zu erstellen.
 
 
@@ -70,11 +70,11 @@ Sie können den Daten-Broker mit den neuesten Anmeldeinformationen des Quell- od
 Das Aktualisieren der Zugangsdaten wird von allen Quellen oder Zielen unterstützt, für die die BlueXP Kopie und Synchronisierung Anmeldedaten erfordern: Azure Blob, Box-, IBM Cloud-Objektspeicher, StorageGRID-, ONTAP S3-Storage, SFTP- und SMB-Server.
 
 .Schritte
-. Gehen Sie im *Sync Dashboard* zu einer Synchronisierungsbeziehung, die Anmeldeinformationen erfordert, und klicken Sie dann auf *Anmeldedaten aktualisieren*.
+. Gehen Sie im *Sync Dashboard* zu einer Synchronisierungsbeziehung, die Anmeldeinformationen erfordert, und wählen Sie dann *Anmeldeinformationen aktualisieren*.
 +
 image:screenshot_sync_update_credentials.png["Ein Screenshot, in dem die Option Anmeldeinformationen aktualisieren auf der Seite Beziehungen synchronisieren direkt unter dem Namen der Quelle oder des Ziels angezeigt wird."]
 
-. Geben Sie die Anmeldeinformationen ein und klicken Sie auf *Update*.
+. Geben Sie die Zugangsdaten ein und wählen Sie *Update*.
 +
 Hinweis zu SMB-Servern: Wenn die Domäne neu ist, müssen Sie sie beim Aktualisieren der Anmeldedaten angeben. Wenn sich die Domäne nicht geändert hat, müssen Sie sie nicht erneut eingeben.
 
@@ -99,17 +99,17 @@ Außerdem können Sie auch per E-Mail benachrichtigt werden.
 .Schritte
 . Ändern Sie die Einstellungen für eine Synchronisierungsbeziehung:
 +
-.. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und klicken Sie auf image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
-.. Klicken Sie Auf *Einstellungen*.
+.. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und wählen Sie aus image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
+.. Wählen Sie *Einstellungen*.
 .. Aktivieren Sie *Benachrichtigungen*.
-.. Klicken Sie Auf *Einstellungen Speichern*.
+.. Wählen Sie *Einstellungen Speichern*.
 
 
 . Wenn Sie Benachrichtigungen per E-Mail erhalten möchten, konfigurieren Sie die Einstellungen für Warnmeldungen und Benachrichtigungen:
 +
-.. Klicken Sie auf *Einstellungen > Einstellungen für Alarme und Benachrichtigungen*.
+.. Wählen Sie *Einstellungen > Einstellungen für Alarme und Benachrichtigungen*.
 .. Wählen Sie einen oder mehrere Benutzer aus, und wählen Sie den Benachrichtigungstyp *Info* aus.
-.. Klicken Sie Auf *Anwenden*.
+.. Wählen Sie *Anwenden*.
 
 
 
@@ -123,8 +123,8 @@ Sie erhalten jetzt BlueXP Kopier- und Synchronisierungsbenachrichtigungen im Ben
 
 Ändern Sie Einstellungen, mit denen festgelegt wird, wie Quelldateien und Ordner synchronisiert und am Zielspeicherort verwaltet werden.
 
-. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und klicken Sie auf image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
-. Klicken Sie Auf *Einstellungen*.
+. Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und wählen Sie aus image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
+. Wählen Sie *Einstellungen*.
 . Ändern Sie alle Einstellungen.
 +
 image:screenshot_sync_settings.png["Ein Screenshot, der die Einstellungen für eine Synchronisierungsbeziehung anzeigt."]
@@ -192,7 +192,7 @@ Erstellungsdatum:: Wenn ein SMB-Server die Quelle ist, können Sie mit dieser Ei
 ACL – Access Control List:: Kopieren Sie nur ACLs, nur Dateien oder ACLs und Dateien von einem SMB-Server, indem Sie eine Einstellung aktivieren, wenn Sie eine Beziehung erstellen oder nachdem Sie eine Beziehung erstellt haben.
 
 
-. Klicken Sie Auf *Einstellungen Speichern*.
+. Wählen Sie *Einstellungen Speichern*.
 
 
 .Ergebnis
@@ -210,7 +210,7 @@ Sie können eine Synchronisierungsbeziehung löschen, wenn Sie keine Daten mehr 
 
 .Schritte
 . Navigieren Sie im *Dashboard* zur Synchronisierungsbeziehung und wählen Sie aus image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
-. Klicken Sie auf *Löschen* und dann erneut auf *Löschen*, um zu bestätigen.
+. Wählen Sie *Löschen* und wählen Sie dann erneut *Löschen*, um die Auswahl zu bestätigen.
 
 
 .Ergebnis
@@ -222,7 +222,7 @@ Durch die BlueXP Kopier- und Synchronisierungsfunktion wird die Synchronisierung
 
 .Schritte
 . Navigieren Sie im *Dashboard* zum Button "Neue Synchronisierung erstellen" und wählen Sie aus image:icon-sync-action.png["Ein Screenshot der Schaltfläche, in dem Sie Aktionen in einer Synchronisierungsbeziehung vornehmen können"]
-. Wählen Sie die Synchronisierungsbeziehungen aus, die Sie löschen möchten, dcick *Delete* und klicken Sie dann zur Bestätigung erneut auf *Delete*.
+. Wählen Sie die Synchronisierungsbeziehungen aus, die Sie löschen möchten, wählen Sie *Löschen* und wählen Sie dann erneut *Löschen*, um zu bestätigen.
 
 
 .Ergebnis

@@ -149,17 +149,17 @@ Hilfe zum Erstellen eines Schlüsselpaares finden Sie unter https://docs.microso
 Es gibt verschiedene Möglichkeiten, einen neuen Daten-Broker zu erstellen. In diesen Schritten wird beschrieben, wie ein Daten-Broker in Azure bei der Erstellung einer Synchronisierungsbeziehung installiert wird.
 
 .Schritte
-. Klicken Sie Auf *Neuen Sync Erstellen*.
-. Wählen Sie auf der Seite *Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus und klicken Sie auf *Weiter*.
+. Wählen Sie *Neue Synchronisierung Erstellen*.
+. Wählen Sie auf der Seite *Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus und wählen Sie *Weiter*.
 +
 Führen Sie die Schritte aus, bis Sie die Seite *Data Broker Group* öffnen.
 
-. Klicken Sie auf der Seite *Data Broker Group* auf *Create Data Broker* und wählen Sie dann *Microsoft Azure* aus.
+. Wählen Sie auf der Seite *Data Broker Group* *Create Data Broker* aus und wählen Sie dann *Microsoft Azure* aus.
 +
 image:screenshot-azure.png["Einen Screenshot der Seite „Data Broker“ mit der Wahl zwischen AWS, Azure, Google Cloud und einem Daten-Broker vor Ort."]
 
-. Geben Sie einen Namen für den Daten-Broker ein und klicken Sie auf *Weiter*.
-. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Ihrem Microsoft-Konto an. Wenn Sie nicht aufgefordert werden, klicken Sie auf *in Azure* anmelden.
+. Geben Sie einen Namen für den Daten-Broker ein und wählen Sie *Weiter*.
+. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Ihrem Microsoft-Konto an. Wenn Sie nicht dazu aufgefordert werden, wählen Sie *bei Azure anmelden*.
 +
 Das Formular ist Eigentum von Microsoft und wird von Microsoft gehostet. Ihre Zugangsdaten werden nicht an NetApp bereitgestellt.
 
@@ -172,11 +172,11 @@ image:screenshot_azure_data_broker.gif["Einen Screenshot der Seite zur Azure Ber
 NOTE: Wenn Sie eine Partnerschaft mit Continuous Sync implementieren möchten, müssen Sie Ihrem Daten-Broker eine benutzerdefinierte Rolle zuweisen. Dies kann auch manuell ausgeführt werden, nachdem der Broker erstellt wurde.
 
 . Geben Sie eine Proxy-Konfiguration an, wenn ein Proxy für den Internetzugriff im vnet erforderlich ist.
-. Klicken Sie auf *Weiter* und lassen Sie die Seite offen, bis die Bereitstellung abgeschlossen ist.
+. Wählen Sie *Weiter*, und lassen Sie die Seite geöffnet, bis die Bereitstellung abgeschlossen ist.
 +
 Dieser Vorgang kann bis zu 7 Minuten dauern.
 
-. Klicken Sie in BlueXP Kopier- und Synchronisierungsfunktion auf *Weiter*, sobald der Daten-Broker verfügbar ist.
+. Wählen Sie in BlueXP Kopier- und Synchronisierungsfunktion *Weiter* aus, sobald der Daten-Broker verfügbar ist.
 . Füllen Sie die Seiten im Assistenten aus, um die neue Synchronisierungsbeziehung zu erstellen.
 
 

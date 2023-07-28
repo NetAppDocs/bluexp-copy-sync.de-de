@@ -70,7 +70,7 @@ Es gibt verschiedene Möglichkeiten zur Erstellung eines neuen Daten-Brokers:
 +
 link:task-creating-relationships.html["Erfahren Sie, wie Sie bei der Erstellung einer Synchronisierungsbeziehung einen neuen Daten-Broker erstellen"].
 
-* Klicken Sie auf der Seite *Data Brokers verwalten* auf *Neuen Daten-Broker hinzufügen*, der den Daten-Broker in einer neuen Gruppe erstellt
+* Wählen Sie auf der Seite *Manage Data Brokers* *Add New Data Broker* aus, der den Daten-Broker in einer neuen Gruppe erstellt
 * Erstellen Sie auf der Seite *Data Brokers* einen neuen Datenmakler in einer vorhandenen Gruppe
 
 
@@ -83,8 +83,8 @@ Wenn eine Gruppe beispielsweise einen AWS-Datenmanager enthält, können Sie ein
 
 
 .Schritte zum Erstellen eines Daten-Brokers in einer neuen Gruppe
-. Klicken Sie Auf *Sync > Manage Data Brokers*.
-. Klicken Sie Auf *Neuen Daten-Broker Hinzufügen*.
+. Wählen Sie *Sync > Manage Data Brokers*.
+. Wählen Sie *Neuen Daten-Broker Hinzufügen*.
 . Befolgen Sie die Anweisungen, um den Daten-Broker zu erstellen.
 +
 Hilfe finden Sie auf den folgenden Seiten:
@@ -99,8 +99,8 @@ Hilfe finden Sie auf den folgenden Seiten:
 
 
 .Schritte zum Erstellen eines Daten-Brokers in einer vorhandenen Gruppe
-. Klicken Sie Auf *Sync > Manage Data Brokers*.
-. Klicken Sie auf das Aktionsmenü und wählen Sie *Data Broker hinzufügen*.
+. Wählen Sie *Sync > Manage Data Brokers*.
+. Wählen Sie das Aktionsmenü und dann *Add Data Broker*.
 +
 image:screenshot_sync_group_add.png["Ein Screenshot des Aktionsmenüs, das für jeden einzelnen Datenmakler in einer Gruppe verfügbar ist."]
 
@@ -124,12 +124,12 @@ Hilfe finden Sie auf den folgenden Seiten:
 Ändern Sie jederzeit den Namen einer Datenmaklergruppe.
 
 .Schritte
-. Klicken Sie Auf *Sync > Manage Data Brokers*.
-. Klicken Sie auf das Aktivitätsmenü und wählen Sie *Gruppenname bearbeiten*.
+. Wählen Sie *Sync > Manage Data Brokers*.
+. Wählen Sie das Aktionsmenü und dann *Gruppennamen bearbeiten*.
 +
 image:screenshot_sync_group_edit.gif["Ein Screenshot des Aktionsmenüs, das für jeden einzelnen Datenmakler in einer Gruppe verfügbar ist."]
 
-. Geben Sie einen neuen Namen ein und klicken Sie auf *Speichern*.
+. Geben Sie einen neuen Namen ein und wählen Sie *Speichern*.
 
 
 .Ergebnis
@@ -144,12 +144,12 @@ Wenn eine Synchronisierungsbeziehung während des Synchronisierungsprozesses Feh
 Es wird nicht empfohlen, die Konfiguration selbst zu ändern. Sie sollten sich mit NetApp beraten lassen, um zu erfahren, wann die Konfiguration geändert werden kann und wie Sie sie ändern können.
 
 .Schritte
-. Klicken Sie Auf *Data Brokers Verwalten*.
-. Klicken Sie auf das Symbol Einstellungen für eine Datenmaklergruppe.
+. Wählen Sie *Datenbroker Verwalten*.
+. Wählen Sie das Symbol Einstellungen für eine Datenbrokergruppe aus.
 +
 image:screenshot_sync_group_settings.png["Ein Screenshot, in dem das Symbol Einstellungen für eine Datenmaklergruppe angezeigt wird."]
 
-. Ändern Sie die Einstellungen nach Bedarf und klicken Sie dann auf *Konfiguration vereinheitlichen*.
+. Ändern Sie die Einstellungen nach Bedarf und wählen Sie dann *Unify Configuration*.
 +
 Beachten Sie Folgendes:
 
@@ -178,14 +178,14 @@ Wenn ein Daten-Broker beispielsweise keine Synchronisierungsbeziehungen mehr ver
 
 
 .Schritte
-. Klicken Sie Auf *Sync > Manage Data Brokers*.
-. Klicken Sie Auf image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit dem Sie die Liste der Datenmakler in einer Gruppe erweitern können."] So erweitern Sie die Liste der Datenmakler in einer Gruppe.
-. Klicken Sie auf das Aktionsmenü für einen Datenmakler und wählen Sie *Daten-Broker verschieben*.
+. Wählen Sie *Sync > Manage Data Brokers*.
+. Wählen Sie image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit dem Sie die Liste der Datenmakler in einer Gruppe erweitern können."] So erweitern Sie die Liste der Datenmakler in einer Gruppe.
+. Wählen Sie das Aktionsmenü für einen Daten-Broker aus und wählen Sie *Daten-Broker verschieben*.
 +
 image:screenshot_sync_group_remove.png["Ein Screenshot des Aktionsmenüs, das für jede einzelne Datenmaklergruppe verfügbar ist."]
 
 . Erstellen Sie eine neue Datenvermittler-Gruppe oder wählen Sie eine vorhandene Datenmaklergruppe aus.
-. Klicken Sie Auf *Verschieben*.
+. Wählen Sie *Verschieben*.
 
 
 .Ergebnis
@@ -198,11 +198,11 @@ Mit der BlueXP Kopier- und Synchronisierungsfunktion wird der Daten-Broker in ei
 Aktualisieren Sie die Proxykonfiguration für einen Datenmanager, indem Sie Details zu einer neuen Proxykonfiguration hinzufügen oder die vorhandene Proxykonfiguration bearbeiten.
 
 .Schritte
-. Klicken Sie Auf *Sync > Manage Data Brokers*.
-. Klicken Sie Auf image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit dem Sie die Liste der Datenmakler in einer Gruppe erweitern können."] So erweitern Sie die Liste der Datenmakler in einer Gruppe.
-. Klicken Sie auf das Aktionsmenü für einen Datenmakler und wählen Sie *Proxy-Konfiguration bearbeiten*.
+. Wählen Sie *Sync > Manage Data Brokers*.
+. Wählen Sie image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit dem Sie die Liste der Datenmakler in einer Gruppe erweitern können."] So erweitern Sie die Liste der Datenmakler in einer Gruppe.
+. Wählen Sie das Aktionsmenü für einen Daten-Broker aus und wählen Sie *Proxy-Konfiguration bearbeiten*.
 . Geben Sie Details zum Proxy an: Host-Name, Port-Nummer, Benutzername und Passwort.
-. Klicken Sie Auf *Aktualisieren*.
+. Wählen Sie *Aktualisieren*.
 
 
 .Ergebnis
@@ -228,9 +228,9 @@ TIP: Der Scanner scannt die Quelle und das Ziel und entscheidet, was kopiert wer
 
 
 .Schritte
-. Klicken Sie Auf *Sync > Manage Data Brokers*.
-. Klicken Sie Auf image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit dem Sie die Liste der Datenmakler in einer Gruppe erweitern können."] So erweitern Sie die Liste der Datenmakler in einer Gruppe.
-. Klicken Sie Auf image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit der Sie Details zu einem Datenmanager erweitern können."] Um Details zu einem Datenvermittler anzuzeigen.
+. Wählen Sie *Sync > Manage Data Brokers*.
+. Wählen Sie image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit dem Sie die Liste der Datenmakler in einer Gruppe erweitern können."] So erweitern Sie die Liste der Datenmakler in einer Gruppe.
+. Wählen Sie image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit der Sie Details zu einem Datenmanager erweitern können."] Um Details zu einem Datenvermittler anzuzeigen.
 +
 image:screenshot_sync_data_broker_details.gif["Ein Screenshot mit Informationen zu einem Datenmanager."]
 
@@ -266,13 +266,13 @@ Möglicherweise entfernen Sie einen Daten-Broker aus einer Gruppe, wenn dieser n
 
 
 .Schritte
-. Klicken Sie Auf *Sync > Manage Data Brokers*.
-. Klicken Sie Auf image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit dem Sie die Liste der Datenmakler in einer Gruppe erweitern können."] So erweitern Sie die Liste der Datenmakler in einer Gruppe.
-. Klicken Sie auf das Aktionsmenü für einen Datenmanager und wählen Sie *Data Broker entfernen*.
+. Wählen Sie *Sync > Manage Data Brokers*.
+. Wählen Sie image:screenshot_sync_group_expand.gif["Ein Screenshot der Schaltfläche, mit dem Sie die Liste der Datenmakler in einer Gruppe erweitern können."] So erweitern Sie die Liste der Datenmakler in einer Gruppe.
+. Wählen Sie das Aktionsmenü für einen Daten-Broker aus und wählen Sie *Data Broker entfernen*.
 +
 image:screenshot_sync_group_remove.gif["Ein Screenshot des Aktionsmenüs, das für jede einzelne Datenmaklergruppe verfügbar ist."]
 
-. Klicken Sie Auf *Data Broker Entfernen*.
+. Wählen Sie *Data Broker Entfernen*.
 
 
 .Ergebnis
@@ -287,12 +287,12 @@ Wenn eine Daten-Broker-Gruppe keine Synchronisierungsbeziehungen mehr managt, k�
 Datenmanager, die durch BlueXP entfernt werden, werden nur aus den Datensätzen der BlueXP Kopie und Sync gelöscht. Sie müssen die Instanz des Daten-Brokers manuell bei Ihrem Cloud-Provider sowie allen zusätzlichen Cloud-Ressourcen löschen.
 
 .Schritte
-. Klicken Sie Auf *Sync > Manage Data Brokers*.
-. Klicken Sie auf das Aktionsmenü und wählen Sie *Gruppe löschen*.
+. Wählen Sie *Sync > Manage Data Brokers*.
+. Wählen Sie das Aktionsmenü und dann *Gruppe löschen*.
 +
 image:screenshot_sync_group_add.png["Ein Screenshot des Aktionsmenüs, das für jeden einzelnen Datenmakler in einer Gruppe verfügbar ist."]
 
-. Geben Sie zur Bestätigung den Namen der Gruppe ein und klicken Sie auf *Gruppe löschen*.
+. Geben Sie zur Bestätigung den Namen der Gruppe ein und wählen Sie *Gruppe löschen*.
 
 
 .Ergebnis
