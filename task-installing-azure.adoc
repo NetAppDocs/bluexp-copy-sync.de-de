@@ -101,6 +101,8 @@ Stellen Sie sicher, dass das Azure Benutzerkonto, das Sie zur Bereitstellung des
                     "Microsoft.Storage/storageAccounts/write"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write"
+                    "Microsoft.Network/networkSecurityGroups/securityRules/read",
+        	        "Microsoft.Network/networkSecurityGroups/read",
 ----
 ....
     ],
@@ -112,7 +114,7 @@ Stellen Sie sicher, dass das Azure Benutzerkonto, das Sie zur Bereitstellung des
 ....
 Hinweis:
 
-. Die folgenden Berechtigungen sind nur erforderlich, wenn die Aktivierung der Einstellung für Continuous Sync auf einer Synchronisierungsbeziehung von Azure zu einem anderen Cloud-Storage-Standort geplant ist:
+. Die folgenden Berechtigungen sind nur erforderlich, wenn Sie den aktivieren möchten https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Einstellung für kontinuierliche Synchronisierung"] Bei einer Synchronisierungsbeziehung von Azure zu einem anderen Cloud-Storage-Standort:
 +
 ** 'Microsoft.Storage/StorageAccounts/Lesevorgang',
 ** 'Microsoft.EventGrid/systemThemen/EventAbonnements/schreiben',
@@ -130,9 +132,13 @@ Hinweis:
 +
 Zusätzlich muss der zuweisbare Umfang auf den Abonnementumfang und den Umfang der *nicht* Ressourcengruppe gesetzt werden, wenn Sie Continuous Sync in Azure implementieren möchten.
 
+. Die folgenden Berechtigungen sind nur erforderlich, wenn Sie Ihre eigene Sicherheit für die Erstellung des Datenbrokers auswählen möchten:
++
+** „Microsoft.Network/networkSecurityGroups/securityRules/read"
+** „Microsoft.Network/networkSecurityGroups/read"
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Erfahren Sie mehr über die Einstellung Continuous Sync"].
+
 
 
 
@@ -165,7 +171,7 @@ Das Formular ist Eigentum von Microsoft und wird von Microsoft gehostet. Ihre Zu
 
 . Wählen Sie einen Speicherort für den Daten-Broker aus, und geben Sie grundlegende Details zur virtuellen Maschine ein.
 +
-image:screenshot_azure_data_broker.gif["Einen Screenshot der Seite zur Azure Bereitstellung mit den folgenden Feldern: Abonnement, Azure-Region, vnet, Subnetz, VM-Name, Benutzername, Authentifizierungsmethode und Ressourcengruppe."]
+image:screenshot_azure_data_broker.png["Einen Screenshot der Seite zur Azure Bereitstellung mit den folgenden Feldern: Abonnement, Azure-Region, vnet, Subnetz, VM-Name, Benutzername, Authentifizierungsmethode und Ressourcengruppe."]
 
 +
 

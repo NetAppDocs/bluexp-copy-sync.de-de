@@ -169,6 +169,8 @@ Wenn Sie diese Option aktivieren, müssen Sie auch einen Parameter in der Datei 
 }
 }
 ----
+Nach dem Aktualisieren der Datei local.json sollten Sie einen Neustart durchführen: `pm2 restart all`.
+
 --
 Dateien auf Ziel löschen:: Wählen Sie diese Option aus, um Dateien vom Zielspeicherort zu löschen, wenn sie aus der Quelle gelöscht wurden. Standardmäßig werden keine Dateien vom Zielspeicherort gelöscht.
 Dateitypen:: Definieren Sie die Dateitypen, die in die einzelnen Synchronisierungen einbezogen werden sollen: Dateien, Verzeichnisse, symbolische Links und harte Links.

@@ -220,6 +220,14 @@ Wenn die Quelle für eine Sync-Beziehung ein SnapMirror-Ziel ist (schreibgeschü
 
 
 
+=== Verschlüsseln eines Google Cloud Buckets
+
+Sie können einen Ziel-Google Cloud-Bucket mit einem vom Kunden gemanagten KMS-Schlüssel oder dem von Google gemanagten Standardschlüssel verschlüsseln. Wenn dem Bucket bereits eine KMS-Verschlüsselung hinzugefügt wurde, wird die von Google gemanagte Standardverschlüsselung überschrieben.
+
+Um einen vom Kunden verwalteten KMS-Schlüssel hinzuzufügen, müssen Sie einen Daten-Broker mit dem verwenden https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#permissions-required-for-the-service-account["Rechte korrigieren"], Und der Schlüssel muss sich im gleichen Bereich wie der Eimer befinden.
+
+
+
 == Google Drive
 
 Wenn Sie eine Synchronisierungsbeziehung einrichten, die Google Drive enthält, müssen Sie Folgendes angeben:

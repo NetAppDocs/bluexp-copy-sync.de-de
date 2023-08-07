@@ -89,11 +89,14 @@ Wenn Sie den Datenvermittler bereitstellen, müssen Sie ein Servicekonto mit den
 - pubsub.topics.list
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
+- cloudkms.cryptoKeys.list
+- cloudkms.keyRings.list
 ----
 Hinweise:
 
 . Die Berechtigung „iam.serviceAccounts.signJwt"“ ist nur erforderlich, wenn Sie planen, den Datenbroker zur Nutzung eines externen HashiCorp Tresors einzurichten.
 . Die Berechtigungen „pubsub.*“ und „Storage.Buckets.Update“ sind nur erforderlich, wenn Sie die Einstellung „Continuous Sync“ bei einer Synchronisierungsbeziehung von Google Cloud Storage zu einem anderen Cloud-Speicherort aktivieren möchten. link:task-creating-relationships.html#settings["Erfahren Sie mehr über die Option Continuous Sync"].
+. Die Berechtigungen „Cloudkms.cryptoKeys.list“ und „Cloudkms.Keyringe.list“ sind nur erforderlich, wenn Sie einen vom Kunden verwalteten KMS-Schlüssel für einen Ziel-Bucket von Google Cloud Storage verwenden möchten.
 
 
 

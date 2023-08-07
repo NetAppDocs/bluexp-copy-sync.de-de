@@ -249,6 +249,7 @@ Bei jeder dieser Methoden wird eine sichere Verbindung zwischen Ihren lokalen NA
 Die Kopier- und Synchronisierungsfunktion von BlueXP kann SMB-Daten nicht selbst verschlüsseln.
 
 * Wenn ein Amazon S3-Bucket in einer Synchronisierungsbeziehung das Ziel ist, hat der Kunde die Wahl, ob die Datenverschlüsselung mittels AWS KMS-Verschlüsselung oder AES-256-Verschlüsselung aktiviert werden soll.
+* Wenn ein Google Storage-Bucket das Ziel in einer Synchronisierungsbeziehung ist, können Sie wählen, ob Sie den standardmäßigen, von Google gemanagten Verschlüsselungsschlüssel oder Ihren eigenen KMS-Schlüssel verwenden möchten.
 
 
 
