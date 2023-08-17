@@ -121,6 +121,37 @@ Wenn Sie diese Einstellung aktivieren, wirkt sich dies auf andere Funktionen wie
 ** Die folgenden Einstellungen werden auf die Standardwerte zurückgesetzt: Sync Timeout, kürzlich geänderte Dateien und Änderungsdatum.
 ** Wenn S3 die Quelle ist, ist der Filter nach Größe nur für kopierende Ereignisse aktiv (nicht bei Löschereignissen).
 ** Nachdem die Beziehung erstellt wurde, können Sie die Beziehung nur beschleunigen oder löschen. Sie können die Synchronisierung nicht abbrechen, Einstellungen ändern oder Berichte anzeigen.
++
+Es ist möglich, eine Continuous Sync-Beziehung mit einem externen Bucket zu erstellen. Gehen Sie dazu wie folgt vor:
+
++
+... Für das externe Bucket-Projekt gehen Sie in die Google Cloud-Konsole.
+... Gehen Sie zu *Cloud Storage > Einstellungen > Cloud Storage Service Account*.
+... Aktualisieren Sie die Datei local.json:
++
+[source, json]
+----
+{
+"protocols": {
+    "gcp": {
+        "storage-account-email": <storage account email>
+}
+}
+}
+----
+... Starten Sie den Daten-Broker neu:
++
+.... Sudo pm2 Alle stoppen
+.... Sudo pm2 Alle starten
+
+
+... Erstellen Sie eine Continuous Sync-Beziehung mit dem relevanten externen Bucket.
++
+
+NOTE: Ein Daten-Broker, der zur Erstellung einer kontinuierlichen Synchronisierungsbeziehung mit einem externen Bucket verwendet wird, kann in seinem Projekt keine weitere Continuous Sync-Beziehung zu einem Bucket erstellen.
+
+
+
 
 
 --
