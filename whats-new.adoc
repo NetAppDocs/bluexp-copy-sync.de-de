@@ -18,6 +18,26 @@ Erfahren Sie mehr über die Neuerungen bei der BlueXP Kopier- und Synchronisieru
 
 
 
+== 3 September 2023
+
+
+
+=== Dateien durch regex ausschließen
+
+Benutzer haben nun die Möglichkeit, Dateien mit regex auszuschließen.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["Erfahren Sie mehr über die Funktion *Exclude File Extensions*."]
+
+
+
+=== Fügen Sie bei der Erstellung des Azure Daten-Brokers S3 Schlüssel hinzu
+
+Benutzer können jetzt bei der Erstellung eines Azure Datenbrokers AWS S3 Zugriffsschlüssel und geheime Schlüssel hinzufügen.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creating-the-data-broker["Erfahren Sie mehr über die Erstellung eines Datenbrokers in Azure."]
+
+
+
 == 6 August 2023
 
 

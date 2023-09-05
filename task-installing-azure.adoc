@@ -178,6 +178,7 @@ image:screenshot_azure_data_broker.png["Einen Screenshot der Seite zur Azure Ber
 NOTE: Wenn Sie eine Partnerschaft mit Continuous Sync implementieren möchten, müssen Sie Ihrem Daten-Broker eine benutzerdefinierte Rolle zuweisen. Dies kann auch manuell ausgeführt werden, nachdem der Broker erstellt wurde.
 
 . Geben Sie eine Proxy-Konfiguration an, wenn ein Proxy für den Internetzugriff im vnet erforderlich ist.
+. Wählen Sie *Weiter*. Wenn Sie Ihrem Daten-Broker S3-Berechtigungen hinzufügen möchten, geben Sie Ihren AWS-Zugriff und Ihre geheimen Schlüssel ein.
 . Wählen Sie *Weiter*, und lassen Sie die Seite geöffnet, bis die Bereitstellung abgeschlossen ist.
 +
 Dieser Vorgang kann bis zu 7 Minuten dauern.

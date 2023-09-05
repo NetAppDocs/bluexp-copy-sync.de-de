@@ -103,7 +103,8 @@ Ein Datenvermittler kontaktiert die folgenden Endpunkte:
 | \https://fedoraproject.org | Installation von 7 z auf der virtuellen Maschine des Datenmakers während der Installation und Aktualisierungen 7z ist erforderlich, um AutoSupport Meldungen an den technischen Support von NetApp zu senden. 
 
 
-| \https://sts.amazonaws.com | Damit können die AWS Zugangsdaten überprüft werden, wenn der Daten-Broker in AWS bereitgestellt wird oder wann er vor Ort bereitgestellt wird und AWS Zugangsdaten bereitgestellt werden. Der Daten-Broker kontaktiert diesen Endpunkt während der Implementierung, nach Aktualisierung und nach einem Neustart. 
+| \https://sts.amazonaws.com
+\https://sts.us-east-1.amazonaws.com | Damit können die AWS Zugangsdaten überprüft werden, wenn der Daten-Broker in AWS bereitgestellt wird oder wann er vor Ort bereitgestellt wird und AWS Zugangsdaten bereitgestellt werden. Der Daten-Broker kontaktiert diesen Endpunkt während der Implementierung, nach Aktualisierung und nach einem Neustart. 
 
 
 | \https://console.bluexp.netapp.com/ \https://netapp-cloud-account.auth0.com | Um die BlueXP Klassifizierung zu kontaktieren, wenn Sie die Quelldateien für eine neue Synchronisierungsbeziehung mithilfe von Klassifizierung auswählen. 

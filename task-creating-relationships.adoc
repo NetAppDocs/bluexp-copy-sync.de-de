@@ -211,10 +211,13 @@ Dateitypen:: Definieren Sie die Dateitypen, die in die einzelnen Synchronisierun
 NOTE: Harte Links sind nur für ungesicherte NFS zu NFS Beziehungen verfügbar. Benutzer sind auf einen Scannerprozess und eine Scannerparallelität beschränkt, und Scans müssen von einem Stammverzeichnis aus ausgeführt werden.
 
 --
-Dateierweiterungen ausschließen:: Geben Sie Dateierweiterungen an, die vom Sync ausgeschlossen werden sollen, indem Sie die Dateierweiterung eingeben und *Enter* drücken. Geben Sie beispielsweise _log_ oder _.log_ ein, um *.log-Dateien auszuschließen. Für mehrere Erweiterungen ist kein Trennzeichen erforderlich. Das folgende Video enthält eine kurze Demo:
+Dateierweiterungen ausschließen:: Geben Sie die regex- oder Dateierweiterungen an, die von der Synchronisierung ausgeschlossen werden sollen, indem Sie die Dateierweiterung eingeben und *Enter* drücken. Geben Sie beispielsweise _log_ oder _.log_ ein, um *.log-Dateien auszuschließen. Für mehrere Erweiterungen ist kein Trennzeichen erforderlich. Das folgende Video enthält eine kurze Demo:
 +
 --
 video::video_file_extensions.mp4[width=840,height=240]
+
+NOTE: Regex oder reguläre Ausdrücke unterscheiden sich von Wildcards oder Glob-Ausdrücken. Diese Funktion *only* funktioniert mit regex.
+
 --
 Verzeichnisse Ausschließen:: Geben Sie maximal 15 Verzeichnisse an, die von der Synchronisierung ausgeschlossen werden sollen, indem Sie ihren Namen oder den vollständigen Pfad des Verzeichnisses eingeben und *Enter* drücken. Die Verzeichnisse .Copy-Offload, .Snapshot, ~Snapshot sind standardmäßig ausgeschlossen. Wenn Sie diese in Ihre Synchronisierung aufnehmen möchten, kontaktieren Sie uns.
 Dateigröße:: Wählen Sie, ob alle Dateien unabhängig von ihrer Größe oder nur Dateien in einem bestimmten Größenbereich synchronisiert werden sollen.
