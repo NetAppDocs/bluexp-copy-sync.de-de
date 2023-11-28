@@ -166,7 +166,7 @@ Wenn Sie eine Synchronisierungsbeziehung einrichten, können Sie nun diesen Buck
 
 Durch die BlueXP Kopier- und Synchronisierungsfunktion wird ein Daten-Broker in Google Cloud mit der folgenden Konfiguration erstellt.
 
-Node.js-Kompatibilität:: v20
+Node.js-Kompatibilität:: V21.2.0
 Maschinentyp:: n2-Standard-4
 VCPUs:: 4
 RAM:: 15 GB

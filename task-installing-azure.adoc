@@ -214,7 +214,7 @@ Wie in der URL dargestellt, ist unsere App-URL \https://cloudsync.netapp.com und
 
 Durch die BlueXP Kopier- und Synchronisierungsfunktion wird ein Daten-Broker in Azure mithilfe der folgenden Konfiguration erstellt.
 
-Node.js-Kompatibilität:: v20
+Node.js-Kompatibilität:: V21.2.0
 VM-Typ:: Standard DS4 v2
 VCPUs:: 8
 RAM:: 28 GB

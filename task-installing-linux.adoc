@@ -20,7 +20,7 @@ Wenn Sie eine neue Gruppe für Daten-Broker erstellen, wählen Sie die Option On
 
 == Anforderungen an Linux-Hosts
 
-* *Node.js-Kompatibilität*: v20
+* *Node.js-Kompatibilität*: V21.2.0
 * *Betriebssystem*:
 +
 ** CentOS 8.0 und 8.5

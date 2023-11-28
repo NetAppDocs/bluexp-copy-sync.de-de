@@ -120,7 +120,7 @@ Sie haben einen Daten-Broker in AWS implementiert und eine neue Synchronisierung
 
 Durch die BlueXP Kopier- und Synchronisierungsfunktion wird ein Daten-Broker in AWS mithilfe der folgenden Konfiguration erstellt.
 
-Node.js-Kompatibilität:: v20
+Node.js-Kompatibilität:: V21.2.0
 Instanztyp:: M5n.xlarge, wenn verfügbar in der Region, sonst m5.xlarge
 VCPUs:: 4
 RAM:: 16 GB
