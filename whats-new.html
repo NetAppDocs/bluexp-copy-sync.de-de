@@ -1,0 +1,2600 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head class="at-element-marker">
+  <title>Neuerungen bei der BlueXP Kopier- und Synchronisierungsfunktion | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Neuerungen bei der BlueXP Kopier- und Synchronisierungsfunktion | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/de-de/bluexp-copy-sync/whats-new.html" />
+	<meta property="og:description" content="Erfahren Sie mehr über die Neuerungen bei der BlueXP Kopier- und Synchronisierungsfunktion." />
+  <meta property="og:image" content="https://docs.netapp.com/de-de/bluexp-copy-sync/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Erfahren Sie mehr über die Neuerungen bei der BlueXP Kopier- und Synchronisierungsfunktion.">
+  <meta name="keywords" content=" what"s new, features, new, release notes, enhancements, fixes"><!-- Icons -->
+  <link rel="icon" href="/de-de/bluexp-copy-sync/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/de-de/bluexp-copy-sync/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/de-de/bluexp-copy-sync/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/de-de/bluexp-copy-sync/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/de-de/bluexp-copy-sync/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/de-de/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-copy-sync/whats-new.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/de-de/bluexp-copy-sync/js/na-search.js'></script><script src='/de-de/bluexp-copy-sync/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/de-de/bluexp-copy-sync/js/custom-dropdown.js'></script>
+  <script src='/de-de/bluexp-copy-sync/js/FileSaver.min.js'></script>
+  <script src='/de-de/bluexp-copy-sync/js/jszip-utils.min.js'></script>
+  <script src='/de-de/bluexp-copy-sync/js/jszip.min.js'></script><script src='/de-de/bluexp-copy-sync/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/de-de/bluexp-copy-sync/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/de/index.aspx">
+                <image id="ie-header-logo" src="/de-de/bluexp-copy-sync/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/de/support-and-training/documentation/">Dokumente</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/de-de/bluexp-copy-sync/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">Deutsch</span>
+                    <img src="/de-de/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/de-de/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/de-de/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/de-de/bluexp-copy-sync/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">NetApp Komplettlösung</span>
+                    <img src="/de-de/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/de-de/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/de/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">Support</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">Knowledge Base</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/de/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">Training</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/de-de/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/de-de/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">Gesamte Dokumentation</a>
+    </li>
+    
+    
+    <li class="">
+      <a href="https://docs.netapp.com/us-en/cloud/">Cloud-Dokumentation</a>
+    </li>
+    
+
+    
+    <li class="">
+      <a href="https://docs.netapp.com/de-de/bluexp-family/">
+        BlueXP
+      </a>
+    </li>
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/de-de/bluexp-copy-sync/">-->
+      BlueXP copy and sync
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/de-de/bluexp-copy-sync/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/de-de/bluexp-copy-sync/search.html" 
+        data-type="widget"
+        data-placeholder="Dokumentation durchsuchen"
+        data-no-results-found="Keine Ergebnisse gefunden für {query}"
+        data-did-you-mean="Suchen Sie nach {suggestion}."
+        data-no-results-found-did-you-mean="Es wurden keine Ergebnisse für {query} gefunden. Meinten Sie {suggestion}?"
+        data-results-found="{hitCount} Ergebnisse gefunden"
+        data-error-message="Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+        data-error-reset="Suche zurücksetzen"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP Kopier- und Synchronisierungsdokumente"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/de-de/bluexp-copy-sync/index.html">
+        BlueXP Kopier- und Synchronisierungsdokumente
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Versionshinweise"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/de-de/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/de-de/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Versionshinweise</div>-->
+         Versionshinweise
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Was ist neu"
+      data-li-level="2#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/whats-new.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/whats-new.html">
+        Was ist neu
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Einschränkungen"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/reference-limitations.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/reference-limitations.html">
+        Einschränkungen
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Los geht's"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/de-de/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/de-de/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Los geht's</div>-->
+         Los geht's
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Mehr zum Kopieren und Synchronisieren von BlueXP"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/concept-cloud-sync.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/concept-cloud-sync.html">
+        Mehr zum Kopieren und Synchronisieren von BlueXP
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Schnellstart"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-quick-start.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/task-quick-start.html">
+        Schnellstart
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Anzeigen von unterstützten Synchronisierungsbeziehungen"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/reference-supported-relationships.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/reference-supported-relationships.html">
+        Anzeigen von unterstützten Synchronisierungsbeziehungen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Bereiten Sie die Quelle und das Ziel vor"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/reference-requirements.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/reference-requirements.html">
+        Bereiten Sie die Quelle und das Ziel vor
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Netzwerkvorbereitung"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/reference-networking.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/reference-networking.html">
+        Netzwerkvorbereitung
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Installieren Sie einen Daten-Broker"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/de-de/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/de-de/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Installieren Sie einen Daten-Broker</div>-->
+         Installieren Sie einen Daten-Broker
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Installation in AWS"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-installing-aws.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/de-de/bluexp-copy-sync/task-installing-aws.html">
+        Installation in AWS
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="In Azure installieren"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-installing-azure.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/de-de/bluexp-copy-sync/task-installing-azure.html">
+        In Azure installieren
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="In Google Cloud installieren"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-installing-gcp.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/de-de/bluexp-copy-sync/task-installing-gcp.html">
+        In Google Cloud installieren
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Installation auf einem Linux-Host"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-installing-linux.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/de-de/bluexp-copy-sync/task-installing-linux.html">
+        Installation auf einem Linux-Host
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP Kopier- und Synchronisierungsfunktion nutzen"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/de-de/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/de-de/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> BlueXP Kopier- und Synchronisierungsfunktion nutzen</div>-->
+         BlueXP Kopier- und Synchronisierungsfunktion nutzen
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Daten zwischen Quelle und Ziel synchronisieren"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/de-de/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/de-de/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Daten zwischen Quelle und Ziel synchronisieren</div>-->
+         Daten zwischen Quelle und Ziel synchronisieren
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Erstellen einer Synchronisierungsbeziehung"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-creating-relationships.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/de-de/bluexp-copy-sync/task-creating-relationships.html">
+        Erstellen einer Synchronisierungsbeziehung
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Kopieren von ACLs aus einer SMB-Freigabe"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-copying-acls.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/de-de/bluexp-copy-sync/task-copying-acls.html">
+        Kopieren von ACLs aus einer SMB-Freigabe
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Verschlüsselung von aktiven NFS-Daten"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-nfs-encryption.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/de-de/bluexp-copy-sync/task-nfs-encryption.html">
+        Verschlüsselung von aktiven NFS-Daten
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Nutzen Sie die Geheimnisse von HashiCorp Vault"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-external-vault.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/de-de/bluexp-copy-sync/task-external-vault.html">
+        Nutzen Sie die Geheimnisse von HashiCorp Vault
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Lizenzierung einrichten"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-licensing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/task-licensing.html">
+        Lizenzierung einrichten
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Synchronisierungsbeziehungen verwalten"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-managing-relationships.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/task-managing-relationships.html">
+        Synchronisierungsbeziehungen verwalten
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Managen von Datenmaklern"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-managing-data-brokers.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/task-managing-data-brokers.html">
+        Managen von Datenmaklern
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Anzeigen von Berichten zur Anpassung der Konfiguration"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-managing-reports.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/task-managing-reports.html">
+        Anzeigen von Berichten zur Anpassung der Konfiguration
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deinstallieren Sie einen Datenvermittler"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-uninstalling.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/task-uninstalling.html">
+        Deinstallieren Sie einen Datenvermittler
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Mit DER REST-API automatisieren"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/api-sync.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/de-de/bluexp-copy-sync/api-sync.html">
+        Mit DER REST-API automatisieren
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Konzepte"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/de-de/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/de-de/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Konzepte</div>-->
+         Konzepte
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Lizenzierung"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/concept-licensing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/concept-licensing.html">
+        Lizenzierung
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Datenschutz"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/concept-privacy.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/concept-privacy.html">
+        Datenschutz
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Häufig gestellte Fragen"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/faq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/faq.html">
+        Häufig gestellte Fragen
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Wissen und Support"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/de-de/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/de-de/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Wissen und Support</div>-->
+         Wissen und Support
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Für den Support anmelden"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-support-registration.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/task-support-registration.html">
+        Für den Support anmelden
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Holen Sie sich Hilfe"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-get-help.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/de-de/bluexp-copy-sync/task-get-help.html">
+        Holen Sie sich Hilfe
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Rechtliche Hinweise"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/de-de/bluexp-copy-sync/legal-notices.html">
+        Rechtliche Hinweise
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/de-de/bluexp-copy-sync"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/de-de/bluexp-copy-sync"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/de-de/bluexp-copy-sync/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> Die deutsche Sprachversion wurde als Serviceleistung für Sie durch maschinelle Übersetzung erstellt. Bei eventuellen Unstimmigkeiten hat die englische Sprachversion Vorrang. </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">Neuerungen bei der BlueXP Kopier- und Synchronisierungsfunktion</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2024-02-16 21:07:25 +0000">02/16/2024</time>
+        
+    
+    
+        <span>Beitragende
+        </span>
+    
+    
+        <a target="_blank" class="ext-link-indicator" href="/de-de/bluexp-copy-sync/feed.xml"><img width="21" height="21" src="/de-de/bluexp-copy-sync/images/rss-button.png" alt="RSS" title="RSS-Updates für diese Seite abonnieren" /></a>
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/de-de/bluexp-copy-sync/images/discuss-sm.svg" alt="" class="github-icon" />Änderungen vorschlagen</span>
+        <img src="/de-de/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/de-de/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-copy-sync.de-de/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/de-de/bluexp-copy-sync/whats-new.html&page-title=Neuerungen bei der BlueXP Kopier- und Synchronisierungsfunktion" class="page-nav-contribute-link" role="button">Dokumentationsänderungen anfordern</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-copy-sync/blob/main/whats-new.adoc" class="page-nav-contribute-link" role="button">Diese Seite bearbeiten</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >So können Sie beitragen</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/de-de/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>PDFs<img src="/de-de/bluexp-copy-sync/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/de-de/bluexp-copy-sync/pdfs/fullsite-sidebar/Dokumentation_der_BlueXP_Kopier__und_Synchronisierungsfunktion.pdf" >
+                    <img src="/de-de/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>PDF dieser Dokumentationssite</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/de-de/bluexp-copy-sync/pdfs/sidebar/Versionshinweise.pdf" 
+            
+          >
+            <img src="/de-de/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Versionshinweise
+          </a>
+          
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/de-de/bluexp-copy-sync/pdfs/sidebar/Los_geht_s.pdf" 
+            
+          >
+            <img src="/de-de/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Los geht's
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/de-de/bluexp-copy-sync/pdfs/sidebar/Installieren_Sie_einen_Daten_Broker.pdf" 
+            
+          >
+            <img src="/de-de/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Installieren Sie einen Daten-Broker
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/de-de/bluexp-copy-sync/pdfs/sidebar/BlueXP_Kopier__und_Synchronisierungsfunktion_nutzen.pdf" 
+            
+          >
+            <img src="/de-de/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            BlueXP Kopier- und Synchronisierungsfunktion nutzen
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/de-de/bluexp-copy-sync/pdfs/sidebar/Daten_zwischen_Quelle_und_Ziel_synchronisieren.pdf" 
+            
+          >
+            <img src="/de-de/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Daten zwischen Quelle und Ziel synchronisieren
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/de-de/bluexp-copy-sync/pdfs/sidebar/Konzepte.pdf" 
+            
+          >
+            <img src="/de-de/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Konzepte
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/de-de/bluexp-copy-sync/pdfs/sidebar/Wissen_und_Support.pdf" 
+            
+          >
+            <img src="/de-de/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Wissen und Support
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/de-de/bluexp-copy-sync/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>Sammlung separater PDF-Dokumente<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Erfahren Sie mehr über die Neuerungen bei der BlueXP Kopier- und Synchronisierungsfunktion.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="11-februar-2024">11 Februar 2024</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="verzeichnisse-nach-regex-filtern">Verzeichnisse nach regex filtern</h3>
+<div class="paragraph">
+<p>Benutzer haben nun die Möglichkeit, Verzeichnisse mit regex zu filtern.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships">"Erfahren Sie mehr über die Funktion <strong>Verzeichnisse ausschließen</strong>."</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="bis-26-november-2023">Bis 26. November 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="unterstützung-für-cold-storage-klassen-für-azure-blob">Unterstützung für Cold-Storage-Klassen für Azure Blob</h3>
+<div class="paragraph">
+<p>Azure Blob Cold-Storage-Tier ist jetzt beim Erstellen einer Sync-Beziehung verfügbar.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html">"Erfahren Sie mehr über das Erstellen einer Synchronisierungsbeziehung."</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="unterstützung-für-die-region-tel-aviv-bei-aws-datenmaklern">Unterstützung für die Region Tel Aviv bei AWS-Datenmaklern</h3>
+<div class="paragraph">
+<p>Tel Aviv ist jetzt eine unterstützte Region, wenn er einen Daten-Broker in AWS erstellt.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker">"Erfahren Sie mehr über die Erstellung eines Datenbrokers in AWS"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="aktualisieren-sie-auf-die-node-version-für-daten-broker">Aktualisieren Sie auf die Node-Version für Daten-Broker</h3>
+<div class="paragraph">
+<p>Alle neuen Daten-Broker verwenden jetzt Node-Version 21.2.0. Daten-Broker, die mit diesem Update nicht kompatibel sind, wie CentOS 7.0 und Ubuntu Server 18.0, funktionieren nicht mehr mit der BlueXP Kopier- und Synchronisierungsfunktion.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="3-september-2023">3 September 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="dateien-durch-regex-ausschließen">Dateien durch regex ausschließen</h3>
+<div class="paragraph">
+<p>Benutzer haben nun die Möglichkeit, Dateien mit regex auszuschließen.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships">"Erfahren Sie mehr über die Funktion <strong>Exclude File Extensions</strong>."</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fügen-sie-bei-der-erstellung-des-azure-daten-brokers-s3-schlüssel-hinzu">Fügen Sie bei der Erstellung des Azure Daten-Brokers S3 Schlüssel hinzu</h3>
+<div class="paragraph">
+<p>Benutzer können jetzt bei der Erstellung eines Azure Datenbrokers AWS S3 Zugriffsschlüssel und geheime Schlüssel hinzufügen.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creating-the-data-broker">"Erfahren Sie mehr über die Erstellung eines Datenbrokers in Azure."</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="6-august-2023">6 August 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="verwenden-sie-vorhandene-azure-sicherheitsgruppen-wenn-sie-einen-daten-broker-erstellen">Verwenden Sie vorhandene Azure Sicherheitsgruppen, wenn Sie einen Daten-Broker erstellen</h3>
+<div class="paragraph">
+<p>Benutzer haben nun die Möglichkeit, vorhandene Azure Sicherheitsgruppen zu verwenden, wenn sie einen Daten-Broker erstellen.</p>
+</div>
+<div class="paragraph">
+<p>Das Dienstkonto, das beim Erstellen des Datenbrokers verwendet wird, muss über folgende Berechtigungen verfügen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>„Microsoft.Network/networkSecurityGroups/securityRules/read"</p>
+</li>
+<li>
+<p>„Microsoft.Network/networkSecurityGroups/read"</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html">"Erfahren Sie mehr über die Erstellung eines Datenbrokers in Azure."</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="verschlüsseln-sie-daten-bei-der-synchronisierung-mit-google-storage">Verschlüsseln Sie Daten bei der Synchronisierung mit Google Storage</h3>
+<div class="paragraph">
+<p>Benutzer haben nun die Möglichkeit, beim Erstellen einer Synchronisierungsbeziehung zu einem Google Storage-Bucket als Ziel einen vom Kunden gemanagten Schlüssel anzugeben. Sie können Ihren Schlüssel manuell eingeben oder aus einer Liste Ihrer Schlüssel in einer Region auswählen.</p>
+</div>
+<div class="paragraph">
+<p>Das Dienstkonto, das beim Erstellen des Datenbrokers verwendet wird, muss über folgende Berechtigungen verfügen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Cloudkms.cryptkeys.list</p>
+</li>
+<li>
+<p>Cloudkms.Schlüsselanhänger.list</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements">"Erfahren Sie mehr über die Anforderungen von Google Cloud Storage Buckets."</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="9-juli-2023">9 Juli 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="entfernen-sie-mehrere-synchronisierungsbeziehungen-auf-einmal">Entfernen Sie mehrere Synchronisierungsbeziehungen auf einmal</h3>
+<div class="paragraph">
+<p>Benutzer können jetzt mehrere Synchronisierungsbeziehungen gleichzeitig in der Benutzeroberfläche löschen.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#deleting-relationships">"Erfahren Sie mehr über das Löschen von Synchronisierungsrelelationen."</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="nur-acl-kopieren">Nur ACL kopieren</h3>
+<div class="paragraph">
+<p>Benutzer haben jetzt zusätzliche Optionen zum Kopieren von ACL-Informationen in CIF- und NFS-Beziehungen. Beim Erstellen oder Verwalten einer Synchronisierungsbeziehung können Sie nur Dateien kopieren, nur ACL-Informationen kopieren oder Dateien und ACL-Informationen kopieren.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-copying-acls.html">"Weitere Informationen zum Kopieren von ACLs."</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="aktualisiert-auf-node-js-20">Aktualisiert auf Node.js 20</h3>
+<div class="paragraph">
+<p>Copy and Sync hat auf Node.js 20 aktualisiert. Alle verfügbaren Daten-Broker werden aktualisiert. Betriebssysteme, die mit diesem Update nicht kompatibel sind, können nicht installiert werden, und inkompatible vorhandene Systeme können Leistungsprobleme haben.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="11-juni-2023">11 Juni 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="unterstützung-für-automatischen-abbruch-innerhalb-von-minuten">Unterstützung für automatischen Abbruch innerhalb von Minuten</h3>
+<div class="paragraph">
+<p>Aktive Synchronisierungen, die nicht abgeschlossen wurden, können jetzt mit der Funktion <strong>Sync Timeout</strong> nach 15 Minuten abgebrochen werden.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung für die Zeitüberschreitung beim Synchronisieren"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="metadaten-der-zugriffszeit-kopieren">Metadaten der Zugriffszeit kopieren</h3>
+<div class="paragraph">
+<p>In Beziehungen, einschließlich eines Dateisystems, kopiert die Funktion <strong>Copy for Objects</strong> nun Metadaten zur Zugriffszeit.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung für Objekte kopieren"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="8-mai-2023">8 Mai 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="hardlink-funktionen">Hardlink-Funktionen</h3>
+<div class="paragraph">
+<p>Benutzer können nun feste Links für Synchronisierungen in ungesicherten NFS- zu NFS-Beziehungen einfügen.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung Dateitypen"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="möglichkeit-zum-hinzufügen-von-benutzerzertifikaten-für-datenmanager-in-sicheren-nfs-beziehungen">Möglichkeit zum Hinzufügen von Benutzerzertifikaten für Datenmanager in sicheren NFS-Beziehungen</h3>
+<div class="paragraph">
+<p>Benutzer können nun bei der Erstellung einer sicheren NFS-Beziehung ein eigenes Zertifikat für den Zieldatenmanager festlegen. Dabei müssen sie einen Servernamen festlegen und einen privaten Schlüssel und eine Zertifikat-ID angeben. Diese Funktion ist für alle Daten-Broker verfügbar.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="verlängerter-ausschlusszeitraum-für-kürzlich-geänderte-dateien">Verlängerter Ausschlusszeitraum für kürzlich geänderte Dateien</h3>
+<div class="paragraph">
+<p>Benutzer können jetzt Dateien ausschließen, die bis zu 365 Tage vor der geplanten Synchronisierung geändert wurden.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung „Kürzlich geänderte Dateien“"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="beziehungen-in-der-ui-nach-beziehungs-id-filtern">Beziehungen in der UI nach Beziehungs-ID filtern</h3>
+<div class="paragraph">
+<p>Benutzer, die die RESTful API verwenden, können nun Beziehungen mithilfe von Beziehungs-IDs filtern.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html">"Weitere Informationen zur Verwendung der RESTful API mit BlueXP Kopier- und Synchronisierungsfunktion"</a>.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung „Verzeichnisse ausschließen“"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="bis-2-april-2023">Bis 2. April 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="zusätzliche-unterstützung-für-azure-data-lake-storage-gen2-beziehungen">Zusätzliche Unterstützung für Azure Data Lake Storage Gen2-Beziehungen</h3>
+<div class="paragraph">
+<p>Sie können jetzt Synchronisierungsbeziehungen mit Azure Data Lake Storage Gen2 als Quelle und Ziel mit folgenden Methoden erstellen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Azure NetApp Dateien</p>
+</li>
+<li>
+<p>Amazon FSX für ONTAP</p>
+</li>
+<li>
+<p>Cloud Volumes ONTAP</p>
+</li>
+<li>
+<p>On-Premises-ONTAP</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="verzeichnisse-nach-vollständigem-pfad-filtern">Verzeichnisse nach vollständigem Pfad filtern</h3>
+<div class="paragraph">
+<p>Zusätzlich zum Filtern von Verzeichnissen nach Namen können Sie nun Verzeichnisse nach ihrem vollständigen Pfad filtern.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung „Verzeichnisse ausschließen“"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="7-märz-2023">7 März 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="ebs-verschlüsselung-für-aws-datenmanager">EBS-Verschlüsselung für AWS-Datenmanager</h3>
+<div class="paragraph">
+<p>Sie können jetzt AWS-Daten-Broker-Volumes mit einem KMS-Schlüssel in Ihrem Konto verschlüsseln.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker">"Erfahren Sie mehr über die Erstellung eines Datenbrokers in AWS"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="februar-5-2023">Februar 5 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="zusätzliche-unterstützung-für-azure-data-lake-storage-gen2-ontap-s3-storage-und-nfs">Zusätzliche Unterstützung für Azure Data Lake Storage Gen2, ONTAP S3 Storage und NFS</h3>
+<div class="paragraph">
+<p>Cloud Sync unterstützt jetzt zusätzliche Synchronisierungsbeziehungen für ONTAP S3 Storage und NFS:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ONTAP S3 Storage zu NFS</p>
+</li>
+<li>
+<p>NFS zu ONTAP S3 Storage</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Cloud Sync unterstützt zusätzlich Azure Data Lake Storage Gen2 als Quelle und Ziel für folgende Zwecke:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>NFS-Server</p>
+</li>
+<li>
+<p>SMB Server</p>
+</li>
+<li>
+<p>ONTAP S3 Storage</p>
+</li>
+<li>
+<p>StorageGRID</p>
+</li>
+<li>
+<p>IBM Cloud Objekt-Storage</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="führen-sie-ein-upgrade-auf-das-amazon-web-services-data-broker-betriebssystem-durch">Führen Sie ein Upgrade auf das Amazon Web Services Data Broker Betriebssystem durch</h3>
+<div class="paragraph">
+<p>Das Betriebssystem für AWS Data Broker wurde auf Amazon Linux 2022 aktualisiert.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#details-about-the-data-broker-instance">"Erfahren Sie mehr über die Instanz für Datenmanager in AWS"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="3-januar-2023">3. Januar 2023</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="zeigt-die-lokale-konfiguration-des-datenmaklers-auf-der-ui-an">Zeigt die lokale Konfiguration des Datenmaklers auf der UI an</h3>
+<div class="paragraph">
+<p>Es gibt jetzt eine Option <strong>Konfiguration anzeigen</strong>, mit der Benutzer die lokale Konfiguration jedes Datenmakers auf der Benutzeroberfläche anzeigen können.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html">"Erfahren Sie mehr über das Managen von Maklergruppen"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="führen-sie-ein-upgrade-auf-azure-und-google-cloud-als-datenvermittler-durch">Führen Sie ein Upgrade auf Azure und Google Cloud als Datenvermittler durch</h3>
+<div class="paragraph">
+<p>Das Betriebssystem für Datenmakler in Azure und Google Cloud wurde auf die Rocky Linux 9.0 aktualisiert.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#details-about-the-data-broker-vm">"Erfahren Sie mehr über die Instanz für Datenmanager in Azure"</a>.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance">"Erfahren Sie mehr über die Instanz für Datenmakler in Google Cloud"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="11-dezember-2022">11 Dezember 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="verzeichnisse-nach-namen-filtern">Verzeichnisse nach Namen filtern</h3>
+<div class="paragraph">
+<p>Für Synchronisierungsbeziehungen steht jetzt eine neue <strong>Ausschließverzeichnisnamen</strong>-Einstellung zur Verfügung. Benutzer können maximal 15 Verzeichnisnamen aus ihrer Synchronisierung herausfiltern. Die Verzeichnisse .Copy-Offload, .Snapshot, ~Snapshot sind standardmäßig ausgeschlossen.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung „Verzeichnisnamen ausschließen“"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="zusätzliche-unterstützung-für-amazon-s3-und-ontap-s3-storage">Zusätzliche Unterstützung für Amazon S3 und ONTAP S3 Storage</h3>
+<div class="paragraph">
+<p>Cloud Sync unterstützt jetzt zusätzliche Synchronisierungsbeziehungen für AWS S3 und ONTAP S3 Storage:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>AWS S3 zu ONTAP S3 Storage</p>
+</li>
+<li>
+<p>ONTAP S3 Storage zu AWS S3</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"Weitere Informationen zu unterstützten Synchronisierungsbeziehungen"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="oktober-30-2022">Oktober 30 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="kontinuierliche-synchronisierung-von-microsoft-azure-aus">Kontinuierliche Synchronisierung von Microsoft Azure aus</h3>
+<div class="paragraph">
+<p>Die Einstellung „Continuous Sync“ wird nun über einen Azure-Quell-Storage-Bucket in den Cloud-Storage mithilfe eines Azure-Daten-Brokers unterstützt.</p>
+</div>
+<div class="paragraph">
+<p>Nach der ersten Datensynchronisierung überwacht Cloud Sync Änderungen am Azure Storage-Quell-Bucket und synchronisiert kontinuierlich alle Änderungen am Ziel-Storage. Diese Einstellung ist verfügbar, wenn sie von einem Azure Storage Bucket zu Azure Blob Storage, CIFS, Google Cloud Storage, IBM Cloud Object Storage, NFS und StorageGRID synchronisiert wird.</p>
+</div>
+<div class="paragraph">
+<p>Der Azure Daten-Broker benötigt eine benutzerdefinierte Rolle und die folgenden Berechtigungen, um diese Einstellung zu verwenden:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">'Microsoft.Storage/storageAccounts/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/write',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/delete',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action',
+'Microsoft.EventGrid/systemTopics/read',
+'Microsoft.EventGrid/systemTopics/write',
+'Microsoft.EventGrid/systemTopics/delete',
+'Microsoft.EventGrid/eventSubscriptions/write',
+'Microsoft.Storage/storageAccounts/write'</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung Continuous Sync"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="september-4-2022">September 4 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="zusätzliche-unterstützung-für-google-drive">Zusätzliche Unterstützung für Google Drive</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Cloud Sync unterstützt jetzt zusätzliche Synchronisierungsbeziehungen für Google-Laufwerk:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Google Drive zu NFS-Servern</p>
+</li>
+<li>
+<p>Google Drive zu SMB-Servern</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Sie können auch Berichte für Synchronisierungsbeziehungen erstellen, die Google Drive enthalten.</p>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html">"Erfahren Sie mehr über Berichte"</a>.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kontinuierliche-sync-verbesserung">Kontinuierliche Sync-Verbesserung</h3>
+<div class="paragraph">
+<p>Sie können jetzt die Einstellung kontinuierliche Synchronisierung für die folgenden Arten von Synchronisierungsbeziehungen aktivieren:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>S3-Bucket auf einen NFS-Server</p>
+</li>
+<li>
+<p>Google Cloud Storage auf einen NFS-Server übertragen</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung Continuous Sync"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="e-mail-benachrichtigungen">E-Mail-Benachrichtigungen</h3>
+<div class="paragraph">
+<p>Sie können jetzt Cloud Sync Benachrichtigungen per E-Mail erhalten.</p>
+</div>
+<div class="paragraph">
+<p>Um die Benachrichtigungen per E-Mail zu erhalten, müssen Sie die Einstellung <strong>Benachrichtigungen</strong> auf der Synchronisierungsbeziehung aktivieren und dann die Einstellungen für Benachrichtigungen und Benachrichtigungen in BlueXP konfigurieren.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#setting-up-notifications">"Hier erfahren Sie, wie Sie Benachrichtigungen einrichten"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="31-juli-2022">31 Juli 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="google-drive">Google Drive</h3>
+<div class="paragraph">
+<p>Daten können jetzt von einem NFS-Server oder SMB-Server zu Google Drive synchronisiert werden. Sowohl „Mein Laufwerk“ als auch „freigegebene Laufwerke“ werden als Ziele unterstützt.</p>
+</div>
+<div class="paragraph">
+<p>Bevor Sie eine Synchronisierungsbeziehung mit Google Drive erstellen können, müssen Sie ein Servicekonto einrichten, das über die erforderlichen Berechtigungen und einen privaten Schlüssel verfügt. <a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-drive">"Erfahren Sie mehr über die Anforderungen von Google Drive"</a>.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="zusätzliche-unterstützung-für-azure-data-lake">Zusätzliche Unterstützung für Azure Data Lake</h3>
+<div class="paragraph">
+<p>Cloud Sync unterstützt jetzt zusätzliche Synchronisierungsbeziehungen für Azure Data Lake Storage Gen2:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Amazon S3 zu Azure Data Lake Storage Gen2</p>
+</li>
+<li>
+<p>IBM Cloud Objekt-Storage für Azure Data Lake Gen2</p>
+</li>
+<li>
+<p>StorageGRID zu Azure Data Lake Storage Gen2</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="neue-möglichkeiten-zur-einrichtung-von-synchronisierungsbeziehungen">Neue Möglichkeiten zur Einrichtung von Synchronisierungsbeziehungen</h3>
+<div class="paragraph">
+<p>Wir haben zusätzliche Möglichkeiten hinzugefügt, Synchronisierungsbeziehungen direkt aus BlueXP's Canvas einzurichten.</p>
+</div>
+<div class="sect3">
+<h4 id="drag-and-drop">Drag-and-Drop</h4>
+<div class="paragraph">
+<p>Sie können jetzt eine Synchronisierungsbeziehung aus dem Canvas einrichten, indem Sie eine Arbeitsumgebung auf einer anderen ziehen und ablegen.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-drag-and-drop.png" alt="Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."></span></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="einrichtung-auf-der-rechten-seite">Einrichtung auf der rechten Seite</h4>
+<div class="paragraph">
+<p>Sie können jetzt eine Synchronisierungsbeziehung für Azure Blob Storage oder für Google Cloud Storage einrichten, indem Sie die Arbeitsumgebung auf dem Canvas auswählen und dann im rechten Fenster die Option zur Synchronisierung auswählen.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-panel.png" alt="Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="3-juli-2022">3 Juli 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="unterstützung-für-azure-data-lake-storage-gen2">Unterstützung für Azure Data Lake Storage Gen2</h3>
+<div class="paragraph">
+<p>Daten können jetzt von einem NFS-Server oder SMB-Server zu Azure Data Lake Storage Gen2 synchronisiert werden.</p>
+</div>
+<div class="paragraph">
+<p>Wenn Sie eine Synchronisierungsbeziehung erstellen, die Azure Data Lake enthält, müssen Sie Cloud Sync den Verbindungsstring für das Storage-Konto angeben. Hierbei muss es sich um eine reguläre Verbindungszeichenfolge und nicht um eine SAS-Signatur (Shared Access Signature) handelt.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kontinuierliche-synchronisierung-von-google-cloud-storage">Kontinuierliche Synchronisierung von Google Cloud Storage</h3>
+<div class="paragraph">
+<p>Die Einstellung für Continuous Sync wird jetzt von einem Google Cloud Storage-Quell-Bucket zu einem Cloud-Storage-Ziel unterstützt.</p>
+</div>
+<div class="paragraph">
+<p>Nach der ersten Datensynchronisierung überwacht Cloud Sync Änderungen am Google Cloud Storage Quell-Bucket und synchronisiert kontinuierlich alle Änderungen am Ziel-Storage. Diese Einstellung ist verfügbar, wenn Sie von einem Google Cloud Storage Bucket zu S3, Google Cloud Storage, Azure Blob Storage, StorageGRID oder IBM Storage synchronisieren.</p>
+</div>
+<div class="paragraph">
+<p>Das mit Ihrem Datenvermittler verknüpfte Servicekonto benötigt zur Verwendung dieser Einstellung folgende Berechtigungen:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">- pubsub.subscriptions.consume
+- pubsub.subscriptions.create
+- pubsub.subscriptions.delete
+- pubsub.subscriptions.list
+- pubsub.topics.attachSubscription
+- pubsub.topics.create
+- pubsub.topics.delete
+- pubsub.topics.list
+- pubsub.topics.setIamPolicy
+- storage.buckets.update</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung Continuous Sync"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="neue-regionale-unterstützung-für-google-cloud">Neue regionale Unterstützung für Google Cloud</h3>
+<div class="paragraph">
+<p>Der Cloud Sync-Datenvermittler wird jetzt in folgenden Google-Cloud-Regionen unterstützt:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Columbus (USA-öst5)</p>
+</li>
+<li>
+<p>Dallas (USA-Süd-1)</p>
+</li>
+<li>
+<p>Madrid (europa-Südwest1)</p>
+</li>
+<li>
+<p>Mailand (europa-West8)</p>
+</li>
+<li>
+<p>Paris (europawest9)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="neuer-maschinentyp-für-google-cloud">Neuer Maschinentyp für Google Cloud</h3>
+<div class="paragraph">
+<p>Der Standardmaschinentyp für den Datenvermittler in Google Cloud ist jetzt n2-Standard-4.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="6-juni-2022">6. Juni 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="kontinuierliche-synchronisierung">Kontinuierliche Synchronisierung</h3>
+<div class="paragraph">
+<p>Eine neue Einstellung ermöglicht kontinuierliche Synchronisierung von Änderungen von einem S3-Quell-Bucket zu einem Ziel.</p>
+</div>
+<div class="paragraph">
+<p>Nach der ersten Datensynchronisierung überwacht Cloud Sync Änderungen am S3 Quell-Bucket und synchronisiert kontinuierlich alle Änderungen am Zielspeicherort. Es ist nicht erforderlich, die Quelle in geplanten Intervallen erneut zu scannen. Diese Einstellung ist nur verfügbar, wenn die Synchronisierung von einem S3-Bucket zu S3, Google Cloud Storage, Azure Blob Storage, StorageGRID oder IBM Storage erfolgt.</p>
+</div>
+<div class="paragraph">
+<p>Beachten Sie, dass die mit Ihrem Daten-Broker verknüpfte IAM-Rolle folgende Berechtigungen benötigt, um diese Einstellung zu verwenden:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">"s3:GetBucketNotification",
+"s3:PutBucketNotification"</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Diese Berechtigungen werden automatisch allen von Ihnen erstellten neuen Datenmaklern hinzugefügt.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung Continuous Sync"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="zeigt-alle-ontap-volumes-an">Zeigt alle ONTAP Volumes an</h3>
+<div class="paragraph">
+<p>Wenn Sie eine Synchronisierungsbeziehung erstellen, zeigt Cloud Sync jetzt alle Volumes auf einem Cloud Volumes ONTAP Quellsystem, On-Premises-ONTAP Cluster oder FSX für ONTAP Filesystem an.</p>
+</div>
+<div class="paragraph">
+<p>Zuvor würde Cloud Sync nur die Volumes anzeigen, die mit dem ausgewählten Protokoll übereinstimmt. Nun werden alle Volumes angezeigt, aber alle Volumes, die nicht mit dem ausgewählten Protokoll übereinstimmen oder über keine Freigabe oder einen Export verfügen, werden grau dargestellt und können nicht ausgewählt werden.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="tags-werden-in-azure-blob-kopiert">Tags werden in Azure Blob kopiert</h3>
+<div class="paragraph">
+<p>Wenn Sie eine synchrone Beziehung erstellen, bei der Azure Blob das Ziel ist, können Sie mit Cloud Sync nun Tags in den Azure Blob-Container kopieren:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Auf der Seite <strong>Einstellungen</strong> können Sie die Einstellung <strong>für Objekte</strong> verwenden, um Tags aus der Quelle in den Azure Blob-Container zu kopieren. Dies wird zusätzlich zum Kopieren von Metadaten verwendet.</p>
+</li>
+<li>
+<p>Auf der Seite <strong>Tags/Metadaten</strong> können Sie Blob-Index-Tags angeben, die auf den Objekten festgelegt werden, die in den Azure Blob-Container kopiert werden. Zuvor konnten Sie nur Beziehungsmetadaten angeben.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Diese Optionen werden unterstützt, wenn Azure Blob Ziel ist und als Quelle entweder Azure Blob oder ein S3-kompatibler Endpunkt (S3, StorageGRID oder IBM Cloud Object Storage) bereitgestellt wird.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="mai-2022">Mai 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="zeitüberschreitung-bei-der-synchronisierung">Zeitüberschreitung bei der Synchronisierung</h3>
+<div class="paragraph">
+<p>Für Synchronisierungsbeziehungen steht jetzt eine neue <strong>Sync Timeout</strong>-Einstellung zur Verfügung. Mit dieser Einstellung können Sie festlegen, ob Cloud Sync eine Datensynchronisation abbrechen soll, wenn die Synchronisierung in der angegebenen Anzahl an Stunden oder Tagen nicht abgeschlossen ist.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship">"Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="benachrichtigungen">Benachrichtigungen</h3>
+<div class="paragraph">
+<p>Für Synchronisierungsbeziehungen steht jetzt eine neue <strong>Notifications</strong>-Einstellung zur Verfügung. Mit dieser Einstellung können Sie festlegen, ob Cloud Sync Benachrichtigungen im Benachrichtigungscenter von BlueXP empfangen werden sollen. Benachrichtigungen für erfolgreiche Datensynchronisation, fehlerhafte Datensynchronisation und stornierte Datensynchronisierungen sind möglich.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png" alt="Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."></span></p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship">"Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="3-april-2022">3. April 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="verbesserungen-der-data-broker-gruppe">Verbesserungen der Data Broker-Gruppe</h3>
+<div class="paragraph">
+<p>Wir haben verschiedene Verbesserungen an den Data Broker-Gruppen vorgenommen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Sie können einen Daten-Broker nun in eine neue oder vorhandene Gruppe verschieben.</p>
+</li>
+<li>
+<p>Sie können nun die Proxy-Konfiguration für einen Daten-Broker aktualisieren.</p>
+</li>
+<li>
+<p>Und schließlich können Sie auch Datenmaklergruppen löschen.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html">"Managen Sie Daten-Broker-Gruppen"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="dashboard-filter">Dashboard-Filter</h3>
+<div class="paragraph">
+<p>Sie können jetzt den Inhalt des Sync-Dashboards filtern, um Synchronisierungsbeziehungen, die einem bestimmten Status entsprechen, leichter zu finden. Sie können beispielsweise nach Synchronisierungsbeziehungen filtern, die einen fehlgeschlagenen Status haben</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-filter.png" alt="Ein Screenshot, der die Option „Filter nach Sync“ oben im Dashboard anzeigt."></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="3-märz-2022">3 März 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="sortierung-im-armaturenbrett">Sortierung im Armaturenbrett</h3>
+<div class="paragraph">
+<p>Sie sortieren das Dashboard jetzt nach dem synchronen Beziehungsnamen.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-sort.png" alt="Ein Screenshot mit der Option nach Name sortieren, die über das Dashboard verfügbar ist."></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="verbesserung-der-sinnvollen-integration-von-daten">Verbesserung der sinnvollen Integration von Daten</h3>
+<div class="paragraph">
+<p>In der vorherigen Version haben wir die Cloud Sync Integration in Cloud Data Sense eingeführt. In diesem Update haben wir die Integration verbessert, indem wir die Erstellung der Synchronisierungsbeziehung einfacher gestalten. Nachdem Sie eine Datensynchronisierung aus Cloud Data Sense initiiert haben, sind alle Quellinformationen in einem einzigen Schritt enthalten und müssen nur einige wichtige Details eingeben.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-data-sense.png" alt="Ein Screenshot, der die Seite Data Sense Integration zeigt, die nach dem Starten einer neuen Synchronisierung direkt aus Cloud Data Sense angezeigt wird."></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="6-februar-2022">6 Februar 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="erweiterung-um-data-broker-gruppen">Erweiterung um Data Broker-Gruppen</h3>
+<div class="paragraph">
+<p>Wir haben die Interaktion mit Datenmaklern verändert, indem wir den Schwerpunkt auf Data Broker_groups_ legen.</p>
+</div>
+<div class="paragraph">
+<p>Wenn Sie beispielsweise eine neue Synchronisierungsbeziehung erstellen, wählen Sie den Datenmanager <em>Group</em> aus, der mit der Beziehung verwendet werden soll, anstatt einen bestimmten Datenmanager.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-select-data-broker-group.png" alt="Ein Screenshot des Assistenten für Synchronisierungsbeziehungen, der die Auswahl der Gruppe des Datenmakers anzeigt"></span></p>
+</div>
+<div class="paragraph">
+<p>Auf der Registerkarte <strong>Manage Data Brokers</strong> zeigen wir auch die Anzahl der Synchronisierungsbeziehungen an, die eine Datenmaklergruppe verwaltet.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-group-relationships.png" alt="Ein Screenshot der Seite „Data Brokers managen“, auf der eine Gruppe für Daten-Broker angezeigt wird und Details zu dieser Gruppe angezeigt werden, einschließlich der Anzahl der Beziehungen, die sie verwalten."></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="pdf-berichte-herunterladen">PDF-Berichte herunterladen</h3>
+<div class="paragraph">
+<p>Sie können nun eine PDF eines Berichts herunterladen.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html">"Erfahren Sie mehr über Berichte"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="januar-2022">Januar 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="neue-sync-beziehungen-für-box">Neue Sync-Beziehungen für Box</h3>
+<div class="paragraph">
+<p>Zwei neue Synchronisierungsbeziehungen werden unterstützt:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Von Azure NetApp Files integriert</p>
+</li>
+<li>
+<p>Box zu Amazon FSX für ONTAP</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="reference-supported-relationships.html">"Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="beziehungsnamen">Beziehungsnamen</h3>
+<div class="paragraph">
+<p>Sie können nun jedem Ihrer Synchronisierungsbeziehungen einen aussagekräftigen Namen geben, um den Zweck jeder Beziehung leichter zu identifizieren. Sie können den Namen hinzufügen, wenn Sie die Beziehung erstellen, und jederzeit danach.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot-sync-relationship-edit-name.png" alt="Ein Screenshot einer Synchronisierungsbeziehung, in dem die Schaltfläche „Bearbeiten“ neben dem Namen einer Beziehung angezeigt wird."></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="private-s3-links">Private S3-Links</h3>
+<div class="paragraph">
+<p>Bei der Synchronisierung von Daten mit und von Amazon S3 haben Unternehmen die Wahl, ob sie einen S3 Private Link verwenden möchten. Wenn der Daten-Broker Daten aus der Quelle in das Ziel kopiert, durchläuft er einen privaten Link.</p>
+</div>
+<div class="paragraph">
+<p>Beachten Sie, dass die IAM-Rolle, die Ihrem Datenvermittler zugeordnet ist, zur Verwendung dieser Funktion folgende Berechtigungen benötigen:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">"ec2:DescribeVpcEndpoints"</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Diese Berechtigung wird automatisch allen neuen, von Ihnen erstellten Datenmaklern hinzugefügt.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="glacier-instant-retrieval">Glacier Instant Retrieval</h3>
+<div class="paragraph">
+<p>Sie können jetzt die Storage-Klasse <em>Glacier Instant Retrieval</em> auswählen, wenn Amazon S3 das Ziel in einer synchronen Beziehung ist.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="acls-vom-objekt-storage-zu-smb-freigaben">ACLs vom Objekt-Storage zu SMB-Freigaben</h3>
+<div class="paragraph">
+<p>Cloud Sync unterstützt jetzt das Kopieren von ACLs vom Objekt-Storage in SMB-Freigaben. Zuvor wurde nur das Kopieren von ACLs aus einer SMB-Freigabe in Objekt-Storage unterstützt.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="sftp-zu-s3">SFTP zu S3</h3>
+<div class="paragraph">
+<p>Das Erstellen einer Synchronisierungsbeziehung von SFTP zu Amazon S3 wird nun in der Benutzeroberfläche unterstützt. Diese Synchronisierungsbeziehung wurde bereits zuvor nur durch die API unterstützt.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="verbesserung-der-tabellenansicht">Verbesserung der Tabellenansicht</h3>
+<div class="paragraph">
+<p>Die Tabellenansicht auf dem Dashboard wurde für eine einfache Bedienung neu gestaltet. Wenn Sie <strong>Weitere Informationen</strong> auswählen, filtert Cloud Sync das Dashboard, um Ihnen mehr Informationen über diese bestimmte Beziehung anzuzeigen.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot-sync-table.png" alt="Ein Screenshot der Tabellenansicht im Dashboard"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="unterstützung-der-region-jarkarta">Unterstützung der Region Jarkarta</h3>
+<div class="paragraph">
+<p>Cloud Sync unterstützt jetzt die Implementierung des Datenmaklers in der Region AWS Asien-Pazifik (Jakarta).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="28-november-2021">28. November 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="acls-von-smb-zu-objekt-storage">ACLs von SMB zu Objekt-Storage</h3>
+<div class="paragraph">
+<p>Cloud Sync kann jetzt Zugriffssteuerungslisten (ACLs) kopieren, wenn eine synchrone Beziehung von einer SMB-Quellfreigabe zum Objekt-Storage eingerichtet wird (außer für ONTAP S3).</p>
+</div>
+<div class="paragraph">
+<p>Cloud Sync unterstützt das Kopieren von ACLs vom Objekt-Storage in SMB-Freigaben nicht.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-copying-acls.html">"Lesen Sie, wie Sie ACLs aus einer SMB-Freigabe kopieren"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="lizenzen-aktualisieren">Lizenzen aktualisieren</h3>
+<div class="paragraph">
+<p>Sie können nun die erweiterten Cloud Sync Lizenzen aktualisieren.</p>
+</div>
+<div class="paragraph">
+<p>Wenn Sie eine Cloud Sync Lizenz von NetApp erworben haben, können Sie die Lizenz erneut hinzufügen, um das Ablaufdatum zu aktualisieren.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-licensing.html#update-a-license">"Erfahren Sie, wie Sie eine Lizenz aktualisieren"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="anmeldedaten-für-das-update-feld">Anmeldedaten für das Update-Feld</h3>
+<div class="paragraph">
+<p>Sie können jetzt die Box-Anmeldeinformationen für eine bestehende Synchronisierungsbeziehung aktualisieren.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-relationships.html">"Hier erfahren Sie, wie Sie Anmeldedaten aktualisieren"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="oktober-31-2021">Oktober 31 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="box-unterstützung">Box-Unterstützung</h3>
+<div class="paragraph">
+<p>Box-Unterstützung ist jetzt in der Benutzeroberfläche von Cloud Sync als Vorschau verfügbar.</p>
+</div>
+<div class="paragraph">
+<p>Feld kann die Quelle oder das Ziel in verschiedenen Arten von Synchronisierungsbeziehungen sein. <a href="reference-supported-relationships.html">"Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="einstellung-für-erstellungsdatum">Einstellung für Erstellungsdatum</h3>
+<div class="paragraph">
+<p>Wenn ein SMB-Server die Quelle ist, können Sie mit einer neuen Einstellung für die Synchronisierungsbeziehung namens „<em>Date created</em>“ Dateien synchronisieren, die nach einem bestimmten Datum, vor einem bestimmten Datum oder zwischen einem bestimmten Zeitraum erstellt wurden.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-relationships.html">"Weitere Informationen zu Cloud Sync-Einstellungen"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="oktober-4-2021">Oktober 4 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="zusätzliche-box-unterstützung">Zusätzliche Box-Unterstützung</h3>
+<div class="paragraph">
+<p>Cloud Sync unterstützt jetzt zusätzliche Synchronisierungsbeziehungen für <a href="https://www.box.com/home" target="_blank" rel="noopener">"Kasten"</a> Bei der Verwendung der Cloud Sync-API:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Amazon S3 zu Box</p>
+</li>
+<li>
+<p>IBM Cloud Object Storage to Box</p>
+</li>
+<li>
+<p>StorageGRID to Box</p>
+</li>
+<li>
+<p>Auf einen NFS-Server übertragen</p>
+</li>
+<li>
+<p>Auf SMB-Server übertragen</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="api-sync.html">"Hier erfahren Sie, wie Sie mit der API eine Synchronisierungsbeziehung einrichten"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="berichte-für-sftp-pfade">Berichte für SFTP-Pfade</h3>
+<div class="paragraph">
+<p>Das ist jetzt möglich <a href="task-managing-reports.html">"Erstellen Sie einen Bericht"</a> Für SFTP-Pfade.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="september-2021">September 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="unterstützung-von-fsx-für-ontap">Unterstützung von FSX für ONTAP</h3>
+<div class="paragraph">
+<p>Sie können jetzt Daten mit einem Amazon FSX für ONTAP Filesystem synchronisieren.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html" target="_blank" rel="noopener">"Weitere Informationen zu Amazon FSX für ONTAP"</a></p>
+</li>
+<li>
+<p><a href="reference-requirements.html">"Anzeigen von unterstützten Synchronisierungsbeziehungen"</a></p>
+</li>
+<li>
+<p><a href="task-creating-relationships.html">"Lesen Sie, wie Sie eine Synchronisierungsbeziehung für Amazon FSX für ONTAP erstellen"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="august-2021">August 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="anmeldedaten-aktualisieren">Anmeldedaten aktualisieren</h3>
+<div class="paragraph">
+<p>Mit Cloud Sync können Sie den Daten-Broker nun mit den neuesten Zugangsdaten für das Quell- oder Ziel-System in einer bestehenden Synchronisierungsbeziehung aktualisieren.</p>
+</div>
+<div class="paragraph">
+<p>Diese Verbesserung kann hilfreich sein, wenn Sie Ihre Sicherheitsrichtlinien vorschreiben, dass Sie die Anmeldeinformationen regelmäßig aktualisieren müssen. <a href="task-managing-relationships.html">"Hier erfahren Sie, wie Sie Anmeldedaten aktualisieren"</a>.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_sync_update_credentials.png" alt="Ein Screenshot, in dem die Option Anmeldeinformationen aktualisieren auf der Seite Beziehungen synchronisieren direkt unter dem Namen der Quelle oder des Ziels angezeigt wird."></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="tags-für-objekt-storage-ziele">Tags für Objekt-Storage-Ziele</h3>
+<div class="paragraph">
+<p>Beim Erstellen einer Synchronisierungsbeziehung können Sie nun Tags in einer Synchronisierungsbeziehung zum Objekt-Storage-Ziel hinzufügen.</p>
+</div>
+<div class="paragraph">
+<p>Das Hinzufügen von Tags wird unterstützt mit Amazon S3, Azure Blob, Google Cloud Storage, IBM Cloud Object Storage und StorageGRID.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_sync_tags.png" alt="Ein Screenshot, der die Seite im Assistenten für die Arbeitsumgebung anzeigt, in dem Sie Beziehungs-Tags zum Objekt-Speicherziel in der Beziehung hinzufügen können."></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="support-für-box">Support für Box</h3>
+<div class="paragraph">
+<p>Cloud Sync unterstützt jetzt <a href="https://www.box.com/home" target="_blank" rel="noopener">"Kasten"</a> Wenn Sie die Cloud Sync-API verwenden, dient sie als Quelle in einer Synchronisierungsbeziehung zu Amazon S3, StorageGRID und IBM Cloud Objekt-Storage.</p>
+</div>
+<div class="paragraph">
+<p><a href="api-sync.html">"Hier erfahren Sie, wie Sie mit der API eine Synchronisierungsbeziehung einrichten"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="öffentliche-ip-für-datenvermittler-in-google-cloud">Öffentliche IP für Datenvermittler in Google Cloud</h3>
+<div class="paragraph">
+<p>Wenn Sie einen Daten-Broker in Google Cloud bereitstellen, haben Sie nun die Möglichkeit zu wählen, ob Sie eine öffentliche IP-Adresse für die VM-Instanz aktivieren oder deaktivieren möchten.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-installing-gcp.html">"So stellen Sie einen Daten-Broker in Google Cloud bereit"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="dual-protokoll-volume-für-azure-netapp-files">Dual-Protokoll-Volume für Azure NetApp Files</h3>
+<div class="paragraph">
+<p>Wenn Sie das Quell- oder Ziel-Volume für Azure NetApp Files auswählen, zeigt Cloud Sync jetzt unabhängig vom gewählten Protokoll ein Dual-Protokoll-Volume an.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="7-juli-2021">7 Juli 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="ontap-s3-storage-und-google-cloud-storage">ONTAP S3 Storage und Google Cloud Storage</h3>
+<div class="paragraph">
+<p>Cloud Sync unterstützt jetzt über die Benutzeroberfläche die Synchronisierungsbeziehungen zwischen ONTAP S3 Storage und einem Google Cloud Storage Bucket.</p>
+</div>
+<div class="paragraph">
+<p><a href="reference-supported-relationships.html">"Zeigen Sie die Liste der unterstützten Synchronisierungsbeziehungen an"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="objekt-metadaten-tags">Objekt-Metadaten-Tags</h3>
+<div class="paragraph">
+<p>Cloud Sync kann jetzt bei der Erstellung einer Synchronisierungsbeziehung und bei der Aktivierung einer Einstellung Objekt-Metadaten und -Tags zwischen objektbasiertem Storage kopieren.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-creating-relationships.html#settings">"Erfahren Sie mehr über die Einstellung Kopieren für Objekte"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="unterstützung-von-hashicorp-vaults">Unterstützung von HashiCorp Vaults</h3>
+<div class="paragraph">
+<p>Sie können den Daten-Broker jetzt so einrichten, dass er über einen externen HashiCorp Vault auf Anmeldeinformationen zugreifen kann, indem Sie sich mit einem Google Cloud-Servicekonto authentifizieren.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-external-vault.html">"Erfahren Sie mehr über die Verwendung von HashiCorp Vault mit einem Daten-Broker"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="tags-oder-metadaten-für-s3-bucket-definieren">Tags oder Metadaten für S3-Bucket definieren</h3>
+<div class="paragraph">
+<p>Beim Einrichten einer Synchronisierungsbeziehung zu einem Amazon S3-Bucket können Sie im Sync-Beziehungsassistenten jetzt die Tags oder Metadaten definieren, die Sie in den Objekten im S3-Ziel-Bucket speichern möchten.</p>
+</div>
+<div class="paragraph">
+<p>Die Tagging-Option war bisher Teil der Einstellungen für Synchronisierungsbeziehungen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="7-juni-2021">7. Juni 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storage-klassen-in-google-cloud">Storage-Klassen in Google Cloud</h3>
+<div class="paragraph">
+<p>Wenn ein Google Cloud Storage Bucket in einer Synchronisierungsbeziehung Ziel ist, können Sie jetzt die Storage-Klasse auswählen, die Sie verwenden möchten. Cloud Sync unterstützt folgende Speicherklassen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Standard</p>
+</li>
+<li>
+<p>Nearline</p>
+</li>
+<li>
+<p>Coldline</p>
+</li>
+<li>
+<p>Archivierung</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="mai-2021">Mai 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="fehler-in-berichten">Fehler in Berichten</h3>
+<div class="paragraph">
+<p>Sie können jetzt die in Berichten gefundenen Fehler anzeigen und den letzten Bericht oder alle Berichte löschen.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-reports.html">"Erfahren Sie mehr über das Erstellen und Anzeigen von Berichten zur Anpassung Ihrer Konfiguration"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="attribute-vergleichen">Attribute vergleichen</h3>
+<div class="paragraph">
+<p>Für jede Synchronisationsbeziehung steht jetzt eine neue <strong>Compare by</strong>-Einstellung zur Verfügung.</p>
+</div>
+<div class="paragraph">
+<p>Mit dieser erweiterten Einstellung können Sie festlegen, ob Cloud Sync bestimmte Attribute vergleichen soll, wenn Sie feststellen, ob sich eine Datei oder ein Verzeichnis geändert hat und erneut synchronisiert werden soll.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-relationships.html#changing-the-settings-for-a-sync-relationship">"Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="11-april-2021">11 April 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="der-standalone-cloud-sync-service-wird-außer-betrieb-genommen">Der Standalone-Cloud Sync-Service wird außer Betrieb genommen</h3>
+<div class="paragraph">
+<p>Der Standalone-Cloud Sync-Service wurde außer Betrieb genommen. Sie sollten nun direkt über BlueXP auf Cloud Sync zugreifen, wo dieselben Funktionen und Merkmale zur Verfügung stehen.</p>
+</div>
+<div class="paragraph">
+<p>Nachdem Sie sich bei BlueXP angemeldet haben, können Sie oben auf die Registerkarte „Sync“ wechseln und Ihre Beziehungen wie zuvor anzeigen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="google-cloud-buckets-für-verschiedene-projekte">Google Cloud Buckets für verschiedene Projekte</h3>
+<div class="paragraph">
+<p>Beim Einrichten einer Synchronisierungsbeziehung können Sie in verschiedenen Projekten aus Google Cloud Buckets auswählen, wenn Sie dem Servicekonto des Datenmaklers die erforderlichen Berechtigungen bereitstellen.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-installing-gcp.html">"Erfahren Sie, wie Sie das Service-Konto einrichten"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="metadaten-zwischen-google-cloud-storage-und-s3">Metadaten zwischen Google Cloud Storage und S3</h3>
+<div class="paragraph">
+<p>Cloud Sync kopiert jetzt Metadaten zwischen Google Cloud Storage- und S3-Providern (AWS S3, StorageGRID und IBM Cloud Object Storage).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="starten-sie-den-datenvermittler-neu">Starten Sie den Datenvermittler neu</h3>
+<div class="paragraph">
+<p>Sie können jetzt einen Daten-Broker von Cloud Sync neu starten.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_sync_restart_data_broker.gif" alt="Ein Screenshot, in dem die Aktion „Data Broker neu starten“ auf der Seite „Data Brokers verwalten“ angezeigt wird."></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="meldung-wenn-die-neueste-version-nicht-ausgeführt-wird">Meldung, wenn die neueste Version nicht ausgeführt wird</h3>
+<div class="paragraph">
+<p>Cloud Sync erkennt jetzt, wenn ein Daten-Broker nicht die neueste Softwareversion ausführt. Diese Botschaft kann dazu beitragen, dass Sie die neuesten Funktionen und Funktionen erhalten.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_sync_warning.gif" alt="Ein Screenshot, der eine Warnung zeigt, wenn ein Daten-Broker auf dem Dashboard angezeigt wird."></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/de-de/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/de-de/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">Auf dieser seite</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Nutzungsbedingungen</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Datenschutzrichtlinie</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Richtlinie zu Cookies</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Cookie-Einstellungen</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">Feedback zu dieser Seite senden</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/de-de/bluexp-copy-sync/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/de-de/bluexp-copy-sync/js/prism.js'></script>
+      <script type="text/javascript" src='/de-de/bluexp-copy-sync/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/de-de/bluexp-copy-sync/js/ie-tabbed-blocks.js'></script>
+    <script src='/de-de/bluexp-copy-sync/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
