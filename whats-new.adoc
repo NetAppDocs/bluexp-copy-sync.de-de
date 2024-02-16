@@ -18,6 +18,18 @@ Erfahren Sie mehr über die Neuerungen bei der BlueXP Kopier- und Synchronisieru
 
 
 
+== 11 Februar 2024
+
+
+
+=== Verzeichnisse nach regex filtern
+
+Benutzer haben nun die Möglichkeit, Verzeichnisse mit regex zu filtern.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["Erfahren Sie mehr über die Funktion *Verzeichnisse ausschließen*."]
+
+
+
 == Bis 26. November 2023
 
 

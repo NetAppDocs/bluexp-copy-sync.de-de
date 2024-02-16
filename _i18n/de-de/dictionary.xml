@@ -275,7 +275,6 @@
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Diese Seriennummern werden als _PAYGO Seriennummern_ bezeichnet und werden zum Zeitpunkt der Cloud Volumes ONTAP Implementierung von BlueXP generiert.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenü, in dem Support die erste Option aufgeführt ist</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp verwendet Microsoft Azure Active Directory als Identitäts-Provider für Authentifizierungsservices, die sich speziell für Support und Lizenzierung entscheiden.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Geben Sie auf der Anmeldeseite die registrierte E-Mail-Adresse und das Kennwort Ihrer NetApp Support Site an, um den Authentifizierungsvorgang durchzuführen.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Mit diesen Aktionen kann BlueXP Ihr NSS-Konto für Dinge wie Lizenzdownloads, Softwareaktualisierungs-Verifizierung und zukünftige Support-Registrierungen verwenden.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Beachten Sie Folgendes:</block>
@@ -308,8 +307,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Treten Sie der BlueXP Community bei, um laufende Diskussionen zu verfolgen oder neue zu erstellen.</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Dokumentation</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">Die BlueXP-Dokumentation, die Sie gerade anzeigen.</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Mailto:ng-cloudmanager-feedback@netapp.com[Feedback email]</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Wir wissen Ihre Vorschläge zu schätzen. Senden Sie uns Ihr Feedback, um BlueXP zu verbessern.</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Zusätzlich zu den oben genannten Self-Support-Optionen können Sie gemeinsam mit einem NetApp Support-Experten eventuelle Probleme nach der Aktivierung des Supports beheben.</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*: Wählen Sie den Dienst aus, mit dem das Problem verknüpft ist. Beispiel: BlueXP, wenn es sich um ein Problem des technischen Supports mit Workflows oder Funktionen im Service handelt.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Arbeitsumgebung*: Wählen Sie *Cloud Volumes ONTAP* oder *On-Prem* und anschließend die zugehörige Arbeitsumgebung aus.</block>
@@ -1281,10 +1278,6 @@
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="sidebar">Lizenzierung</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">Häufig gestellte Fragen</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Support</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs Community</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP-Blog</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Cloud-Webinare</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Alle BlueXP-Dokumentationen</block>
   <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">\https://console.bluexp.netapp.com/ \https://netapp-cloud-account.auth0.com</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Wenn Sie einen Partner- oder Reseller-Account haben, können Sie ein oder mehrere NSS-Konten hinzufügen, können aber nicht neben Kunden-Level Accounts hinzugefügt werden.</block>
@@ -1399,7 +1392,6 @@
   <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSX für ONTAP</block>
   <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">On-Premises-ONTAP</block>
   <block id="9e1b606dc521567131be8e8f6b621511" category="list-text">Verzeichnisse Ausschließen</block>
-  <block id="303de3e45b2f15b7f37aa50b2824f981" category="list-text">Geben Sie maximal 15 Verzeichnisse an, die von der Synchronisierung ausgeschlossen werden sollen, indem Sie ihren Namen oder den vollständigen Pfad des Verzeichnisses eingeben und *Enter* drücken. Die Verzeichnisse .Copy-Offload, .Snapshot, ~Snapshot sind standardmäßig ausgeschlossen. Wenn Sie diese in Ihre Synchronisierung aufnehmen möchten, kontaktieren Sie uns.</block>
   <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">Bis 2. April 2023</block>
   <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Zusätzliche Unterstützung für Azure Data Lake Storage Gen2-Beziehungen</block>
   <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">Sie können jetzt Synchronisierungsbeziehungen mit Azure Data Lake Storage Gen2 als Quelle und Ziel mit folgenden Methoden erstellen:</block>
@@ -1906,4 +1898,11 @@
   <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">Alle neuen Daten-Broker verwenden jetzt Node-Version 21.2.0. Daten-Broker, die mit diesem Update nicht kompatibel sind, wie CentOS 7.0 und Ubuntu Server 18.0, funktionieren nicht mehr mit der BlueXP Kopier- und Synchronisierungsfunktion.</block>
   <block id="067302a61f4ac3cb10bab96cf4753092" category="list-text">V21.2.0</block>
   <block id="3677e4449a81dc7f1c8db056eade76dd" category="list-text">*Node.js-Kompatibilität*: V21.2.0</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp verwendet Microsoft Entra ID als Identitätsanbieter für Authentifizierungsservices, die speziell auf Support und Lizenzierung zugeschnitten sind.</block>
+  <block id="4b51a8df678b7448fbc55b79ad365ed7" category="section-title">11 Februar 2024</block>
+  <block id="66a743c4896414f00b485685ab377a19" category="section-title">Verzeichnisse nach regex filtern</block>
+  <block id="df5c4f17d479f00c828a9edc617f2277" category="paragraph">Benutzer haben nun die Möglichkeit, Verzeichnisse mit regex zu filtern.</block>
+  <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">Erfahren Sie mehr über die Funktion *Verzeichnisse ausschließen*.</block>
+  <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
+  <block id="65f2edc14f4a65d07600885b4ca1a56f" category="list-text">Geben Sie maximal 15 regex oder Verzeichnisse an, die von der Synchronisierung ausgeschlossen werden sollen, indem Sie ihren Namen oder das Verzeichnis Full Path eingeben und *Enter* drücken. Die Verzeichnisse .Copy-Offload, .Snapshot, ~Snapshot sind standardmäßig ausgeschlossen.</block>
 </blocks>

@@ -190,7 +190,13 @@ video::video_file_extensions.mp4[width=840,height=240]
 NOTE: Regex oder reguläre Ausdrücke unterscheiden sich von Wildcards oder Glob-Ausdrücken. Diese Funktion *only* funktioniert mit regex.
 
 --
-Verzeichnisse Ausschließen:: Geben Sie maximal 15 Verzeichnisse an, die von der Synchronisierung ausgeschlossen werden sollen, indem Sie ihren Namen oder den vollständigen Pfad des Verzeichnisses eingeben und *Enter* drücken. Die Verzeichnisse .Copy-Offload, .Snapshot, ~Snapshot sind standardmäßig ausgeschlossen. Wenn Sie diese in Ihre Synchronisierung aufnehmen möchten, kontaktieren Sie uns.
+Verzeichnisse Ausschließen:: Geben Sie maximal 15 regex oder Verzeichnisse an, die von der Synchronisierung ausgeschlossen werden sollen, indem Sie ihren Namen oder das Verzeichnis Full Path eingeben und *Enter* drücken. Die Verzeichnisse .Copy-Offload, .Snapshot, ~Snapshot sind standardmäßig ausgeschlossen.
++
+--
+
+NOTE: Regex oder reguläre Ausdrücke unterscheiden sich von Wildcards oder Glob-Ausdrücken. Diese Funktion *only* funktioniert mit regex.
+
+--
 Dateigröße:: Wählen Sie, ob alle Dateien unabhängig von ihrer Größe oder nur Dateien in einem bestimmten Größenbereich synchronisiert werden sollen.
 Änderungsdatum:: Wählen Sie alle Dateien unabhängig vom letzten Änderungsdatum aus, Dateien, die nach einem bestimmten Datum, vor einem bestimmten Datum oder zwischen einem bestimmten Zeitraum geändert wurden.
 Erstellungsdatum:: Wenn ein SMB-Server die Quelle ist, können Sie mit dieser Einstellung Dateien synchronisieren, die nach einem bestimmten Datum, vor einem bestimmten Datum oder zwischen einem bestimmten Zeitraum erstellt wurden.
