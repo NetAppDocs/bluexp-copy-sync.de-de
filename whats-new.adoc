@@ -18,6 +18,18 @@ Erfahren Sie mehr über die Neuerungen bei der BlueXP Kopier- und Synchronisieru
 
 
 
+== Bis 8. April 2024
+
+
+
+=== Unterstützung für RHEL 8.9
+
+Der Daten-Broker wird jetzt auf Hosts unterstützt, auf denen Red hat Enterprise Linux 8.9 ausgeführt wird.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["Linux-Host-Anforderungen anzeigen"].
+
+
+
 == 11 Februar 2024
 
 

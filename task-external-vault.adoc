@@ -13,6 +13,7 @@ summary: Wenn Sie eine Synchronisierungsbeziehung erstellen, für die Amazon S3,
 :imagesdir: ./media/
 
 
+[role="lead"]
 Wenn Sie eine Synchronisierungsbeziehung erstellen, für die Amazon S3, Azure oder Google Cloud Anmeldedaten erforderlich sind, müssen Sie diese Anmeldedaten über die BlueXP Kopier- und Synchronisierungsschnittstelle oder -API angeben. Alternativ kann die Gruppe für den Datenvermittler eingerichtet werden, um direkt von einem externen HashiCorp Vault auf die Anmeldeinformationen (oder _Secrets_) zuzugreifen.
 
 Diese Funktion wird über die BlueXP Kopier- und Synchronisierungs-API unterstützt, die Amazon S3, Azure oder Google Cloud Anmeldedaten erfordert.

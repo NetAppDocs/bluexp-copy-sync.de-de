@@ -13,6 +13,7 @@ summary: Wenn Ihr Unternehmen über strenge Sicherheitsrichtlinien verfügt, syn
 :imagesdir: ./media/
 
 
+[role="lead"]
 Verfügt Ihr Unternehmen über strenge Sicherheitsrichtlinien, können Sie NFS-Daten mithilfe von Verschlüsselung der aktiven Daten synchronisieren. Diese Funktion wird von einem NFS-Server zu einem anderen NFS-Server und von Azure NetApp Files zu Azure NetApp Files unterstützt.
 
 So könnten Sie beispielsweise Daten zwischen zwei NFS Servern synchronisieren, die sich in verschiedenen Netzwerken befinden. Alternativ müssen Daten über Azure NetApp Files sicher über Subnetze und Regionen hinweg übertragen werden.

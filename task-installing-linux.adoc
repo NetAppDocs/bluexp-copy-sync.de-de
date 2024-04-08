@@ -27,7 +27,7 @@ Wenn Sie eine neue Gruppe für Daten-Broker erstellen, wählen Sie die Option On
 +
 CentOS Stream wird nicht unterstützt.
 
-** Red hat Enterprise Linux 8.0, 8.5 und 8.8
+** Red hat Enterprise Linux 8.5, 8.8 und 8.9
 ** Rocky Linux 9
 ** Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
