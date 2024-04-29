@@ -245,7 +245,7 @@ TIP: Diese Funktion ist auch zur Synchronisierung von Daten mit StorageGRID und 
 
 *Ergebnis*
 
-Die Kopier- und Synchronisierungsfunktion von BlueXP beginnt mit der Synchronisierung von Daten zwischen Quelle und Ziel.
+Die Kopier- und Synchronisierungsfunktion von BlueXP beginnt mit der Synchronisierung von Daten zwischen Quelle und Ziel. Synchronisierungsstatistiken, die zeigen, wie lange die Synchronisierung dauerte, ob sie angehalten wurde und wie viele Dateien kopiert, gescannt oder gelöscht wurden, sind verfügbar. Sie können dann Ihre verwalten https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html["Synchronisierungsbeziehungen"], https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["Managen Sie Ihre Daten-Broker"], Oder https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html#creating-reports["Erstellen von Berichten zur Optimierung von Performance und Konfiguration"].
 
 
 

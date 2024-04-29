@@ -5,15 +5,12 @@ keywords: sync, immediate, now, schedule, minutes, hours, on, off, delete, group
 summary: Sie können Synchronisierungsbeziehungen jederzeit verwalten, indem Sie Daten sofort synchronisieren, Zeitpläne ändern und vieles mehr. 
 ---
 = Verwalten von Synchronisierungsbeziehungen
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

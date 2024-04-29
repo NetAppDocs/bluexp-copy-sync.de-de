@@ -5,15 +5,12 @@ keywords: manage data brokers, manage data broker groups, data broker performanc
 summary: Ein Daten-Broker synchronisiert Daten von einem Quellspeicherort an einem Zielspeicherort. Für jede von Ihnen erstellte Sync-Beziehung ist ein Daten-Broker erforderlich. Managen Sie Datenvermittler, indem Sie einer Gruppe einen neuen Daten-Broker hinzufügen, indem Sie Informationen zu Datenvermittlern anzeigen – und vieles mehr. 
 ---
 = Managen von Daten-Broker-Gruppen
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

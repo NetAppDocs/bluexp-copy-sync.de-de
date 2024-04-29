@@ -5,21 +5,18 @@ keywords: reports, sync reports, BlueXP copy and sync reports, report errors, pa
 summary: Berichte erstellen und anzeigen, um Informationen zu erhalten, die Sie mit Unterstützung von NetApp Mitarbeitern verwenden können, um die Konfiguration eines Datenmakers anzupassen und die Performance zu verbessern. 
 ---
 = Erstellen und Anzeigen von Berichten zur Anpassung Ihrer Konfiguration
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 Erstellen und Anzeigen von Berichten für Informationen, die Sie mit Hilfe von NetApp Mitarbeitern verwenden können, um die Konfiguration eines Datenmaklers abzustimmen und die Performance zu verbessern.
 
-Jeder Bericht enthält detaillierte Details zu einem Pfad in einer Synchronisierungsbeziehung. Der Bericht für ein Dateisystem zeigt beispielsweise an, wie viele Verzeichnisse und Dateien vorhanden sind, wie groß und breit die Verzeichnisse sind und vieles mehr.
+Jeder Bericht enthält detaillierte Details zu einem Pfad in einer Synchronisierungsbeziehung. Es wird beinhalten, wie viele Verzeichnisse, Dateien und symbolische Links es gibt, die Verteilung der Dateigröße, wie tief und breit die Verzeichnisse sind, ändern Zeit und Zugriffszeit. Dies unterscheidet sich von den Synchronisierungsstatiken, die nach dem Dashboard verfügbar sind https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["Die Synchronisierung wurde erfolgreich erstellt und abgeschlossen"].
 
 
 

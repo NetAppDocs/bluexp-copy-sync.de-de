@@ -283,6 +283,10 @@ BlueXP kopiert und synchronisiert automatisch NFS-Berechtigungen zwischen NFS-Se
 
 == Objekt-Storage-Metadaten
 
+
+
+=== Welche Arten von synchronen Beziehungen bewahren die Objekt-Storage-Metadaten?
+
 BlueXP Kopier- und Synchronisierungskopien von Objekt-Storage-Metadaten aus der Quelle für die folgenden Arten von Synchronisierungsbeziehungen zum Ziel:
 
 * Amazon S3 -> Amazon S3 ^1^
@@ -301,6 +305,12 @@ BlueXP Kopier- und Synchronisierungskopien von Objekt-Storage-Metadaten aus der 
 
 
 ^1^ für diese Synchronisierungsbeziehungen müssen Sie es durchführen link:task-creating-relationships.html["Aktivieren Sie die Einstellung Kopieren für Objekte, wenn Sie die Synchronisierungsbeziehung erstellen"].
+
+
+
+=== Welche Arten von Metadaten werden während der Synchronisierung repliziert, wobei NFS oder SMB die Quelle sind?
+
+Metadaten wie Benutzer-ID, Änderungszeit, Zugriffszeit und GID werden standardmäßig repliziert. Benutzer können ACL von CIFS replizieren, indem sie sie bei der Erstellung einer Synchronisierungsbeziehung als erforderlich markieren.
 
 
 
