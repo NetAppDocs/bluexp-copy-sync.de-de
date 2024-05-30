@@ -1,0 +1,33 @@
+---
+indexpage:
+  title: Dokumentation der BlueXP Kopier- und Synchronisierungsfunktion
+  summary: BlueXP Kopier- und Synchronisierungsservice für Cloud-Replizierung und
+    -Synchronisierung für die Übertragung von NAS-Daten zwischen lokalen und Cloud-Objektspeichern.
+  keywords: bluexp-family, documentation, cloud
+  lead: BlueXP Kopier- und Synchronisierungsservice für Cloud-Replizierung und -Synchronisierung
+    für die Übertragung von NAS-Daten zwischen lokalen und Cloud-Objektspeichern.
+  tiles:
+  - title: Los geht's
+    links:
+    - title: BlueXP Kopier- und Synchronisierungsübersicht
+      url: concept-cloud-sync.html
+    - title: Schnellstart
+      url: task-quick-start.html
+    - title: Häufig gestellte Fragen
+      url: faq.html
+  - title: BlueXP Kopier- und Synchronisierungsfunktion nutzen
+    links:
+    - title: Erstellen einer Synchronisierungsbeziehung
+      url: task-creating-relationships.html
+    - title: Lizenzierung einrichten
+      url: task-licensing.html
+    - title: Managen von Daten-Broker-Gruppen
+      url: task-managing-data-brokers.html
+  - title: Blogs und Community
+    links:
+    - title: NetApp Community
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP-Blog
+      url: https://cloud.netapp.com/blog
+    - title: Cloud-Webinare
+      url: https://cloud.netapp.com/events
