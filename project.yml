@@ -46,6 +46,9 @@ sidebar:
     entries:
     - title: Daten zwischen Quelle und Ziel synchronisieren
       entries:
+      - title: Bereiten Sie einen Daten-Broker auf die Synchronisierung von Daten
+          zwischen Objekt-Storage vor
+        url: "/task-prepare-object-storage.html"
       - title: Erstellen einer Synchronisierungsbeziehung
         url: "/task-creating-relationships.html"
       - title: Kopieren von ACLs aus einer SMB-Freigabe

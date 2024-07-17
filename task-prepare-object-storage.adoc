@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-prepare-object-storage.html 
+keywords: prepare data broker, data broker, object storage, sync, scanner, configure scanner 
+summary: 'Wenn Sie planen, Daten vom Objekt-Storage zum Objekt-Storage zu synchronisieren (z. B. Amazon S3 zu Azure Blob), müssen Sie die Daten-Broker-Gruppe vorbereiten, bevor Sie die Synchronisierungsbeziehung erstellen.' 
+---
+= Bereiten Sie einen Daten-Broker auf die Synchronisierung von Daten zwischen Objekt-Storage vor
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Sie planen, Daten vom Objekt-Storage zum Objekt-Storage zu synchronisieren (z. B. Amazon S3 zu Azure Blob), müssen Sie die Daten-Broker-Gruppe vorbereiten, bevor Sie die Synchronisierungsbeziehung erstellen.
+
+.Über diese Aufgabe
+Um die Datenbrokergruppe vorzubereiten, müssen Sie die Konfiguration des Scanners ändern. Wenn Sie die Konfiguration nicht ändern, können Sie Performance-Probleme bei dieser Synchronisierungsbeziehung feststellen.
+
+.Bevor Sie beginnen
+Die Daten-Broker-Gruppe, die Sie zur Datensynchronisierung vom Objektspeicher zum Objekt-Storage verwenden, sollte nur diese Arten von Synchronisierungsbeziehungen managen. Wenn die Datenbrokergruppe eine andere Art von Synchronisierungsbeziehung managt (z. B. NFS zu NFS oder Objektspeicher zu SMB), könnte die Performance dieser Synchronisierungsbeziehungen beeinträchtigt werden.
+
+.Schritte
+. Wählen Sie aus dem BlueXP Kopier- und Synchronisierungsvorgang *Data Brokers* managen.
+. Wählen Sie image:icon-settings.png["Ein Screenshot des Einstellungssymbols"]
+. Aktualisieren der Scannerkonfiguration:
++
+.. Ändern Sie *Scanner-Parallelität* in *1*.
+.. Ändern Sie *Limit für Scanner-Prozesse* auf *1*.
+
+
+. Wählen Sie *Konfiguration Vereinheitlichen*.
+
+
+.Ergebnis
+Mit der BlueXP Kopier- und Synchronisierungsfunktion wird die Konfiguration der Daten-Broker-Gruppe aktualisiert.
+
+.Was kommt als Nächstes?
+Sie können jetzt die Synchronisierungsbeziehung zwischen Objekt-Storage mit der gerade konfigurierten Daten-Broker-Gruppe erstellen.

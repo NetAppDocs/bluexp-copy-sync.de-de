@@ -41,7 +41,7 @@ Sie möchten die Performance von Beziehung 1 steigern, damit Sie der Datenmakler
 
 === Anzahl der Datenmakler in einer Gruppe
 
-In vielen Fällen kann ein einzelner Daten-Broker die Performance-Anforderungen für eine Synchronisierungsbeziehung erfüllen. Wenn es nicht, können Sie die Sync-Leistung beschleunigen, indem Sie zusätzliche Datenmakler zur Gruppe. Sie sollten jedoch zunächst andere Faktoren prüfen, die sich auf die Synchronisierungsleistung auswirken können. link:faq.html#how-many-data-brokers-are-required-in-a-group["Erfahren Sie, wie Sie feststellen können, wann mehrere Datenvermittler erforderlich sind"].
+In vielen Fällen kann ein einzelner Daten-Broker die Performance-Anforderungen für eine Synchronisierungsbeziehung erfüllen. Wenn dies nicht der Fall ist, können Sie die Sync-Performance beschleunigen, indem Sie der Gruppe zusätzliche Datenvermittler hinzufügen. Sie sollten jedoch zunächst andere Faktoren prüfen, die sich auf die Synchronisierungsleistung auswirken können. link:faq.html#how-many-data-brokers-are-required-in-a-group["Erfahren Sie, wie Sie feststellen können, wann mehrere Datenvermittler erforderlich sind"].
 
 
 

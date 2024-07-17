@@ -60,7 +60,7 @@ Durch die BlueXP Kopier- und Synchronisierungsfunktion wird der neue Daten-Broke
 
 
 
-== Updatefunktionen
+== Anmeldedaten aktualisieren
 
 Sie können den Daten-Broker mit den neuesten Anmeldeinformationen des Quell- oder Zielsystems in einer vorhandenen Synchronisierungsbeziehung aktualisieren. Die Aktualisierung der Anmeldeinformationen kann hilfreich sein, wenn Sie in Ihren Sicherheitsrichtlinien die Anmeldeinformationen regelmäßig aktualisieren müssen.
 

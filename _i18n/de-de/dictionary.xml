@@ -767,7 +767,6 @@
   <block id="2002e7315a54bdc5f69ae33f895b3361" category="paragraph">Sie möchten die Performance von Beziehung 1 steigern, damit Sie der Datenmakler-Gruppe A einen neuen Makler hinzufügen Da Gruppe A auch die Synchronisierungsbeziehung 3 verwaltet, wird auch die Sync-Performance für eine Beziehung automatisch beschleunigt.</block>
   <block id="c73532751f2f234c7f0d9ca93cb4b15b" category="section-title">Anzahl der Datenmakler in einer Gruppe</block>
   <block id="31361c8d27e70295df2bfa32fdeeb659" category="inline-link-macro">Erfahren Sie, wie Sie feststellen können, wann mehrere Datenvermittler erforderlich sind</block>
-  <block id="0a134fa70f4699a5c8408ed138b7162b" category="paragraph">In vielen Fällen kann ein einzelner Daten-Broker die Performance-Anforderungen für eine Synchronisierungsbeziehung erfüllen. Wenn es nicht, können Sie die Sync-Leistung beschleunigen, indem Sie zusätzliche Datenmakler zur Gruppe. Sie sollten jedoch zunächst andere Faktoren prüfen, die sich auf die Synchronisierungsleistung auswirken können. <block ref="871c8177954bc9fc0961cd3c58102f39" category="inline-link-macro-rx"></block>.</block>
   <block id="301ebdf8067a213d5a55c65fbb488290" category="section-title">Sicherheitsempfehlungen</block>
   <block id="cbf7ac8dbbee47678fd563919556b802" category="paragraph">Um die Sicherheit Ihres Data Broker-Rechners zu gewährleisten, empfiehlt NetApp Folgendes:</block>
   <block id="e55d32d29f143f215d415eb6175f7da2" category="list-text">SSH sollte X11-Weiterleitung nicht zulassen</block>
@@ -1699,7 +1698,6 @@
   <block id="59e767a49496d7be5777e4cf48d4105c" category="list-text">Kopieren Sie nur ACLs, nur Dateien oder ACLs und Dateien von einem SMB-Server, indem Sie eine Einstellung aktivieren, wenn Sie eine Beziehung erstellen oder nachdem Sie eine Beziehung erstellt haben.</block>
   <block id="e0c7c4832f74beb01a9b0b7f4ceb62b9" category="list-text">Node.js-Kompatibilität</block>
   <block id="e0536b4ae9bb49a9633b77ce78d68e0a" category="section-title">Schnellere Synchronisierungs-Performance</block>
-  <block id="baf8ddab0e1f4d03b84d74129178e3e2" category="section-title">Updatefunktionen</block>
   <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">Benachrichtigungen einrichten</block>
   <block id="b74bf8e34d66bdbffc7544ea6e132661" category="section-title">Ändern Sie die Einstellungen für eine Synchronisierungsbeziehung</block>
   <block id="76db6b34fbbc30a6bf267e7b8d4ded4b" category="section-title">Beziehungen löschen</block>
@@ -1922,4 +1920,22 @@
   <block id="6849ea484f5664c887acc6f1ff990dfd" category="section-title">2 Juni 2024</block>
   <block id="cfa477f3b89d95c12ff30d6390b89dd9" category="paragraph">Der BlueXP Kopier- und Synchronisierungsservice wurde aktualisiert, um einige Fehler zu beheben. Der Daten-Broker wurde ebenfalls aktualisiert, um Sicherheitsupdates anzuwenden. Die neue Data Broker Version ist 1.0.52.</block>
   <block id="8c5259dd9c9515862d9ef62edaaa899d" category="list-text">Lokaler ONTAP-Cluster (NFS oder SMB)</block>
+  <block id="bd847a13f3c228a3e7b266af4584fd3a" category="paragraph">In vielen Fällen kann ein einzelner Daten-Broker die Performance-Anforderungen für eine Synchronisierungsbeziehung erfüllen. Wenn dies nicht der Fall ist, können Sie die Sync-Performance beschleunigen, indem Sie der Gruppe zusätzliche Datenvermittler hinzufügen. Sie sollten jedoch zunächst andere Faktoren prüfen, die sich auf die Synchronisierungsleistung auswirken können. <block ref="871c8177954bc9fc0961cd3c58102f39" category="inline-link-macro-rx"></block>.</block>
+  <block id="cfe8bc2d032af638edef6aa48eddc97d" category="summary">Wenn Sie planen, Daten vom Objekt-Storage zum Objekt-Storage zu synchronisieren (z. B. Amazon S3 zu Azure Blob), müssen Sie die Daten-Broker-Gruppe vorbereiten, bevor Sie die Synchronisierungsbeziehung erstellen.</block>
+  <block id="654ac38b7369238d760ed41821bfe8f6" category="doc">Bereiten Sie einen Daten-Broker auf die Synchronisierung von Daten zwischen Objekt-Storage vor</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">Über diese Aufgabe</block>
+  <block id="8b29cf1534de96e7d8703b38dbc8b848" category="paragraph">Um die Datenbrokergruppe vorzubereiten, müssen Sie die Konfiguration des Scanners ändern. Wenn Sie die Konfiguration nicht ändern, können Sie Performance-Probleme bei dieser Synchronisierungsbeziehung feststellen.</block>
+  <block id="f497dbcbf16cefa2ef6d812f89825438" category="paragraph">Die Daten-Broker-Gruppe, die Sie zur Datensynchronisierung vom Objektspeicher zum Objekt-Storage verwenden, sollte nur diese Arten von Synchronisierungsbeziehungen managen. Wenn die Datenbrokergruppe eine andere Art von Synchronisierungsbeziehung managt (z. B. NFS zu NFS oder Objektspeicher zu SMB), könnte die Performance dieser Synchronisierungsbeziehungen beeinträchtigt werden.</block>
+  <block id="ab1484a815310bbc60b24a9aae62d58f" category="list-text">Wählen Sie aus dem BlueXP Kopier- und Synchronisierungsvorgang *Data Brokers* managen.</block>
+  <block id="4c9240708988b2ebe5983da5eadc4613" category="inline-image-macro">Ein Screenshot des Einstellungssymbols</block>
+  <block id="c633ea4565616bf2769598e328f3a188" category="list-text">Wählen Sie <block ref="1acf1c98ddec5f9f5f83183a48b45a01" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afc8ea6a55a9970b854c3ce2b28ba9b5" category="list-text">Aktualisieren der Scannerkonfiguration:</block>
+  <block id="65cb0c9fd06e63d9940a79bb99abc58e" category="list-text">Ändern Sie *Scanner-Parallelität* in *1*.</block>
+  <block id="996c7ea13fea79c025562f291dbdb16b" category="list-text">Ändern Sie *Limit für Scanner-Prozesse* auf *1*.</block>
+  <block id="456191f26693536a8d701897a3127c23" category="list-text">Wählen Sie *Konfiguration Vereinheitlichen*.</block>
+  <block id="a700bfe82fb8fb28d4bca63bc5ae7922" category="paragraph">Mit der BlueXP Kopier- und Synchronisierungsfunktion wird die Konfiguration der Daten-Broker-Gruppe aktualisiert.</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">Was kommt als Nächstes?</block>
+  <block id="c28d873efe941bde2e3f61ce0bfc122b" category="paragraph">Sie können jetzt die Synchronisierungsbeziehung zwischen Objekt-Storage mit der gerade konfigurierten Daten-Broker-Gruppe erstellen.</block>
+  <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">14 Juli 2024</block>
+  <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">Wir haben den BlueXP Kopier- und Synchronisierungsservice und den Daten-Broker aktualisiert, um einige Bugs zu beheben. Die neue Data Broker Version ist 1.0.53.</block>
 </blocks>
