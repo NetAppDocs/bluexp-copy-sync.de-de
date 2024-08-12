@@ -4,7 +4,7 @@ permalink: task-uninstalling.html
 keywords: uninstall, uninstall data broker, remove data broker 
 summary: Führen Sie bei Bedarf ein Deinstallationsskript aus, um den Datenmanager und die Pakete und Verzeichnisse zu entfernen, die bei der Installation des Datenmakers erstellt wurden. 
 ---
-= Deinstallieren des Datenmaklers
+= Deinstallieren Sie den Datenvermittler
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

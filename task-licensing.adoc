@@ -4,7 +4,7 @@ permalink: task-licensing.html
 keywords: license, subscription, registering, subscribing, subscribing in aws, subscribing in azure, subscribing to aws, subscribing to azure, aws marketplace, azure marketplace, netapp license, byol license, purchase a license, license settings, pay for relationships, paygo, annual, pay-as-you-go 
 summary: Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezahlen, nachdem die 14-tägige kostenlose Testversion abgelaufen ist. Die erste Option ist „Pay-as-you-go“. Die zweite Option besteht darin, Lizenzen direkt von NetApp zu erwerben. 
 ---
-= Bezahlen für Synchronisierungsbeziehungen, sobald die kostenlose Testversion endet
+= Bezahlen Sie für Synchronisierungsbeziehungen, nachdem Ihre kostenlose Testversion beendet ist
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -28,7 +28,7 @@ Die Lizenzen sollten über die BlueXP Kopier- und Synchronisierungsfunktion oder
 
 
 
-== [[aws]]abonnieren von AWS
+== [[aws]]Abonnieren Sie AWS
 
 AWS ermöglicht Ihnen, nutzungsbasiert zu zahlen oder jährlich zu zahlen.
 
@@ -52,7 +52,7 @@ video::video_cloud_sync_registering.mp4[width=848,height=480]
 
 
 
-== [[Azure]]abonnieren von Azure
+== [[Azure]]Abonnieren Sie Azure
 
 Azure ermöglicht Ihnen, nutzungsbasiert zu zahlen oder jährlich zu zahlen.
 
@@ -78,7 +78,7 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 
 
-== [[Lizenzen]]Erwerb von Lizenzen von NetApp und Hinzufügen zu BlueXP Kopier- und Synchronisierungsfunktion
+== [[Lizenzen]]Kaufen Sie Lizenzen von NetApp und fügen Sie sie zu BlueXP  kopieren und synchronisieren
 
 Damit Sie vorab für Ihre Synchronisierungsbeziehungen bezahlen, müssen Sie eine oder mehrere Lizenzen erwerben und sie dem BlueXP Kopier- und Synchronisierungsservice hinzufügen.
 
@@ -104,7 +104,7 @@ Sie benötigen die Seriennummer Ihrer Lizenz und den Benutzernamen und das Kennw
 
 
 
-== Aktualisieren einer Lizenz
+== Aktualisieren Sie eine Lizenz
 
 Wenn Sie eine von NetApp erworbene BlueXP Kopier- und Synchronisierungslizenz verlängern, wird das neue Ablaufdatum in der BlueXP Kopier- und Synchronisierungslizenz nicht automatisch aktualisiert. Sie müssen die Lizenz erneut hinzufügen, um das Ablaufdatum zu aktualisieren. Die Lizenzen sollten über die BlueXP Kopier- und Synchronisierungsfunktion oder die entsprechende Website und *nicht* über ein digitales Wallet gemanagt werden.
 

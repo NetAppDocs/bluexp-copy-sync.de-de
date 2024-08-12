@@ -4,7 +4,7 @@ permalink: task-nfs-encryption.html
 keywords: encryption, in flight, data in flight, in-flight, data-in-flight, nfs, initiator, listener, port 
 summary: Wenn Ihr Unternehmen über strenge Sicherheitsrichtlinien verfügt, synchronisieren Sie Daten zwischen NFS-Servern in verschiedenen Netzwerken mithilfe der Datenverschlüsselung während des Flugs. 
 ---
-= Synchronisierung von NFS-Daten mithilfe von Verschlüsselung bei der Übertragung
+= Synchronisierung von NFS-Daten mittels Verschlüsselung von aktiven Daten
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -38,7 +38,7 @@ Funktionsweise der Verschlüsselung auf der Übertragungsstrecke:
 . Der Zieldatenbroker entschlüsselt die Daten, bevor sie an das Ziel gesendet werden.
 . Nach der ersten Kopie synchronisiert der Service alle 24 Stunden alle geänderten Daten. Wenn Daten zu synchronisieren sind, beginnt der Prozess mit dem Öffnen einer verschlüsselten Verbindung mit dem anderen Daten-Broker durch den Initiator.
 +
-Falls Sie Daten häufiger synchronisieren möchten, link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Sie können den Zeitplan nach dem Erstellen der Beziehung ändern"].
+Wenn Sie Daten häufiger synchronisieren möchten, link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Sie können den Zeitplan nach dem Erstellen der Beziehung ändern"].
 
 
 
@@ -85,7 +85,7 @@ Wenn Sie noch keinen Data Broker implementiert haben, überprüfen Sie die Anfor
 
 
 
-== Synchronisierung von NFS-Daten mithilfe von Verschlüsselung bei der Übertragung
+== Synchronisierung von NFS-Daten mittels Verschlüsselung von aktiven Daten
 
 Erstellen Sie eine neue Synchronisierungsbeziehung zwischen zwei NFS-Servern oder zwischen Azure NetApp Files, aktivieren Sie die Option für die Verschlüsselung während des Fluges, und befolgen Sie die Anweisungen.
 

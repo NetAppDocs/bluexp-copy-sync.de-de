@@ -4,7 +4,7 @@ permalink: task-installing-gcp.html
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
 summary: Wenn Sie einen neuen Daten-Broker erstellen, wählen Sie die Option Google Cloud Data Broker, um die Software für Daten in einer neuen Virtual Machine Instanz in einer VPC zu implementieren. Der Kopier- und Synchronisierungsprozess von BlueXP führt Sie durch den Installationsprozess, jedoch werden die Anforderungen und Schritte auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen. 
 ---
-= Entwicklung eines neuen Daten-Brokers in Google Cloud
+= Neuen Daten-Broker in Google Cloud einrichten
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -101,7 +101,7 @@ Hinweise:
 
 
 
-== Erstellen des Daten-Brokers
+== Erstellen Sie den Daten-Broker
 
 Es gibt verschiedene Möglichkeiten, einen neuen Daten-Broker zu erstellen. In diesen Schritten wird beschrieben, wie ein Daten-Broker in Google Cloud bei der Erstellung einer Synchronisierungsbeziehung installiert wird.
 
@@ -143,7 +143,7 @@ Sie haben einen Datenmanager in Google Cloud implementiert und eine neue Synchro
 
 
 
-== Bereitstellung von Berechtigungen zur Verwendung von Buckets in anderen Google Cloud-Projekten
+== Berechtigungen für die Verwendung von Buckets in anderen Google Cloud-Projekten bereitstellen
 
 Wenn Sie eine Synchronisierungsbeziehung erstellen und Google Cloud Storage als Quelle oder Ziel wählen, können Sie mit der BlueXP Kopier- und Synchronisierungsfunktion aus den Buckets wählen, für die das Servicekonto des Datenbrokers Berechtigungen besitzt. Dazu gehören standardmäßig die Buckets, die sich im _same_ Projekt befinden wie das Service-Konto des Datenmakers. Sie können jedoch Buckets aus _other_ Projekten auswählen, wenn Sie die erforderlichen Berechtigungen angeben.
 

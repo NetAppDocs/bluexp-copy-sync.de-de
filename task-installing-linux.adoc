@@ -4,7 +4,7 @@ permalink: task-installing-linux.html
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
 summary: Wenn Sie einen neuen Datenvermittler erstellen, wählen Sie die Option „On-Premises Data Broker“ aus, um die Software für Daten-Broker auf einem lokalen Linux-Host oder auf einem bestehenden Linux-Host in der Cloud zu installieren. Der Kopier- und Synchronisierungsprozess von BlueXP führt Sie durch den Installationsprozess, jedoch werden die Anforderungen und Schritte auf dieser Seite wiederholt, um Sie bei der Vorbereitung auf die Installation zu unterstützen. 
 ---
-= Installation des Data Brokers auf einem Linux-Host
+= Installieren Sie den Data Broker auf einem Linux Host
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -66,7 +66,7 @@ Die Software für den Datenvermittler wird automatisch als Root auf dem Linux-Ho
 
 
 
-== Zugriff auf AWS wird ermöglicht
+== Zugriff auf AWS aktivieren
 
 Wenn Sie den Daten-Broker mit einer Synchronisierungsbeziehung mit einem S3-Bucket verwenden möchten, sollten Sie den Linux-Host für den AWS-Zugriff vorbereiten. Nach der Installation des Daten-Brokers müssen Sie AWS Schlüssel für einen AWS-Benutzer bereitstellen, der programmatischen Zugriff und bestimmte Berechtigungen hat.
 
@@ -86,7 +86,7 @@ Achten Sie darauf, die AWS-Schlüssel zu kopieren, da Sie sie bei der Installati
 
 
 
-== Zugriff auf Google Cloud wird ermöglicht
+== Zugriff auf Google Cloud aktivieren
 
 Wenn Sie den Daten-Broker mit einer Synchronisierungsbeziehung verwenden möchten, die einen Google Cloud Storage Bucket enthält, sollten Sie den Linux-Host für Google Cloud-Zugriff vorbereiten. Nach der Installation des Daten-Brokers müssen Sie einen Schlüssel für ein Servicekonto mit spezifischen Berechtigungen bereitstellen.
 
@@ -108,13 +108,13 @@ NOTE: Wenn Sie einen Schlüssel erstellen, wird die Datei generiert und auf Ihre
 
 
 
-== Zugriff auf Microsoft Azure wird ermöglicht
+== Aktivieren Sie den Zugriff auf Microsoft Azure
 
 Der Zugriff auf Azure wird pro Beziehung definiert. Dazu wird ein Storage-Konto und eine Verbindungszeichenfolge im Assistenten für synchrone Beziehungen bereitgestellt.
 
 
 
-== Installation des Data Brokers
+== Installieren Sie den Data Broker
 
 Sie können einen Data Broker auf einem Linux-Host installieren, wenn Sie eine Synchronisierungsbeziehung erstellen.
 
@@ -163,7 +163,7 @@ Die folgenden Schritte enthalten Details zu den einzelnen möglichen Installatio
 `curl <URI> -o data_broker_installer.sh -x <proxy_username>:<proxy_password>@<proxy_host>:<proxy_port>`
 
 +
-URI:: Beim Kopieren und Synchronisieren von BlueXP wird die URI der Installationsdatei auf der Seite mit den Anweisungen angezeigt. Diese wird geladen, wenn Sie den Aufforderungen zur Implementierung des On-Premises Data Broker folgen. Dieser URI wird hier nicht wiederholt, weil der Link dynamisch erzeugt wird und nur einmal verwendet werden kann. <<Installation des Data Brokers,Befolgen Sie diese Schritte, um die URI aus der BlueXP Kopier- und Synchronisierungsfunktion zu beziehen>>.
+URI:: Beim Kopieren und Synchronisieren von BlueXP wird die URI der Installationsdatei auf der Seite mit den Anweisungen angezeigt. Diese wird geladen, wenn Sie den Aufforderungen zur Implementierung des On-Premises Data Broker folgen. Dieser URI wird hier nicht wiederholt, weil der Link dynamisch erzeugt wird und nur einmal verwendet werden kann. <<Installieren Sie den Data Broker,Befolgen Sie diese Schritte, um die URI aus der BlueXP Kopier- und Synchronisierungsfunktion zu beziehen>>.
 
 
 
@@ -193,8 +193,8 @@ chmod +x data_broker_installer.sh
 ./data_broker_installer.sh -a <aws_access_key> -s <aws_secret_key> -g <absolute_path_to_the_json_file> -h <proxy_host> -p <proxy_port> -u <proxy_username> -w <proxy_password>`
 
 +
-AWS-Schlüssel:: Dies sind die Tasten für den Benutzer, die Sie vorbereitet haben sollten <<Zugriff auf AWS wird ermöglicht,Befolgen Sie diese Schritte>>. Die AWS Schlüssel werden im Daten-Broker gespeichert, der in Ihrem lokalen oder Cloud-Netzwerk ausgeführt wird. NetApp verwendet die Schlüssel nicht außerhalb des Datenmaklers.
-JSON-Datei:: Dies ist die JSON-Datei, die einen Service-Account-Schlüssel enthält, den Sie vorbereitet haben sollten <<Zugriff auf Google Cloud wird ermöglicht,Befolgen Sie diese Schritte>>.
+AWS-Schlüssel:: Dies sind die Schlüssel für den Benutzer, die Sie vorbereitet haben sollten <<Zugriff auf AWS aktivieren,Befolgen Sie diese Schritte>>. Die AWS Schlüssel werden im Daten-Broker gespeichert, der in Ihrem lokalen oder Cloud-Netzwerk ausgeführt wird. NetApp verwendet die Schlüssel nicht außerhalb des Datenmaklers.
+JSON-Datei:: Dies ist die JSON-Datei, die einen Service-Account-Schlüssel enthält, den Sie vorbereitet haben sollten <<Zugriff auf Google Cloud aktivieren,Befolgen Sie diese Schritte>>.
 
 
 

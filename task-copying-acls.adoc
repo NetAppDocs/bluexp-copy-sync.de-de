@@ -4,7 +4,7 @@ permalink: task-copying-acls.html
 keywords: permissions, access control list, acls, ntfs, cifs, smb, shares, robocopy, copy, transfer, activate, operating system, os, ram, cpu, networking, copy acls to the target 
 summary: 'Die BlueXP Kopie und Synchronisierung können Zugriffssteuerungslisten (Access Control Lists, ACLs) zwischen SMB-Freigaben und zwischen SMB-Freigaben und Objekt-Storage kopieren (außer ONTAP S3). Bei Bedarf haben Sie auch die Möglichkeit, ACLs mithilfe von robocopy manuell zwischen SMB-Freigaben beizubehalten.' 
 ---
-= Kopieren von ACLs aus SMB-Freigaben
+= Kopieren Sie ACLs aus SMB-Freigaben
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -17,8 +17,8 @@ summary: 'Die BlueXP Kopie und Synchronisierung können Zugriffssteuerungslisten
 Die BlueXP Kopie und Synchronisierung können Zugriffssteuerungslisten (Access Control Lists, ACLs) zwischen SMB-Freigaben und zwischen SMB-Freigaben und Objekt-Storage kopieren (außer ONTAP S3). Bei Bedarf haben Sie auch die Möglichkeit, ACLs mithilfe von robocopy manuell zwischen SMB-Freigaben beizubehalten.
 
 .Wahlmöglichkeiten
-* <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,Richten Sie BlueXP Kopier- und Synchronisierungsfunktion für das automatische Kopieren von ACLs ein>>
-* <<Manually copying ACLs between SMB shares,Kopieren Sie die ACLs manuell zwischen SMB-Freigaben>>
+* <<Richten Sie BlueXP Kopier- und Synchronisierungsfunktion für das Kopieren von ACLs ein,Richten Sie BlueXP Kopier- und Synchronisierungsfunktion für das automatische Kopieren von ACLs ein>>
+* <<Manuelles Kopieren von ACLs zwischen SMB-Freigaben,Kopieren Sie die ACLs manuell zwischen SMB-Freigaben>>
 
 
 

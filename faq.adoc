@@ -206,7 +206,7 @@ Sie können eine Beziehung planen, um Daten bis zu alle 1 Minute zu synchronisie
 
 Eine Datenmaklergruppe hat kein Timeout, wenn eine einzelne Datei nicht übertragen werden kann. Stattdessen versucht die Gruppe des Datenmakers 3 Mal erneut, bevor die Datei übersprungen wird. Der Wiederholungswert kann in den Einstellungen für eine Synchronisierungsbeziehung konfiguriert werden.
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Hier erfahren Sie, wie Sie die Einstellungen für eine Synchronisierungsbeziehung ändern"].
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Hier erfahren Sie, wie Sie die Einstellungen für eine Synchronisierungsbeziehung ändern"].
 
 
 
@@ -360,7 +360,7 @@ Mehrere Faktoren können die Datenübertragungsleistung beeinflussen. Die Gesamt
 
 Überprüfen Sie also die Performance Ihres Netzwerks und den Festplattendurchsatz auf dem Ziel.
 
-Anschließend können Sie die Synchronisierung beschleunigen, indem Sie einer Gruppe weitere Datenvermittler hinzufügen, um die Last dieser Beziehung zu teilen. link:task-managing-relationships.html#accelerating-sync-performance["Erfahren Sie, wie Sie die synchrone Performance beschleunigen"].
+Anschließend können Sie die Synchronisierung beschleunigen, indem Sie einer Gruppe weitere Datenvermittler hinzufügen, um die Last dieser Beziehung zu teilen. link:task-managing-relationships.html#accelerate-sync-performance["Erfahren Sie, wie Sie die synchrone Performance beschleunigen"].
 
 
 
@@ -380,7 +380,7 @@ Durch das Löschen einer Beziehung werden alle zukünftigen Daten synchronisiert
 
 Wenn Sie eine aktive Synchronisierungsbeziehung haben, wird das auf dem Quellserver gelöschte Element bei der nächsten Synchronisierung standardmäßig nicht vom Ziel gelöscht. Es gibt jedoch eine Option in den Synchronisierungseinstellungen für jede Beziehung, bei der Sie definieren können, dass die BlueXP Kopie und Synchronisierung Dateien am Zielspeicherort löschen, wenn sie aus der Quelle gelöscht wurden.
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Hier erfahren Sie, wie Sie die Einstellungen für eine Synchronisierungsbeziehung ändern"].
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Hier erfahren Sie, wie Sie die Einstellungen für eine Synchronisierungsbeziehung ändern"].
 
 
 

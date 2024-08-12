@@ -561,7 +561,7 @@ Diese Optionen werden unterstützt, wenn Azure Blob Ziel ist und als Quelle entw
 
 Für Synchronisierungsbeziehungen steht jetzt eine neue *Sync Timeout*-Einstellung zur Verfügung. Mit dieser Einstellung können Sie festlegen, ob Cloud Sync eine Datensynchronisation abbrechen soll, wenn die Synchronisierung in der angegebenen Anzahl an Stunden oder Tagen nicht abgeschlossen ist.
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
 
 
 
@@ -571,7 +571,7 @@ Für Synchronisierungsbeziehungen steht jetzt eine neue *Notifications*-Einstell
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["Ein Screenshot, der das Benachrichtigungszentrum in BlueXP zeigt."]
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
 
 
 
@@ -736,7 +736,7 @@ Sie können nun die erweiterten Cloud Sync Lizenzen aktualisieren.
 
 Wenn Sie eine Cloud Sync Lizenz von NetApp erworben haben, können Sie die Lizenz erneut hinzufügen, um das Ablaufdatum zu aktualisieren.
 
-link:task-licensing.html#update-a-license["Erfahren Sie, wie Sie eine Lizenz aktualisieren"].
+link:task-licensing.html["Erfahren Sie, wie Sie eine Lizenz aktualisieren"].
 
 
 
@@ -924,7 +924,7 @@ Für jede Synchronisationsbeziehung steht jetzt eine neue *Compare by*-Einstellu
 
 Mit dieser erweiterten Einstellung können Sie festlegen, ob Cloud Sync bestimmte Attribute vergleichen soll, wenn Sie feststellen, ob sich eine Datei oder ein Verzeichnis geändert hat und erneut synchronisiert werden soll.
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Erfahren Sie mehr über das Ändern der Einstellungen für eine Synchronisierungsbeziehung"].
 
 
 

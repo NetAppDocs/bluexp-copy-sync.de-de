@@ -4,7 +4,7 @@ permalink: task-external-vault.html
 keywords: hashicorp, vault, credentials, secrets, API 
 summary: Wenn Sie eine Synchronisierungsbeziehung erstellen, für die Amazon S3, Azure oder Google Cloud Anmeldedaten erforderlich sind, müssen Sie diese Anmeldedaten über die BlueXP Kopier- und Synchronisierungsschnittstelle oder -API angeben. Alternativ kann der Daten-Broker eingerichtet werden, um direkt von einem externen HashiCorp Vault auf die Zugangsdaten zuzugreifen. 
 ---
-= Einrichtung einer Datenvermittler-Gruppe zur Verwendung eines externen HashiCorp Vault
+= Richten Sie eine Datenbrokergruppe ein, um einen externen HashiCorp Vault zu verwenden
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -32,7 +32,7 @@ Jetzt, da alles eingerichtet ist, können Sie einen API-Aufruf senden, um eine S
 
 
 
-== Vorbereiten des Tresors
+== Bereiten Sie den Tresor vor
 
 Sie müssen die BlueXP Kopie und Synchronisierung mit der URL zu den Geheimnissen in Ihrem Vault bereitstellen. Bereiten Sie den Tresor vor, indem Sie diese URLs einrichten. In den Synchronisierungsbeziehungen, die Sie erstellen möchten, müssen Sie URLs für die Anmeldeinformationen für jede Quelle und jedes Ziel einrichten.
 
@@ -68,7 +68,7 @@ Der Präfixpfad ist _/my-path/all-Secrets/_, die Anfraget-ID lautet _n32hcbnejk2
 
 
 
-== Vorbereiten der Gruppe des Datenmaklers
+== Bereiten Sie die Gruppe des Datenmakers vor
 
 Bereiten Sie die Datenvermittler-Gruppe so vor, dass sie Anmeldeinformationen aus dem externen Tresor abrufen kann, indem Sie die lokale Konfigurationsdatei für jeden Daten-Broker in der Gruppe ändern.
 
@@ -202,7 +202,7 @@ Namespace::
 ----
 
 
-=== Einrichten von Berechtigungen bei Verwendung der gcp-iam-Authentifizierung
+=== Richten Sie Berechtigungen bei der gcp-iam-Authentifizierung ein
 
 Wenn Sie die _gcp-iam_-Authentifizierungsmethode verwenden, muss der Daten-Broker die folgende GCP-Berechtigung haben:
 
