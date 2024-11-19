@@ -42,7 +42,7 @@ Ein Red Hat Enterprise Linux-System muss bei Red Hat Subscription Management reg
 * *RAM*: 16 GB
 * *CPU*: 4 Kerne
 * *Freier Speicherplatz*: 10 GB
-* *SELinux*: Wir empfehlen Ihnen zu deaktivieren https://selinuxproject.org/["SELinux"^] Auf dem Host.
+* *SELinux*: Wir empfehlen, SELinux auf dem Host zu deaktivieren.
 +
 SELinux setzt eine Richtlinie durch, die Softwareupdates für den Datentmanager blockiert und den Datenmanager davon absperrt, Endpunkte zu kontaktieren, die für den normalen Betrieb erforderlich sind.
 
