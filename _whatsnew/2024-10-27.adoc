@@ -1,0 +1,9 @@
+= Fehlerbehebungen
+:allow-uri-read: 
+
+
+
+
+=== Fehlerbehebungen
+
+Wir haben den BlueXP Kopier- und Synchronisierungsservice und den Daten-Broker aktualisiert, um einige Bugs zu beheben. Die neue Data Broker Version ist 1.0.56.
