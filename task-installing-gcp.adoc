@@ -106,6 +106,7 @@ Hinweise:
 Es gibt verschiedene Möglichkeiten, einen neuen Daten-Broker zu erstellen. In diesen Schritten wird beschrieben, wie ein Daten-Broker in Google Cloud bei der Erstellung einer Synchronisierungsbeziehung installiert wird.
 
 .Schritte
+. Wählen Sie im BlueXP -Navigationsmenü *Mobilität > Kopieren und Synchronisieren*.
 . Wählen Sie *Neue Synchronisierung Erstellen*.
 . Wählen Sie auf der Seite *Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus und wählen Sie *Weiter*.
 +

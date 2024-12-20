@@ -119,6 +119,7 @@ Der Zugriff auf Azure wird pro Beziehung definiert. Dazu wird ein Storage-Konto 
 Sie können einen Data Broker auf einem Linux-Host installieren, wenn Sie eine Synchronisierungsbeziehung erstellen.
 
 .Schritte
+. Wählen Sie im BlueXP -Navigationsmenü *Mobilität > Kopieren und Synchronisieren*.
 . Wählen Sie *Neue Synchronisierung Erstellen*.
 . Wählen Sie auf der Seite *Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus und wählen Sie *Weiter*.
 +

@@ -71,6 +71,7 @@ Befolgen Sie die folgenden Schritte, um die IAM-Rolle beim Bereitstellen des Dat
 Es gibt verschiedene Möglichkeiten, einen neuen Daten-Broker zu erstellen. In diesen Schritten wird beschrieben, wie ein Daten-Broker in AWS installiert wird, wenn eine Synchronisierungsbeziehung erstellt wird.
 
 .Schritte
+. Wählen Sie im BlueXP -Navigationsmenü *Mobilität > Kopieren und Synchronisieren*.
 . Wählen Sie *Neue Synchronisierung Erstellen*.
 . Wählen Sie auf der Seite *Synchronisierungsbeziehung definieren* eine Quelle und ein Ziel aus und wählen Sie *Weiter*.
 +
@@ -92,7 +93,8 @@ Wenn Sie keine Zugriffsschlüssel bereitstellen möchten, wählen Sie den Link u
 [[cft]]das folgende Video zeigt, wie die Instanz des Datenmakers mithilfe einer CloudFormation-Vorlage gestartet wird:
 
 +
-video::video_cloud_sync.mp4[width=848,height=480]
+.Starten Sie einen Daten-Broker von einer AWS CloudFormation-Vorlage
+video::abaf0898-ea15-4f84-938e-b24c010b21e8[panopto]
 . Wenn Sie einen AWS-Zugriffsschlüssel eingegeben haben, wählen Sie einen Speicherort für die Instanz aus, wählen ein Schlüsselpaar aus, wählen aus, ob eine öffentliche IP-Adresse aktiviert werden soll, und wählen Sie eine vorhandene IAM-Rolle aus, oder lassen Sie das Feld leer, damit die Rolle durch die BlueXP-Kopie und -Synchronisierung für Sie erstellt wird. Sie haben auch die Möglichkeit, Ihren Daten-Broker mit einem KMS-Schlüssel zu verschlüsseln.
 +
 Wenn Sie Ihre eigene IAM-Rolle wählen, <<iam,Sie müssen die erforderlichen Berechtigungen angeben>>.

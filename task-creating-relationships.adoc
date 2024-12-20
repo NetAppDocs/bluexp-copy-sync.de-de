@@ -214,7 +214,8 @@ NOTE: Harte Links sind nur für ungesicherte NFS zu NFS Beziehungen verfügbar. 
 Dateierweiterungen ausschließen:: Geben Sie die regex- oder Dateierweiterungen an, die von der Synchronisierung ausgeschlossen werden sollen, indem Sie die Dateierweiterung eingeben und *Enter* drücken. Geben Sie beispielsweise _log_ oder _.log_ ein, um *.log-Dateien auszuschließen. Für mehrere Erweiterungen ist kein Trennzeichen erforderlich. Das folgende Video enthält eine kurze Demo:
 +
 --
-video::video_file_extensions.mp4[width=840,height=240]
+.Dateierweiterungen für eine Synchronisierungsbeziehung ausschließen
+video::7f957dbf-9215-41ea-a705-b24c010b2212[panopto]
 
 NOTE: Regex oder reguläre Ausdrücke unterscheiden sich von Wildcards oder Glob-Ausdrücken. Diese Funktion *only* funktioniert mit regex.
 
