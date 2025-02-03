@@ -1,0 +1,11 @@
+= Unterstützung eines neuen Betriebssystems für Daten-Broker
+:allow-uri-read: 
+
+
+
+
+=== Unterstützung eines neuen Betriebssystems für Daten-Broker
+
+Der Daten-Broker wird jetzt auf Hosts mit Red hat Enterprise 9.4, Ubuntu 23.04 und Ubuntu 24.04 unterstützt.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["Linux-Host-Anforderungen anzeigen"].

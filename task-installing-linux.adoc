@@ -27,9 +27,9 @@ Wenn Sie eine neue Gruppe für Daten-Broker erstellen, wählen Sie die Option On
 +
 CentOS Stream wird nicht unterstützt.
 
-** Red hat Enterprise Linux 8.5, 8.8 und 8.9
+** Red hat Enterprise Linux 8.5, 8.8, 8.9 und 9.4
 ** Rocky Linux 9
-** Ubuntu Server 20.04 LTS
+** Ubuntu Server 20.04 LTS, 23.04 LTS und 24.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
 +
 Der Befehl `yum update` Muss auf dem Host ausgeführt werden, bevor Sie den Daten-Broker installieren.
