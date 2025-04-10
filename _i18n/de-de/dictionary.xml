@@ -236,9 +236,6 @@
   <block id="9812e4bcf0263cfa80fdd8c8a789a255" category="paragraph">Ändern Sie den Service-Level auf Premium oder Ultra, um die Synchronisationsperformance zu verbessern.</block>
   <block id="94e12c4a58e36c62d41d5c7ea1f166f7" category="inline-link">Erfahren Sie mehr über Azure NetApp Files Service-Level und Durchsatz</block>
   <block id="8c7b3ed9d7207fdbe57540ab6cd5e1e7" category="paragraph"><block ref="bc692a932f7211cd1ab661879beac160" category="inline-link-rx"></block>.</block>
-  <block id="06dd90f0736ba00a0e3050c043c11683" category="section-title">Warum erhalte ich mit Cloud Volumes Service für AWS eine geringe Performance?</block>
-  <block id="37bbffa966391c253fd64fcdf3509afa" category="paragraph">Wenn Sie Daten mit einem oder von einem Cloud-Volume synchronisieren, treten möglicherweise Fehler und Performance-Probleme auf, wenn die Performance für das Cloud-Volume Standard ist.</block>
-  <block id="305fa2f993292af4e7b31404440f0f2e" category="paragraph">Ändern Sie den Service-Level in "Premium" oder "Extreme", um die Synchronisierungsleistung zu erhöhen.</block>
   <block id="a74feaca0228e843c01e1cc6a5a7a4da" category="section-title">Wie viele Datenvermittler werden in einer Gruppe benötigt?</block>
   <block id="6d0c6fb653b3e1d2a836e0b86dabea25" category="paragraph">Wenn Sie eine neue Beziehung erstellen, beginnen Sie mit einem einzelnen Datenmanager in einer Gruppe (es sei denn, Sie haben einen vorhandenen Datenvermittler ausgewählt, der zu einer beschleunigten Synchronisierungsbeziehung gehört). In vielen Fällen kann ein einzelner Daten-Broker die Performance-Anforderungen für eine Synchronisierungsbeziehung erfüllen. Wenn dies nicht der Fall ist, können Sie die Sync-Performance beschleunigen, indem Sie der Gruppe zusätzliche Datenvermittler hinzufügen. Sie sollten jedoch zunächst andere Faktoren prüfen, die sich auf die Synchronisierungsleistung auswirken können.</block>
   <block id="c6bdda7b88c4f51edb4d0ca671f8c528" category="paragraph">Mehrere Faktoren können die Datenübertragungsleistung beeinflussen. Die Gesamt-Sync-Performance kann durch Netzwerkbandbreite, Latenz und Netzwerktopologie sowie die VM-Spezifikationen des Data Brokers und die Performance des Storage-Systems beeinträchtigt werden. Ein einzelner Daten-Broker kann beispielsweise in einer Gruppe 100 MB/s erreichen, während der Festplattendurchsatz auf dem Ziel möglicherweise nur 64 MB/s zulässt Folglich versucht die Gruppe des Daten-Brokers, die Daten zu kopieren, doch kann das Ziel die Performance der Gruppe des Daten-Brokers nicht erreichen.</block>
@@ -355,7 +352,6 @@
   <block id="650fcf6688b77acd2c46fd3270ff8134" category="cell">Unterstützte Zielstandorte</block>
   <block id="f7b96044a16becafecad63df1725e9c8" category="cell">Amazon EFS</block>
   <block id="270fcb785810d0206945029bb05f4e97" category="list-text">Amazon S3</block>
-  <block id="200b74de2e12f861dad63aa0de84ec6c" category="list-text">Cloud Volumes Service</block>
   <block id="e83e5674ab295a6613b60f5e12d1bfe3" category="list-text">NFS-Server</block>
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">On-Premises-ONTAP-Cluster</block>
   <block id="876d9b7b1c11a792f25a0e1e9dbf31dd" category="list-text">SMB Server</block>
@@ -1361,7 +1357,6 @@
   <block id="58d5764081980d61dc580371a7f7d817" category="paragraph">Für die Nutzung der BlueXP Kopier- und Synchronisierungsfunktion gibt es zwei Arten von Kosten: Servicegebühren und Ressourcengebühren.</block>
   <block id="d70cc4cc828a890527496d140a0c2410" category="paragraph">Bei einem nutzungsbasierten Preismodell fallen die Gebühren für den Kopier- und Synchronisierungsservice von BlueXP basierend auf der Anzahl der erstellten Synchronisierungsbeziehungen stündlich an.</block>
   <block id="6de51c73db055b72838083b7da60e27e" category="paragraph">BlueXP Kopier- und Synchronisierungslizenzen sind auch über Ihren NetApp Ansprechpartner erhältlich. Jede Lizenz ermöglicht 20 Synchronisierungsbeziehungen für 12 Monate.</block>
-  <block id="49f3a6d816929e060637c72d117a2ab1" category="admonition">BlueXP Kopier- und Synchronisierungsbeziehungen sind für Cloud Volumes Service und Azure NetApp Files kostenlos.</block>
   <block id="01396bcd8023631c1f74003124e865f5" category="section-title">Wie werden die Kosten für den Kopiervorgang und die Synchronisierung von BlueXP berechnet und wie verwalte ich mein Abonnement?</block>
   <block id="1c9fb78d365658e23fd1a1120743c672" category="paragraph">Es gibt zwei Möglichkeiten, für Synchronisierungsbeziehungen zu bezahlen, nachdem die 14-tägige kostenlose Testversion abgelaufen ist. Die erste Möglichkeit besteht darin, AWS oder Azure zu abonnieren, sodass Sie nutzungsbasiert oder jährlich zahlen können. Die zweite Option besteht darin, Lizenzen direkt von NetApp zu erwerben. In jedem Fall wird Ihr Abonnement über Ihren Provider Marketplace gemanagt und *nicht* über die BlueXP Kopier- und Synchronisierungsschnittstelle.</block>
   <block id="27092823e2230caab83a388839b4dfeb" category="section-title">Kann ich BlueXP außerhalb der Cloud kopieren und synchronisieren?</block>
@@ -1951,4 +1946,5 @@
   <block id="87a7ac9f5b2ba3fbc595d73b0c0dc71c" category="list-text">Red hat Enterprise Linux 8.5, 8.8, 8.9 und 9.4</block>
   <block id="62c1014736e4269f295e55cd59d3a0ec" category="list-text">Ubuntu Server 20.04 LTS, 23.04 LTS und 24.04 LTS</block>
   <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2 Februar 2025</block>
+  <block id="3de4ee14f1b1d0abe0ecac5872f26c6c" category="admonition">BlueXP  Kopier- und Synchronisierungsbeziehungen sind für Azure NetApp Files kostenlos.</block>
 </blocks>

@@ -52,7 +52,6 @@ Die Kopier- und Synchronisierungsfunktion von BlueXP unterstützt folgende Stora
 * Azure Data Lake Storage Gen2
 * Azure NetApp Dateien
 * Box (als Vorschau verfügbar)
-* Cloud Volumes Service
 * Cloud Volumes ONTAP
 * Google Cloud Storage
 * Google Drive
