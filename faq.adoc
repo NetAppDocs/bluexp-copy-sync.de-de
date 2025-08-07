@@ -212,7 +212,7 @@ link:task-managing-relationships.html#change-the-settings-for-a-sync-relationshi
 
 === Was ist, wenn ich einen sehr großen Datensatz habe?
 
-Wenn ein einzelnes Verzeichnis 600,000 oder mehr Dateien enthält, mailto:ng-cloudsync-support@netapp.com[kontaktieren Sie uns], damit wir Ihnen bei der Konfiguration der Datenvermittler-Gruppe helfen können, die Nutzlast zu behandeln. Unter Umständen müssen wir der Data Broker-Gruppe zusätzlichen Speicher hinzufügen.
+Wenn ein einzelnes Verzeichnis 600.000 Dateien oder mehr enthält,link:task-get-help.html["Kontakt"] damit wir Ihnen bei der Konfiguration der Datenbrokergruppe zur Handhabung der Nutzlast helfen können.  Möglicherweise müssen wir der Datenbrokergruppe zusätzlichen Speicher hinzufügen.
 
 Beachten Sie, dass die Gesamtanzahl der Dateien im Bereitstellungspunkt nicht begrenzt ist. Der zusätzliche Speicher ist für große Verzeichnisse mit 600,000 Dateien oder mehr erforderlich, unabhängig von deren Ebene in der Hierarchie (Top-Verzeichnis oder Unterverzeichnis).
 
