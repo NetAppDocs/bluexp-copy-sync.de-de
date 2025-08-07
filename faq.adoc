@@ -330,7 +330,7 @@ Die Synchronisationsbeziehung zeigt den Durchsatz des Netzwerkadapters der Grupp
 
 Wenn Sie sehr große Dateien haben (mehrere TIBS pro), kann es lange dauern, bis der Transfer-Prozess abgeschlossen ist, und die Leistung kann beeinträchtigt werden.
 
-Die Begrenzung der Anzahl gleichzeitiger Übertragungen kann hilfreich sein. Mailto:ng-cloudsync-support@netapp.com[Hilfe anfordern].
+Eine Begrenzung der Anzahl gleichzeitiger Übertragungen kann hilfreich sein. link:task-get-help.html["Kontaktieren Sie uns für Hilfe"] .
 
 
 

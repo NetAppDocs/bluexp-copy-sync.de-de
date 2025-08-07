@@ -229,7 +229,6 @@
   <block id="678b59fd02ed47602217c203bce0f237" category="section-title">Was stellt die Fortschrittsanzeige für eine Synchronisierungsbeziehung dar?</block>
   <block id="b41bc6e5da0a5cad4d5bfa701428c3e0" category="paragraph">Die Synchronisationsbeziehung zeigt den Durchsatz des Netzwerkadapters der Gruppe des Daten-Brokers. Wenn Sie die Synchronisierungsleistung durch die Verwendung mehrerer Datenmakler beschleunigen, ist der Durchsatz die Summe des gesamten Datenverkehrs. Dieser Durchsatz wird alle 20 Sekunden aktualisiert.</block>
   <block id="8d15ff4ba9a03adef433f8aaa3d53c02" category="paragraph">Wenn Sie sehr große Dateien haben (mehrere TIBS pro), kann es lange dauern, bis der Transfer-Prozess abgeschlossen ist, und die Leistung kann beeinträchtigt werden.</block>
-  <block id="753322bfc209704e3ab17c5cfe5d42d0" category="paragraph">Die Begrenzung der Anzahl gleichzeitiger Übertragungen kann hilfreich sein. Mailto:ng-cloudsync-support@netapp.com[Hilfe anfordern].</block>
   <block id="161df7898613d68dd3106bed369ab957" category="section-title">Warum ist die Performance mit Azure NetApp Files niedrig?</block>
   <block id="a92bf49aada81ee55543aa6bf897787c" category="paragraph">Wenn Sie Daten mit oder von Azure NetApp Files synchronisieren, können Ausfälle und Performance-Probleme auftreten, sobald das Service-Level der Festplatte Standard ist.</block>
   <block id="9812e4bcf0263cfa80fdd8c8a789a255" category="paragraph">Ändern Sie den Service-Level auf Premium oder Ultra, um die Synchronisationsperformance zu verbessern.</block>
@@ -1948,4 +1947,6 @@
   <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp bietet Support für BlueXP und seine Cloud-Services auf vielfältige Weise. Umfangreiche kostenlose Self-Support-Optionen stehen Ihnen rund um die Uhr zur Verfügung, darunter Knowledgebase-Artikel und ein Community-Forum. Ihre Support-Registrierung beinhaltet technischen Remote-Support per Web-Ticketing.</block>
   <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">Ein Screenshot, der eine Kontoseriennummer, ein grünes Kontrollkästchen und den Text „Für Support registriert“ zeigt.</block>
   <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="656b89ee78bf0f5d86e1d47b787e9a60" category="inline-link-macro">Kontaktieren Sie uns für Hilfe</block>
+  <block id="bd67e4b9339ac4760a6a5f6fd860226c" category="paragraph">Eine Begrenzung der Anzahl gleichzeitiger Übertragungen kann hilfreich sein. <block ref="f54ed00dadfde0b599d50812b2f35c51" category="inline-link-macro-rx"></block> .</block>
 </blocks>
